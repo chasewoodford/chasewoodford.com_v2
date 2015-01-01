@@ -1,100 +1,152 @@
-ul, ol { margin-bottom: 24px; margin-top: 12px; }
-ul { list-style: none outside; }
-ol { list-style: decimal; }
-ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-ul.square { list-style: square outside; }
-ul.circle { list-style: circle outside; }
-ul.disc { list-style: disc outside; }
-ul ul, ul ol,
-ol ol, ol ul { margin: 6px 0 6px 30px; }
-ul ul li, ul ol li,
-ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
-ul.large li { }
-li p { }
-/* definition list */
-dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
-dd { margin: 0 0 0 20px; }
+ul, ol {
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
 
-/* Lining Definition Style Markup */
-.lining dt,
-.lining dd {
-  display: inline;
+ul {
+  list-style: none outside;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+ul {
+  &.square, &.circle, &.disc {
+    margin-left: 30px;
+  }
+  &.square {
+    list-style: square outside;
+  }
+  &.circle {
+    list-style: circle outside;
+  }
+  &.disc {
+    list-style: disc outside;
+  }
+  ul, ol {
+    margin: 6px 0 6px 30px;
+  }
+}
+
+ol {
+  ol, ul {
+    margin: 6px 0 6px 30px;
+  }
+}
+
+ul {
+  ul li, ol li {
+    margin-bottom: 6px;
+  }
+}
+
+ol {
+  ol li, ul li {
+    margin-bottom: 6px;
+  }
+}
+
+li {
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+dl {
+  margin: 12px 0;
+}
+
+dt {
   margin: 0;
-}
-.lining dt + dt:before,
-.lining dd + dt:before {
-  content: "\A";
-  white-space: pre;
-}
-.lining dd + dd:before {
-  content: ", ";
-}
-.lining dd:before {
-  content: ": ";
-  margin-left: -0.2em;
+  color: #11ABB0;
 }
 
-/* Dictionary Definition Style Markup */
-.dictionary-style dt {
-  display: inline;
-  counter-reset: definitions;
-}
-.dictionary-style dt + dt:before {
-  content: ", ";
-  margin-left: -0.2em;
-}
-.dictionary-style dd {
-  display: block;
-  counter-increment: definitions;
-}
-.dictionary-style dd:before {
-  content: counter(definitions, decimal) ". ";
+dd {
+  margin: 0 0 0 20px;
 }
 
-/* Pagination */
+.lining {
+  dt, dd {
+    display: inline;
+    margin: 0;
+  }
+  dt + dt:before {
+    content: "\A";
+    white-space: pre;
+  }
+  dd {
+    + {
+      dt:before {
+        content: "\A";
+        white-space: pre;
+      }
+      dd:before {
+        content: ", ";
+      }
+    }
+    &:before {
+      content: ": ";
+      margin-left: -0.2em;
+    }
+  }
+}
+
+.dictionary-style {
+  dt {
+    display: inline;
+    counter-reset: definitions;
+    + dt:before {
+      content: ", ";
+      margin-left: -0.2em;
+    }
+  }
+  dd {
+    display: block;
+    counter-increment: definitions;
+    &:before {
+      content: counter(definitions, decimal) ". ";
+    }
+  }
+}
+
 .pagination {
   margin: 36px auto;
   text-align: center;
+  ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .page-numbers {
+    font: 15px / 18px "opensans-bold", sans-serif;
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 3px;
+    margin-bottom: 6px;
+    color: #6E757C;
+    background-color: #E6E8EB;
+    @include prefixer(transition, all 200ms ease-in-out, webkit moz o ms spec);
+    @include prefixer(border-radius, 3px, webkit moz spec);
+    &:hover {
+      background: #838A91;
+      color: #fff;
+    }
+  }
+  .current {
+    background-color: #11ABB0;
+    color: #fff;
+    &:hover {
+      background-color: #11ABB0;
+      color: #fff;
+    }
+  }
+  .inactive {
+    background-color: #E6E8EB;
+    color: #A9ADB2;
+    &:hover {
+      background-color: #E6E8EB;
+      color: #A9ADB2;
+    }
+  }
 }
-.pagination ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-.pagination .page-numbers {
-  font: 15px/18px 'opensans-bold', sans-serif;
-  display: inline-block;
-  padding: 6px 10px;
-  margin-right: 3px;
-  margin-bottom: 6px;
-  color: #6E757C;
-  background-color: #E6E8EB;
-
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-}
-.pagination .page-numbers:hover {
-  background: #838A91;
-  color: #fff;
-}
-.pagination .current,
-.pagination .current:hover {
-  background-color: #11ABB0;
-  color: #fff;
-}
-.pagination .inactive,
-.pagination .inactive:hover {
-  background-color: #E6E8EB;
-  color: #A9ADB2;
-}
-.pagination .prev, .pagination .next {}

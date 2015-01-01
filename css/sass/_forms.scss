@@ -1,11 +1,25 @@
-form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
+form, fieldset {
+  margin-bottom: 24px;
+}
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea,
-select {
+input {
+  &[type="text"], &[type="password"], &[type="email"] {
+    display: block;
+    padding: 18px 15px;
+    margin: 0 0 24px 0;
+    border: 0;
+    outline: none;
+    vertical-align: middle;
+    min-width: 225px;
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #647373;
+    background: #D3D9D9;
+  }
+}
+
+textarea, select {
   display: block;
   padding: 18px 15px;
   margin: 0 0 24px 0;
@@ -18,40 +32,41 @@ select {
   line-height: 24px;
   color: #647373;
   background: #D3D9D9;
-
 }
 
-/* select { padding: 0;
-   width: 220px;
-   } */
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  color: #B3B7BC;
-  background-color: #3d4145;
+input {
+  &[type="text"]:focus, &[type="password"]:focus, &[type="email"]:focus {
+    color: #B3B7BC;
+    background-color: #3d4145;
+  }
 }
 
-textarea { min-height: 220px; }
+textarea {
+  &:focus {
+    color: #B3B7BC;
+    background-color: #3d4145;
+  }
+  min-height: 220px;
+}
 
-label,
-legend {
-  font: 16px/24px 'opensans-bold', sans-serif;
+label, legend {
+  font: 16px / 24px "opensans-bold", sans-serif;
   margin: 12px 0;
   color: #3d4145;
   display: block;
 }
-label span,
-legend span {
+
+label span, legend span {
   color: #8B9798;
-  font: 14px/24px 'opensans-regular', sans-serif;
+  font: 14px / 24px "opensans-regular", sans-serif;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-  font-size: 15px;
-  color: #737373;
+input {
+  &[type="checkbox"], &[type="radio"] {
+    font-size: 15px;
+    color: #737373;
+  }
+  &[type="checkbox"] {
+    display: inline;
+  }
 }
-
-input[type="checkbox"] { display: inline; }
