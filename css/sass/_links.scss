@@ -1,7 +1,7 @@
 a {
   text-decoration: none;
   outline: 0;
-  color: #11ABB0;
+  color: $link;
   @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
   &:visited {
     text-decoration: none;
@@ -10,7 +10,7 @@ a {
     @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
   }
   &:hover, &:focus {
-    color: #313131;
+    color: $link-on-light-hover;
   }
 }
 

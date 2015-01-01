@@ -130,15 +130,15 @@ dd {
     @include prefixer(border-radius, 3px, webkit moz spec);
     &:hover {
       background: #838A91;
-      color: #fff;
+      color: $white;
     }
   }
   .current {
-    background-color: #11ABB0;
-    color: #fff;
+    background-color: $link;
+    color: $white;
     &:hover {
-      background-color: #11ABB0;
-      color: #fff;
+      background-color: $link;
+      color: $white;
     }
   }
   .inactive {
