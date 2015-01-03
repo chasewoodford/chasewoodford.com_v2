@@ -6,7 +6,7 @@ a {
   &:visited {
     text-decoration: none;
     outline: 0;
-    color: #11ABB0;
+    color: #0088CC;
     @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
   }
   &:hover, &:focus {
