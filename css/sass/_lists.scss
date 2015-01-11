@@ -124,29 +124,30 @@ dd {
     padding: 6px 10px;
     margin-right: 3px;
     margin-bottom: 6px;
-    color: #6E757C;
+    color: $text-on-dark !important;
     background-color: #E6E8EB;
     @include prefixer(transition, all 200ms ease-in-out, webkit moz o ms spec);
     @include prefixer(border-radius, 3px, webkit moz spec);
     &:hover {
-      background: #838A91;
-      color: $white;
+      background: $link;
+      color: $white !important;
     }
   }
   .current {
-    background-color: $link;
-    color: $white;
+    background: $link-on-light-hover;
+    color: $white !important;
     &:hover {
       background-color: $link;
-      color: $white;
+      color: $white !important;
+      cursor: pointer;
     }
   }
   .inactive {
     background-color: #E6E8EB;
-    color: #A9ADB2;
+    color: #A9ADB2 !important;
     &:hover {
       background-color: #E6E8EB;
-      color: #A9ADB2;
+      color: #A9ADB2 !important;
     }
   }
 }

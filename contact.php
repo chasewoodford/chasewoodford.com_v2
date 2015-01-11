@@ -53,7 +53,7 @@
             <!-- contact-success -->
             <div id="message-success"><i class="fa fa-check"></i>Your message was sent, thank you!<br></div>
         </div>
-        <aside class="four columns">
+        <aside role="complementary" class="four columns">
             <div>
                 <h4>Address and Phone</h4>
 
@@ -61,9 +61,9 @@
                     Chase Woodford<br/>
                     1414 Lincoln Drive W<br/>
                     Ambler, PA 19002 US<br/>
-                    <a href="#"><i class="fa fa-map-marker"></i>Google Map</a><br/>
-                    <a href="#"><i class="fa fa-phone"></i>(717) 903-3168</a><br/>
-                    <a href="#"><i class="fa fa-twitter"></i>@chase1263070</a>
+                    <a class="no-underline" href="#"><i class="fa fa-map-marker"></i>Google Map</a><br/>
+                    <a class="no-underline" href="#"><i class="fa fa-phone"></i>(717) 903-3168</a><br/>
+                    <a class="no-underline" href="#"><i class="fa fa-twitter"></i>@chase1263070</a>
                 </p>
             </div>
         </aside>

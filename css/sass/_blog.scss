@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------ */
-/* i. Blog
+/* Blog
 /* ------------------------------------------------------------------ */
 .posts {
   background: white url(../images/content-bg.jpg);
@@ -15,8 +15,14 @@
   }
 }
 
+.date {
+  display: inline-block;
+  font: 15px / 24px notosans-bold, sans-serif;
+  color: #313131;
+}
 
-/* sidebar */
+/* Sidebar
+/* ------------------------------------------------------------------ */
 
 #sidebar {
   padding-left: 18px;
@@ -31,14 +37,11 @@
   .link-list {
     margin: 12px 0 18px 0;
     padding: 0;
-    li {
-      line-height: 24px;
-      a {
-        border: none;
-        color: #838C95;
-        &:hover {
-          color: #313131;
-        }
+    li a {
+      border: none;
+      color: #AFB4BB;
+      &:hover {
+        color: #0088CC;
       }
     }
   }
@@ -53,42 +56,18 @@
       padding: 6px 10px;
       position: relative;
       text-transform: uppercase;
-      background: #D3D9D9;
+      background: #0088CC;
       text-decoration: none;
       letter-spacing: 1px;
-      color: #6D7E7E;
-      -webkit-transition: all .2s ease-in-out;
-      -moz-transition: all .2s ease-in-out;
-      -o-transition: all .2s ease-in-out;
-      -ms-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;
+      color: $white;
+      @include prefixer(transition, all 0.2s ease-in-out, webkit moz o ms spec);
       border-radius: 3px;
       &:hover {
-        color: #fff;
-        background: #11ABB0;
-      }
-    }
-  }
-  .photostream {
-    list-style: none;
-    margin: 18px 0 24px -15px;
-    padding: 0;
-    overflow: hidden;
-    li {
-      float: left;
-      display: inline-block;
-      margin: 0 0 15px 15px;
-      padding: 0;
-      a img {
-        border-radius: 3px;
-        height: 54px;
-        width: 54px;
-        vertical-align: bottom;
+        background: #313131;
       }
     }
   }
   .widget_search form {
-    /*position: relative; */
     margin: 24px 0 36px 0;
   }
   .widget {
@@ -109,12 +88,14 @@
       padding: 0;
       float: right;
       position: relative;
-      top: -60px;
+      top: -64px;
       right: 18px;
-      /*display: none !important;*/
     }
   }
 }
+
+/* Post
+/* ------------------------------------------------------------------ */
 
 .post {
   padding-top: 24px;
@@ -131,7 +112,7 @@
           color: #313131;
         }
         &:hover, &:focus {
-          color: #11ABB0;
+          color: #0088CC;
         }
       }
     }
@@ -144,13 +125,8 @@
         color: #AFB4BB;
       }
       &:hover, &:focus {
-        color: #11ABB0;
+        color: #0088CC;
       }
-    }
-    .date {
-      display: inline-block;
-      font: 15px / 24px notosans-bold, sans-serif;
-      color: #313131;
     }
     .categories {
       display: inline-block;
@@ -165,13 +141,6 @@
   }
   .post-content {
     margin-bottom: 18px;
-    .tags {
-      margin-top: 18px;
-      font-family: notosans-regular, sans-serif;
-      a {
-        font-family: notosans-bold, sans-serif;
-      }
-    }
   }
   .bio {
     margin-top: 30px;
@@ -220,7 +189,7 @@
     strong {
       font: 16px / 30px raleway-heavy, sans-serif;
       text-transform: uppercase;
-      color: #11ABB0;
+      color: #0088CC;
       letter-spacing: 0.5px;
       display: block;
     }
@@ -288,10 +257,6 @@ ol.commentlist {
         .reply {
           font-family: notosans-bold, sans-serif;
         }
-        .sep {
-          margin: 0 5px;
-          color: #AEB6B7;
-        }
       }
     }
     .comment-text {
@@ -314,34 +279,56 @@ ol.commentlist {
 
 #comments form {
   margin-top: 36px;
+  margin-bottom: 30px;
+  color: #636363;
   label {
-    font: 16px / 24px notosans-bold, sans-serif;
+    font: 15px / 24px "opensans-bold", sans-serif;
     margin: 12px 0;
-    padding-left: 24px;
-    width: 41.66667%;
-    float: right;
+    display: inline-block;
+    float: left;
+    width: 26%;
   }
   div {
     margin: 12px 0 18px 0;
   }
   input, textarea, select {
-    width: 58.33333%;
-    float: left;
+    padding: 18px 20px;
+    color: #eee;
+    background: #444;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+    &:focus {
+      color: #fff;
+      background-color: #0088CC;
+    }
   }
   .message label {
     display: none;
   }
-  textarea {
-    width: 100%;
-  }
   button.submit {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: block;
-    margin-top: 12px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #0088CC;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 26%;
+    &:hover {
+      background: #444;
+      color: $white;
+    }
   }
   span.required {
     color: #0088CC;
     font-size: 13px;
+  }
+  i {
+    margin-right: 10px;
   }
 }

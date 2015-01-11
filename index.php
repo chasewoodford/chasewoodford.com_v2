@@ -4,6 +4,7 @@
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Chase Woodford | Web Designer & Developer</title>
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,23 +15,16 @@
 
     <script src="js/modernizr.js"></script>
 </head>
-<body>
+
+<?php $class = 'home'; ?>
+
+<body id="top" class="<?php echo $class; ?>">
 
 <!-- Header
 ================================================== -->
-<header id="home">
-    <nav id="nav-wrap">
-        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-        <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#journal">Blog</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Work</a></li>
-            <li><a class="smoothscroll" href="#">Playground</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-        </ul><!-- end #nav -->
-    </nav><!-- end #nav-wrap -->
+<header role="banner" id="home">
+
+    <?php include('nav.php'); ?>
 
     <div class="row banner">
         <div class="banner-text">
@@ -105,13 +99,13 @@
     <div class="blog-entries">
 
         <!-- Entry -->
-        <article class="row entry">
+        <article role="article" class="row entry">
             <div class="entry-header">
                 <div class="permalink">
                     <a href="single.php"><i class="fa fa-link"></i></a>
                 </div>
                 <div class="ten columns entry-title pull-right">
-                    <h3><a href="single.php">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin
+                    <h3><a class="no-underline" href="single.php">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin
                             auctor.</a></h3>
                 </div>
                 <div class="two columns post-meta end">
@@ -130,13 +124,13 @@
         <!-- Entry End -->
 
         <!-- Entry -->
-        <article class="row entry">
+        <article role="article" class="row entry">
             <div class="entry-header">
                 <div class="permalink">
                     <a href="single.php"><i class="fa fa-link"></i></a>
                 </div>
                 <div class="ten columns entry-title pull-right">
-                    <h3><a href="single.php">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
+                    <h3><a class="no-underline" href="single.php">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
                             sed.</a></h3>
                 </div>
                 <div class="two columns post-meta end">
@@ -155,13 +149,13 @@
         <!-- Entry End -->
 
         <!-- Entry -->
-        <article class="row entry">
+        <article role="article" class="row entry">
             <div class="entry-header">
                 <div class="permalink">
                     <a href="single.php"><i class="fa fa-link"></i></a>
                 </div>
                 <div class="ten columns entry-title pull-right">
-                    <h3><a href="blog-single.html">Quis autem vel esse eum iure reprehenderit qui in ea voluptate velit
+                    <h3><a class="no-underline" href="single.php">Quis autem vel esse eum iure reprehenderit qui in ea voluptate velit
                             esse.</a></h3>
                 </div>
                 <div class="two columns post-meta end">

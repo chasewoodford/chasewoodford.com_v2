@@ -14,31 +14,18 @@
 
     <script src="js/modernizr.js"></script>
 </head>
-<body>
+
+<?php $class = 'blog'; ?>
+
+<body id="top" class="<?php echo $class; ?>">
 
 <!-- Header
 ================================================== -->
-<nav id="nav-wrap">
-    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-    <ul id="nav" class="nav">
-        <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-        <li><a class="smoothscroll" href="#about">About</a></li>
-        <li><a class="smoothscroll" href="#journal">Blog</a></li>
-        <li><a class="smoothscroll" href="#portfolio">Work</a></li>
-        <li><a class="smoothscroll" href="#">Playground</a></li>
-        <li><a class="smoothscroll" href="#contact">Contact</a></li>
-    </ul><!-- end #nav -->
-</nav><!-- end #nav-wrap -->
+<?php include('nav.php'); ?>
 
 <!-- Journal Section
 ================================================== -->
-<section class="posts">
-    <div class="row">
-        <div class="twelve columns align-center">
-            <h1>Archive</h1>
-        </div>
-    </div>
+<main role="main" class="posts">
 
     <!-- Content
    ================================================== -->
@@ -48,20 +35,20 @@
 
             <div id="primary" class="eight columns">
 
-                <article class="post">
+                <article role="article" class="post">
 
                     <div class="entry-header cf">
 
-                        <h1><a href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
 
                         <p class="post-meta">
 
                             <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time>
                             /
                      <span class="categories">
-                     <a href="#">Design</a> /
-                     <a href="#">User Inferface</a> /
-                     <a href="#">Web Design</a>
+                     <a class="no-underline" href="#">Design</a> /
+                     <a class="no-underline" href="#">User Inferface</a> /
+                     <a class="no-underline" href="#">Web Design</a>
                      </span>
 
                         </p>
@@ -83,20 +70,20 @@
 
                 </article> <!-- post end -->
 
-                <article class="post">
+                <article role="article" class="post">
 
                     <div class="entry-header cf">
 
-                        <h1><a href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
 
                         <p class="post-meta">
 
                             <time class="date" datetime="2014-01-14T11:24">Jan 14, 2013</time>
                             /
                      <span class="categories">
-                     <a href="#">Design</a> /
-                     <a href="#">User Inferface</a> /
-                     <a href="#">Web Design</a>
+                     <a class="no-underline" href="#">Design</a> /
+                     <a class="no-underline" href="#">User Inferface</a> /
+                     <a class="no-underline" href="#">Web Design</a>
                      </span>
 
                         </p>
@@ -118,20 +105,20 @@
 
                 </article> <!-- post end -->
 
-                <article class="post">
+                <article role="article" class="post">
 
                     <div class="entry-header cf">
 
-                        <h1><a href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
 
                         <p class="post-meta">
 
                             <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time>
                             /
                      <span class="categories">
-                     <a href="#">Design</a> /
-                     <a href="#">User Inferface</a> /
-                     <a href="#">Web Design</a>
+                     <a class="no-underline" href="#">Design</a> /
+                     <a class="no-underline" href="#">User Inferface</a> /
+                     <a class="no-underline" href="#">Web Design</a>
                      </span>
 
                         </p>
@@ -158,15 +145,15 @@
                     <ul>
                         <li><span class="page-numbers prev inactive">Prev</span></li>
                         <li><span class="page-numbers current">1</span></li>
-                        <li><a href="#" class="page-numbers">2</a></li>
-                        <li><a href="#" class="page-numbers">3</a></li>
-                        <li><a href="#" class="page-numbers">4</a></li>
-                        <li><a href="#" class="page-numbers">5</a></li>
-                        <li><a href="#" class="page-numbers">6</a></li>
-                        <li><a href="#" class="page-numbers">7</a></li>
-                        <li><a href="#" class="page-numbers">8</a></li>
-                        <li><a href="#" class="page-numbers">9</a></li>
-                        <li><a href="#" class="page-numbers next">Next</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">2</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">3</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">4</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">5</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">6</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">7</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">8</a></li>
+                        <li><a  href="#" class="no-underline page-numbers">9</a></li>
+                        <li><a  href="#" class="no-underline page-numbers next">Next</a></li>
                     </ul>
                 </nav>
 
@@ -174,41 +161,7 @@
 
             <div id="secondary" class="four columns end">
 
-                <aside id="sidebar">
-
-                    <div class="widget widget_search">
-                        <form action="#">
-
-                            <input class="text-search" type="text" onfocus="if (this.value == 'Search here...') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Search here...'; }" value="Search here...">
-                            <input type="submit" class="submit-search" value="">
-
-                        </form>
-                    </div>
-
-                    <div class="widget widget_categories">
-                        <h5 class="widget-title">Categories</h5>
-                        <ul class="link-list cf">
-                            <li><a href="#">Designs</a></li>
-                            <li><a href="#">Internet</a></li>
-                            <li><a href="#">Typography</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Other Stuff</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="widget widget_tag_cloud">
-                        <h5 class="widget-title">Tags</h5>
-                        <div class="tagcloud cf">
-                            <a href="#">drupal</a>
-                            <a href="#">joomla</a>
-                            <a href="#">ghost</a>
-                            <a href="#">wordpress</a>
-                        </div>
-                    </div>
-
-                </aside>
+                <?php include('sidebar.php'); ?>
 
             </div> <!-- Secondary End-->
 
@@ -216,7 +169,7 @@
 
     </div> <!-- Content End-->
 
-</section><!-- Journal Section End-->
+</main><!-- Journal Section End-->
 
 <?php include('footer.php'); ?>
 
