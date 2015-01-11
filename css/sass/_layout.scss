@@ -333,7 +333,7 @@ ul#nav {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #191919;
+    color: $text-headers;
   }
 }
 
@@ -343,7 +343,7 @@ ul#nav {
 
 .portfolio-item {
   .item-wrap {
-    background: #fff;
+    background: $white;
     overflow: hidden;
     position: relative;
     border: 1px solid #0f0f0f;
@@ -366,7 +366,7 @@ ul#nav {
     }
     .link-icon {
       display: block;
-      color: #fff;
+      color: $white;
       height: 30px;
       width: 30px;
       font-size: 18px;
@@ -390,12 +390,15 @@ ul#nav {
     padding: 18px;
     h5 {
       font: 14px / 21px "opensans-bold", sans-serif;
-      color: #fff;
+      color: $white;
     }
-    p {
+    table {
       font: 12px / 18px "opensans-light", sans-serif;
-      color: #c6c7c7;
+      color: $white;
       margin-bottom: 0;
+      td {
+        padding: 0 2px 0 0;
+      }
     }
   }
   &:hover {

@@ -141,6 +141,12 @@
   }
   .post-content {
     margin-bottom: 18px;
+    a.more-link {
+      margin-left: 3px;
+      i {
+        margin-left: 3px;
+      }
+    }
   }
   .bio {
     margin-top: 30px;

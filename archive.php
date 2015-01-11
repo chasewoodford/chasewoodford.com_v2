@@ -39,24 +39,19 @@
 
                     <div class="entry-header cf">
 
-                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor</a></h1>
 
                         <p class="post-meta">
 
-                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time>
-                            /
-                     <span class="categories">
-                     <a class="no-underline" href="#">Design</a> /
-                     <a class="no-underline" href="#">User Inferface</a> /
-                     <a class="no-underline" href="#">Web Design</a>
-                     </span>
+                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time> /
+                             <span class="categories">
+                                 <a class="no-underline" href="#">Design</a> /
+                                 <a class="no-underline" href="#">User Inferface</a> /
+                                 <a class="no-underline" href="#">Web Design</a>
+                             </span>
 
                         </p>
 
-                    </div>
-
-                    <div class="post-thumb">
-                        <a href="single.php" title=""><img src="images/post-image/post-image-1300x500-01.jpg" alt="post-image" title="post-image"></a>
                     </div>
 
                     <div class="post-content">
@@ -64,7 +59,8 @@
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            <a class="more-link" href="single.php">Read More<i class="fa fa-angle-double-right"></i></a></p>
 
                     </div>
 
@@ -74,24 +70,19 @@
 
                     <div class="entry-header cf">
 
-                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor</a></h1>
 
                         <p class="post-meta">
 
-                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2013</time>
-                            /
-                     <span class="categories">
-                     <a class="no-underline" href="#">Design</a> /
-                     <a class="no-underline" href="#">User Inferface</a> /
-                     <a class="no-underline" href="#">Web Design</a>
-                     </span>
+                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time> /
+                             <span class="categories">
+                                 <a class="no-underline" href="#">Design</a> /
+                                 <a class="no-underline" href="#">User Inferface</a> /
+                                 <a class="no-underline" href="#">Web Design</a>
+                             </span>
 
                         </p>
 
-                    </div>
-
-                    <div class="post-thumb">
-                        <a href="single.php" title=""><img src="images/post-image/post-image-1300x500-02.jpg" alt="post-image" title="post-image"></a>
                     </div>
 
                     <div class="post-content">
@@ -99,7 +90,8 @@
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            <a class="more-link" href="single.php">Read More<i class="fa fa-angle-double-right"></i></a></p>
 
                     </div>
 
@@ -109,24 +101,19 @@
 
                     <div class="entry-header cf">
 
-                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h1>
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor</a></h1>
 
                         <p class="post-meta">
 
-                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time>
-                            /
-                     <span class="categories">
-                     <a class="no-underline" href="#">Design</a> /
-                     <a class="no-underline" href="#">User Inferface</a> /
-                     <a class="no-underline" href="#">Web Design</a>
-                     </span>
+                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time> /
+                             <span class="categories">
+                                 <a class="no-underline" href="#">Design</a> /
+                                 <a class="no-underline" href="#">User Inferface</a> /
+                                 <a class="no-underline" href="#">Web Design</a>
+                             </span>
 
                         </p>
 
-                    </div>
-
-                    <div class="post-thumb">
-                        <a href="single.php" title=""><img src="images/post-image/post-image-1300x500-03.jpg" alt="post-image" title="post-image"></a>
                     </div>
 
                     <div class="post-content">
@@ -134,7 +121,70 @@
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                             nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
                             cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            <a class="more-link" href="single.php">Read More<i class="fa fa-angle-double-right"></i></a></p>
+
+                    </div>
+
+                </article> <!-- post end -->
+
+                <article role="article" class="post">
+
+                    <div class="entry-header cf">
+
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor</a></h1>
+
+                        <p class="post-meta">
+
+                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time> /
+                             <span class="categories">
+                                 <a class="no-underline" href="#">Design</a> /
+                                 <a class="no-underline" href="#">User Inferface</a> /
+                                 <a class="no-underline" href="#">Web Design</a>
+                             </span>
+
+                        </p>
+
+                    </div>
+
+                    <div class="post-content">
+
+                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                            cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            <a class="more-link" href="single.php">Read More<i class="fa fa-angle-double-right"></i></a></p>
+
+                    </div>
+
+                </article> <!-- post end -->
+
+                <article role="article" class="post">
+
+                    <div class="entry-header cf">
+
+                        <h1><a class="no-underline" href="single.php" title="">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor</a></h1>
+
+                        <p class="post-meta">
+
+                            <time class="date" datetime="2014-01-14T11:24">Jan 14, 2014</time> /
+                             <span class="categories">
+                                 <a class="no-underline" href="#">Design</a> /
+                                 <a class="no-underline" href="#">User Inferface</a> /
+                                 <a class="no-underline" href="#">Web Design</a>
+                             </span>
+
+                        </p>
+
+                    </div>
+
+                    <div class="post-content">
+
+                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                            cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                            ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
+                            <a class="more-link" href="single.php">Read More<i class="fa fa-angle-double-right"></i></a></p>
 
                     </div>
 
