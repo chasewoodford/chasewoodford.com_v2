@@ -169,8 +169,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/digital/gary-ames" rel="prev"><strong>Previous Entry</strong> garyames.net</a></li>
+                        <li class="next"><a class="no-underline" href="/work/digital/revealmr" rel="next"><strong>Next Entry</strong> RevealMR</a></li>
 
                     </ul>
 

@@ -45,12 +45,12 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <iframe width="400" height="300" src="https://www.youtube.com/embed/3SDx9MeUelU?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                            <iframe class="main" width="400" height="300" src="https://www.youtube.com/embed/3SDx9MeUelU?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                Verilogue 2010 Holiday Card
+                                2010 Holiday Card
                             </h1>
 
                             <ul class="stats-tabs">
@@ -101,8 +101,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+<!--                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>-->
+                        <li class="next"><a class="no-underline" href="/work/multimedia/carecoach-eliterati.php" rel="next"><strong>Next Entry</strong> eLiterati</a></li>
 
                     </ul>
 

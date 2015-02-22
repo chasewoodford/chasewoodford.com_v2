@@ -24,3 +24,14 @@ img {
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.8);
   }
 }
+
+iframe {
+  &.main {
+    background: $white;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #0f0f0f;
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.8);
+    @include prefixer(transition, all 0.3s ease-in-out, webkit moz o ms spec);
+  }
+}

@@ -130,8 +130,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/branding/philly-sport-past" rel="prev"><strong>Previous Entry</strong> PhillySportPast Logo</a></li>
+                        <li class="next"><a class="no-underline" href="/work/digital/dara-warren" rel="next"><strong>Next Entry</strong> darawarren.com</a></li>
 
                     </ul>
 

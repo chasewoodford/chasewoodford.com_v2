@@ -86,7 +86,7 @@
                             Content Strategy
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-001.png" alt="Responsive design highlight"/>
+                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-001.png" alt="Responsive design highlight"/>
                             Gary's personal site has and continues to be structured in the form of a book. Each chapter focuses on one part of executing a successful job search and contains several lessons, or posts, with each lesson building on top of the knowledge gained from prior lessons.
                         </p>
                         <p>
@@ -108,7 +108,7 @@
                             Chapter Numbers
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="/wp-content/thenes/v2/images/portfolio/highlight-garyAmesNet-003.png" alt="Chapter header highlight"/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-003.png" alt="Chapter header highlight"/>
                             On every page the first text seen is the chapter number. It, too, is bold in display, and uses a couple dozen layers of <code class=" language-css">text-shadow</code> to achieve the 3-D look. These are not images, but fully accessible text.
                         </p>
                         <p>
@@ -125,8 +125,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/digital/dara-warren" rel="prev"><strong>Previous Entry</strong> darawarren.com</a></li>
+                        <li class="next"><a class="no-underline" href="/work/digital/calmfocus" rel="next"><strong>Next Entry</strong> calmfocus.com</a></li>
 
                     </ul>
 

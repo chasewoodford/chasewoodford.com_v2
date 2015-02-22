@@ -45,12 +45,12 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <iframe width="400" height="265" src="https://www.youtube.com/embed/tGiIzvuLo4M?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                            <iframe class="main" width="400" height="265" src="https://www.youtube.com/embed/tGiIzvuLo4M?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="https://www.revealmr.com" title="See it live" target="_blank">eLiterati</a>
+                                eLiterati
                             </h1>
 
                             <ul class="stats-tabs">
@@ -104,8 +104,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/multimedia/verilogue-2010-holiday-card" rel="prev"><strong>Previous Entry</strong> 2010 Holiday Card</a></li>
+                        <li class="next"><a class="no-underline" href="/work/branding/philly-sport-past" rel="next"><strong>Next Entry</strong> PhillySportPast Logo</a></li>
 
                     </ul>
 
