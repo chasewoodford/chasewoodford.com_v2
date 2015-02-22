@@ -3,15 +3,11 @@ a {
   outline: 0;
   color: $link;
   @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
-  &:visited {
-    text-decoration: none;
-    outline: 0;
-    color: #0088CC;
-    @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
-  }
+
   &:hover, &:focus {
     color: $link-on-light-hover;
   }
+
   &.no-underline {
     text-decoration: none !important;
   }
@@ -19,7 +15,4 @@ a {
 
 p a {
   line-height: inherit;
-  &:visited {
-    line-height: inherit;
-  }
 }

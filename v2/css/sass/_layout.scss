@@ -151,15 +151,15 @@ ul#nav {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+
   a {
     color: #fff;
-    &:visited {
-      color: #fff;
-    }
+
     &:hover, &:focus {
       color: #0088CC;
     }
   }
+
   h2 {
     font: 22px / 30px "opensans-bold", sans-serif;
     color: #fff;
@@ -207,15 +207,15 @@ ul#nav {
 #journal {
   background: white url(../images/content-bg.jpg);
   padding: 60px 0 0;
+
   a {
     color: #0088CC;
-    &:visited {
-      color: #0088CC;
-    }
+
     &:hover, &:focus {
       color: #313131;
     }
   }
+
   h1 {
     font: 15px / 24px "opensans-semibold", sans-serif;
     letter-spacing: 1px;
@@ -223,36 +223,44 @@ ul#nav {
     margin-bottom: 48px;
     color: #191919;
   }
+
   .blog-entries {
     margin-top: 0;
   }
+
   .entry {
     margin-bottom: 12px;
     border-top: 1px dotted #d8d8d8;
     padding-top: 36px;
   }
+
   .blog-entries {
     article.entry:first-child {
       border-top: none;
       padding-top: 18px;
     }
+
     .entry-header {
       position: relative;
       margin-bottom: 6px;
     }
   }
+
   .entry-header {
     .entry-title {
       padding-right: 16.66667%;
     }
+
     h3 {
       font: 31px / 42px raleway-bold, sans-serif;
     }
+
     .permalink {
       position: absolute;
       top: 18px;
       right: 60px;
       z-index: 1;
+
       a {
         color: #fff;
         display: block;
@@ -264,9 +272,11 @@ ul#nav {
         padding: 0;
         border-radius: 100%;
         @include prefixer(transition, all 0.3s ease-in-out, webkit moz o ms spec);
+
         &:hover {
           background-color: #313131;
         }
+
         i {
           font-size: 24px;
           line-height: 48px;
@@ -274,15 +284,18 @@ ul#nav {
       }
     }
   }
+
   .entry {
     .post-meta {
       font: 15px / 21px notosans-regular, sans-serif;
       margin-top: 12px;
       margin-bottom: 0;
       text-align: right;
+
       time, .dauthor {
         display: block;
       }
+
       time {
         font-family: notosans-bold, sans-serif;
         text-transform: uppercase;
@@ -291,14 +304,18 @@ ul#nav {
         margin-bottom: 6px;
       }
     }
+
     .post-content {
       padding-right: 16.66667%;
+
       p {
         font: 16px / 30px notosans-regular, sans-serif;
       }
+
       a.more-link {
         font: 16px / 30px notosans-bold, sans-serif;
         margin-left: 3px;
+
         i {
           margin-left: 5px;
           font-size: 14px;
@@ -306,14 +323,17 @@ ul#nav {
       }
     }
   }
+
   .view-more .button {
     margin-top: 6px;
     background: #0088CC;
     color: #fff;
+
     &:hover {
       background: #313131;
       color: #fff;
     }
+
     i {
       margin-right: 15px;
       font-size: 20px;
@@ -328,6 +348,7 @@ ul#nav {
 #portfolio {
   background: white url(../images/content-bg.jpg);
   padding: 60px 0;
+
   h1 {
     font: 15px / 24px "opensans-semibold", sans-serif;
     letter-spacing: 1px;
@@ -349,10 +370,12 @@ ul#nav {
     border: 1px solid #0f0f0f;
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.8);
     @include prefixer(transition, all 0.3s ease-in-out, webkit moz o ms spec);
+
     a {
       display: block;
       cursor: pointer;
     }
+
     .overlay {
       position: absolute;
       left: 0;
@@ -364,6 +387,7 @@ ul#nav {
       filter: alpha(opacity = 0);
       @include prefixer(transition, opacity 0.3s ease-in-out, webkit moz o spec);
     }
+
     .link-icon {
       display: block;
       color: $white;
@@ -382,32 +406,40 @@ ul#nav {
       margin-left: -15px;
       margin-top: -15px;
     }
+
     img {
       vertical-align: bottom;
     }
   }
+
   .portfolio-item-meta {
     padding: 18px;
+
     h5 {
       font: 14px / 21px "opensans-bold", sans-serif;
       color: $white;
     }
+
     table {
       font: 12px / 18px "opensans-light", sans-serif;
       color: $white;
       margin-bottom: 0;
+
       td {
         padding: 0 2px 0 0;
       }
     }
   }
+
   &:hover {
+
     .overlay {
       background-color: rgba(0, 136, 204, 0.95);
       opacity: 1;
       -moz-opacity: 1;
       filter: alpha(opacity = 100);
     }
+
     .link-icon {
       opacity: 1;
       -moz-opacity: 1;
@@ -425,26 +457,29 @@ ul#nav {
   padding-top: 96px;
   padding-bottom: 102px;
   color: #636363;
+
   .section-head {
     margin-bottom: 42px;
   }
+
   a {
     color: #0088CC;
-    &:visited {
-      color: #0088CC;
-    }
+
     &:hover, &:focus {
       color: #fff;
     }
   }
+
   h1 {
     font: 18px / 24px "opensans-bold", sans-serif;
     letter-spacing: 3px;
     color: #fff;
     margin-bottom: 6px;
+
     span {
       display: none;
     }
+
     &:before {
       font-family: 'FontAwesome';
       content: "\f0e0";
@@ -456,26 +491,32 @@ ul#nav {
       color: #fff;
     }
   }
+
   h2 {
     font: 22px / 30px "opensans-bold", sans-serif;
     color: #fff;
     margin-bottom: 12px;
   }
+
   h4 {
     font: 16px / 24px "opensans-bold", sans-serif;
     color: #fff;
     margin-bottom: 6px;
   }
+
   p {
     line-height: 30px;
     color: #7A7A7A;
   }
+
   .header-col {
     padding-top: 6px;
   }
+
   form {
     margin-bottom: 30px;
   }
+
   label {
     font: 15px / 24px "opensans-bold", sans-serif;
     margin: 12px 0;
@@ -484,6 +525,7 @@ ul#nav {
     float: left;
     width: 26%;
   }
+
   input, textarea, select {
     padding: 18px 20px;
     color: #eee;
@@ -495,10 +537,12 @@ ul#nav {
     line-height: 24px;
     width: 65%;
   }
+
   input:focus, textarea:focus, select:focus {
     color: #fff;
     background-color: #0088CC;
   }
+
   button.submit {
     letter-spacing: 3px;
     color: #fff;
@@ -509,15 +553,18 @@ ul#nav {
     display: inline-block;
     border-radius: 3px;
     margin-left: 26%;
+
     &:hover {
       background: #fff;
       color: #2B2B2B;
     }
   }
+
   span.required {
     color: #0088CC;
     font-size: 13px;
   }
+
   i {
     margin-right: 10px;
   }
@@ -562,18 +609,19 @@ footer {
   font-size: 14px;
   text-align: center;
   position: relative;
+
   a {
     color: #525252;
-    &:visited {
-      color: #525252;
-    }
+
     &:hover, &:focus {
       color: #fff;
     }
   }
+
   .copyright {
     margin: 0;
     padding: 0;
+
     li {
       display: inline-block;
       margin: 0;

@@ -4,11 +4,10 @@
 .posts {
   background: white url(../images/content-bg.jpg);
   padding: 60px 0;
+
   a {
     color: #0088CC;
-    &:visited {
-      color: #0088CC;
-    }
+
     &:hover, &:focus {
       color: #313131;
     }
@@ -100,73 +99,85 @@
 .post {
   padding-top: 24px;
   padding-bottom: 18px;
+
   .entry-header {
     position: relative;
     width: 100%;
+
     h1 {
       font: 39px / 48px raleway-semibold, sans-serif;
       margin-bottom: 18px;
+
       a {
         color: #313131;
-        &:visited {
-          color: #313131;
-        }
+
         &:hover, &:focus {
           color: #0088CC;
         }
       }
     }
   }
+
   .post-meta {
     font: 15px / 24px notosans-regular, sans-serif;
+
     a {
       color: #AFB4BB;
-      &:visited {
-        color: #AFB4BB;
-      }
+
       &:hover, &:focus {
         color: #0088CC;
       }
     }
+
     .categories {
       display: inline-block;
+
       a {
         display: inline-block;
       }
     }
   }
+
   .post-thumb {
     margin: 6px 0 18px 0;
     width: 100%;
   }
+
   .post-content {
     margin-bottom: 18px;
+
     a.more-link {
       margin-left: 3px;
+
       i {
         margin-left: 3px;
       }
     }
   }
+
   .bio {
     margin-top: 30px;
     padding-top: 30px;
     padding: 36px;
     background: #EFF1F0;
     border-radius: 3px;
+
     .gravatar {
       width: 16.66667%;
       float: left;
       width: 72px;
       height: 72px;
+
       img {
         margin-top: 12px;
         border-radius: 100%;
       }
     }
+
     .about {
       width: 78%;
       float: right;
+
       h5 {
         font: 18px / 30px notosans-bold, sans-serif;
         margin-bottom: 6px;

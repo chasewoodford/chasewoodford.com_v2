@@ -16,15 +16,19 @@ ul {
   &.square, &.circle, &.disc {
     margin-left: 30px;
   }
+
   &.square {
     list-style: square outside;
   }
+
   &.circle {
     list-style: circle outside;
   }
+
   &.disc {
     list-style: disc outside;
   }
+
   ul, ol {
     margin: 6px 0 6px 30px;
   }
@@ -53,6 +57,51 @@ li {
   margin-bottom: 12px;
 }
 
+/* ---------------------------------------------------------------------
+    Stats Tab Markup
+    <ul class="stats-tabs">
+		<li><a href="#">[value]<b>[name]</b></a></li>
+	 </ul>
+/* --------------------------------------------------------------------- */
+.stats-tabs {
+  padding: 0;
+  margin: 24px 0;
+
+  li {
+    display: inline-block;
+    margin: 0 10px 18px 0;
+    padding: 0 10px 0 0;
+    border-right: 1px solid #ccc;
+
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    a, span {
+      display: inline-block;
+      font-size: 22px;
+      font-family: notosans-bold, sans-serif;
+      border: none;
+      color: #313131;
+      @include prefixer(transition, color 0.3s ease-in-out, webkit moz o spec);
+
+      &:hover {
+        color: #11ABB0;
+      }
+
+      b {
+        display: block;
+        margin: 6px 0 0 0;
+        font-size: 13px;
+        font-family: notosans-regular, sans-serif;
+        color: #8B9798;
+      }
+    }
+  }
+}
+
 dl {
   margin: 12px 0;
 }
@@ -71,20 +120,24 @@ dd {
     display: inline;
     margin: 0;
   }
+
   dt + dt:before {
     content: "\A";
     white-space: pre;
   }
+
   dd {
     + {
       dt:before {
         content: "\A";
         white-space: pre;
       }
+
       dd:before {
         content: ", ";
       }
     }
+
     &:before {
       content: ": ";
       margin-left: -0.2em;
@@ -96,14 +149,17 @@ dd {
   dt {
     display: inline;
     counter-reset: definitions;
+
     + dt:before {
       content: ", ";
       margin-left: -0.2em;
     }
   }
+
   dd {
     display: block;
     counter-increment: definitions;
+
     &:before {
       content: counter(definitions, decimal) ". ";
     }
@@ -113,11 +169,13 @@ dd {
 .pagination {
   margin: 36px auto;
   text-align: center;
+
   ul li {
     display: inline-block;
     margin: 0;
     padding: 0;
   }
+
   .page-numbers {
     font: 15px / 18px "opensans-bold", sans-serif;
     display: inline-block;
@@ -128,23 +186,28 @@ dd {
     background-color: #E6E8EB;
     @include prefixer(transition, all 200ms ease-in-out, webkit moz o ms spec);
     @include prefixer(border-radius, 3px, webkit moz spec);
+
     &:hover {
       background: $link;
       color: $white !important;
     }
   }
+
   .current {
     background: $link-on-light-hover;
     color: $white !important;
+
     &:hover {
       background-color: $link;
       color: $white !important;
       cursor: pointer;
     }
   }
+
   .inactive {
     background-color: #E6E8EB;
     color: #A9ADB2 !important;
+
     &:hover {
       background-color: #E6E8EB;
       color: #A9ADB2 !important;

@@ -6,14 +6,13 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
-        <?php bloginfo('name'); // show the blog name, from settings ?> |
-        <?php is_front_page() ? bloginfo('description') : wp_title(''); // if we're on the home page, show the description, from the site's settings - otherwise, show the title of the post or page ?>
+        <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?>
     </title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . "/images/favicon.ico"; ?>" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/style.css"; ?>" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 

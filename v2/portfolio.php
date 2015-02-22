@@ -9,7 +9,7 @@
             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-halves clearfix">
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/revealmr" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-revealmr.gif">
 
                             <div class="overlay">
@@ -38,7 +38,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/calmfocus" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-calmFocus.gif">
 
                             <div class="overlay">
@@ -67,7 +67,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/gary-ames" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-garyAmes.gif">
 
                             <div class="overlay">
@@ -96,7 +96,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/dara-warren" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-daraWarren.gif">
 
                             <div class="overlay">
@@ -125,7 +125,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/2012-golf-classic" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-2012GolfClassic.gif">
 
                             <div class="overlay">
@@ -154,7 +154,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/branding/philly-sport-past" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-phillySportPast.png">
 
                             <div class="overlay">
@@ -183,7 +183,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/multimedia/carecoach-eliterati" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-eliterati.png">
 
                             <div class="overlay">
@@ -212,7 +212,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="#" title="">
+                        <a href="http://www.chasewoodford.com/work/multimedia/verilogue-2010-holiday-card" title="">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-2010HolidayCard.png">
 
                             <div class="overlay">
