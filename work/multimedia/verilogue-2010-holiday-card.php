@@ -45,21 +45,19 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="https://www.revealmr.com" title="See it live" target="_blank">
-                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-revealmr.gif" alt="revealmr.com">
-                            </a>
+                            <iframe width="400" height="300" src="https://www.youtube.com/embed/3SDx9MeUelU?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="https://www.revealmr.com" title="See it live" target="_blank">Reveal<sup>MR</sup></a>
+                                Verilogue 2010 Holiday Card
                             </h1>
 
                             <ul class="stats-tabs">
                                 <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
-                                <li><a class="no-underline" href="http://www.revealmr.com">Title:<b>revealmr.com</b></a></li>
-                                <li><span>Date:<b>April 2013</b></span></li>
-                                <li><span>Type:<b>Java Application</b></span></li>
+                                <li><span>Title:<b>2010 Holiday Card</b></span></li>
+                                <li><span>Date:<b>November 2010</b></span></li>
+                                <li><span>Type:<b>Promo Video</b></span></li>
                             </ul>
                         </div>
 
@@ -67,102 +65,37 @@
 
                     <div class="post-content">
                         <p class="lead">
-                            From Verilogue's website, <a href="http://verilogue.com/technology/revealmr" target="_blank">"Reveal<sup>MR</sup> is a cloud-based solution that maximizes your organization’s efficiency by revolutionizing the way you store, share, and mine volumes of research data."</a> Reveal<sup>MR</sup> dates back to 2008 and has undergone constant refinement since then. (<a href="/images/highlight-revealmr-001.png">Here's an example of what one of the earliest versions of the platform looked like</a>.) In its current state, it leverages state-of-the-art technologies, coupled with modern web design, providing an unparalleled turnkey platform for data analysis. (<a href="/resources/video/reveal-onScreenExplainer.mp4">Watch a short introductory video and see Reveal<sup>MR</sup> in action.</a>) It's a critical tool for dozens of pharmaceutical companies, advertising agencies and other healthcare professionals, featuring not only incredibly powerful search capabilities, but also multimedia clip creation, word cloud creation, multimedia transcription and time-alignment, document tagging, multi-language support, data socialization&mdash;the list of features goes on and on. Building a web application as powerful as Reveal<sup>MR</sup> is no easy feat, and neither is designing all of its complex features and functionality in an intuitive and intelligent way.
+                            At the end of each year at Verilogue it has become tradition for us to send out a digital "holiday card". We send this piece to everyone we work with&mdash;physicians and patients that participate in our research, all of our clients, vendors, friends and family members. Its purpose is to summarize the accomplishments of the year and to get everyone excited for a new year full of new challenges and greater achievements. Often the card's theme is less holiday-specific and more of a thank you to everyone for helping us in our mission of enhancing disease understanding, communication and treatment dynamics.
+                        </p>
+                        <p>
+                            The 2010 holiday card is one of my favorite year-end pieces. It features a blend of real in-office dialogue from physician-patient interactions and clips from real patient-submitted video diaries. The patient video diary footage was particularly interesting to work with, not just because this was the first year we collected it, but because each diary is intense and powerful. Hearing patients describe their experience with their disease in such an honest and personal way is incredibly moving.
                         </p>
                         <br/>
                         <h2>
-                            Bootstrap, Sass, jQuery
+                            The Mix
                         </h2>
                         <p>
-                            Reveal's front-end is built on the <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap</a> framework. All CSS is written in <a href="http://sass-lang.com/" target="_blank">Sass</a>. The platform also relies heavily on the <a href="http://jquery.com/" target="_blank">jQuery</a> JavaScript library. Behind these three main components, we also use:
+                            The file was originally distributed to our contacts via a HTML e-mail blast consisting of a little text and a big poster image of the video with a play button overlay that, when clicked, brought the user to a landing page on Verilogue's domain where the video was hosted as a Flash video file. Due to the varying quality levels of both the audio and video sources, in combination with bandwidth considerations, we were less worried about producing a high-quality video and more concerned about making one with a consistent quality level. That was the biggest challenge. Mixing all the audio and video down to a level that was consistent from one clip to the next.
                         </p>
-                        <ul class="square">
-                            <li><a href="http://compass-style.org/" target="_blank">Compass</a> for more efficient Sass writing;</li>
-                            <li><a href="https://github.com/stanlemon/jGrowl" target="_blank">jGrowl</a> for notifications;</li>
-                            <li><a href="http://www.datatables.net/" target="_blank">DataTables</a> for advanced table displays and interaction;</li>
-                            <li><a href="http://heelhook.github.io/chardin.js/" target="_blank">Chardin</a> for "just-in-time" education;</li>
-                            <li><a href="http://harvesthq.github.io/chosen/" target="_blank">Chosen</a> for advanced form control;</li>
-                            <li><a href="http://d3js.org/" target="_blank">D3</a> for enhanced data visualizations;</li>
-                            <li><a href="http://flexpaper.devaldi.com/" target="_blank">FlexPaper</a> for rich and interactive document displays; snd</li>
-                            <li><a href="http://www.jwplayer.com/" target="_blank">JW Player</a> for consistent cross-device media displays.</li>
-                        </ul>
                         <p>
-                            One of the biggest challenges of working on this project is acquiring a solid understanding of all the technology used to build the platform. But this continues to be one of the biggest rewards of the project, too&mdash;having the privilege of working with the newest technologies in a production environment, the experience of integrating them with such a large web application and the reward of seeing enhanced performance and user experiences.
+                            The audio was mixed as 5.1 surround sound, which allowed for depth between the background music and the dialogue clips in the foreground, as well as room for each dialogue clip to occupy its own unique space. Using a six-channel mix also made it easier to mask some of the disparity of the audio clips.
+                        </p>
+                        <p>
+                            The video footage was, for the most part, unaltered. The only adjustments we made were to the playback speed and cropping. The still images were taken from video clips and treated with slight zooming and panning.
+                        </p>
+                        <p>
+                            The entire video was assembled using Sony's Vegas Pro, including all video and audio editing, mixing and special effect treatments.
                         </p>
                         <br/>
                         <h2>
-                            Responsive Design
+                            Finding the Clips
                         </h2>
                         <p>
-                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-002.png" alt="Responsive design highlight"/>
-                            It is important that the site functions fully not only on desktops, but also on smaller mobile devices, like tablets. The challenge you run into when building such a capable web application, as opposed to a single-page website, is in the integration of all the different components and plugins. When building a web application, responsive design requires attention to more than just fluid layouts, media queries and smart asset loading&mdash;there's more performance considerations, more DOM loading and manipulation considerations, more user experience considerations, more accessibility considerations. Reveal features a design where everything&mdash;from the icons and text loaded on the user's dashboard to the context menus displayed when the user interacts with a document&mdash;is designed with the goal of achieving the best user experience possible, regardless of the device being used.
+                            Believe it or not, the easiest part of this project was mixing the clips down. The difficult part was finding all the clips to begin with. Verilogue's database consists of over 75,000 recorded physician-patient interactions and, even though it was our first year collecting patient video diaries, we had dozens of hours of footage at our disposal. I was tasked with searching all of this data for two and three-second clips of audio and video that would weave the story we were trying to tell. Every time I watch this video I'm reminded of all the time that was invested into its creation, which is another reason in addition to the strength of the video's content that I like this piece so much.
                         </p>
                         <br/>
-                        <h2>
-                            Progressive Enhancement
-                        </h2>
                         <p>
-                            In addition to responsive design, Reveal was designed using the principle of progressive enhancement, or with a baseline of usable functionality and increased richness of the user experience as support allows. The platform's baseline is Internet Explorer 8 running on a wireless broadband Internet connection.
-                        </p>
-                        <p>
-                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-003.png" alt="Progressive enhancement highlight"/>
-                            The platform functions properly on older browsers with slower connection speeds, but the difference between this experience and the most enhanced experience is night and day. Some users miss out on all the modern CSS enhancements&mdash;things like subtle shading, rounded corners and animations that are the small touches that really add to the modern, fast, powerful feeling of the platform. Core functionality, like advanced searching, is available to them, but they miss out on things like being able to generate word clouds from their data because the plugin used to generate word clouds uses technology not support by their browser. Likewise, other features and displays are limited by fault-tolerant design.
-                        </p>
-                        <p>
-                            Unfortunately, a number of our users&mdash;residing mostly in the world of big pharma&mdash;are not using modern browsers. Nor are they able to upgrade very easily due to company policies. The challenge in building a platform that features state-of-the-art technology purchased by users limited to running the platform on significantly outdated technology is obvious. The good news is that Reveal has been designed with this issue in mind and uses progressive enhancement to provide each user with the best experience possible.
-                        </p>
-                        <br/>
-                        <h2>
-                            Icons
-                        </h2>
-                        <p>
-                            Reveal features complimentary use of icons throughout the platform. They appear next to navigational links, document titles, on buttons and action items, and provide users with simple visual cues that make analyzing data easier.
-                        </p>
-                        <p>
-                            Though Bootstrap comes with Glyphicons, we opted to use <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> as our icon font of choice because the icon set better fit our needs.
-                        </p>
-                        <p>
-                            Wherever document titles are found on the platform&mdash;on the user's dashboard, search results, on the document details page itself&mdash;we compliment the text and metadata with file type icons to help users quickly recognize what type of multimedia they're working with. For each file type supported by Reveal, there is an icon. There are dozens of these icons. So instead of loading each image individual (talk about a lot of HTTP requests!), we created two image sprites&mdash;one for small icons (32px), one for large icons (64px)&mdash;and use CSS to define the <code>background-image</code>, or file type icon, that should appear.
-                        </p>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-004.png" alt="Icons"/>
-                            Similar to file type icons, we also display flag icons throughout the site, which indicate the language/country documents are associated with. Like our file type icons, there are dozens of different flag icons. But unlike the file type icons, where we created image sprites to decrease the number of image requests made on each page, we opted to use SVG images for the flag icons because having the image re-sizing flexibility was more important than limiting HTTP requests. Beyond that, even in the short time between when we added file type icons and flag icons, which was maybe a year, image spriting fell out of favor as the standard practice due to the rise of retina displays and the various sized devices that required more flexible images&mdash;a requirement met most efficiently with SVG images.
-                        </p>
-                        <br/>
-                        <h2>
-                            Just-in-time Education
-                        </h2>
-                        <p>
-                            We use <a href="http://www.marketo.com/" target="_blank">Marketo</a> as our primary vehicle for keeping users informed on platform updates. However, we realize not everyone reads these e-mails. Likewise, some features cannot adequately be explained via e-mail. So we've implemented just-in-time education.
-                        </p>
-                        <p>
-                            We decided to use just-in-time education, as opposed to feature tours, because research shows that <a href="http://www.lukew.com/ff/entry.asp?1786" target="_blank">"most people (sometimes over 90%) skip over intro tours as quickly as possible and those that don’t rarely remember what they were supposed to learn."</a> Using just-in-time education provides us the opportunity to demonstrate how to use new features of the platform just before a user is most likely to need them.
-                        </p>
-                        <p>
-                            A good example of this is when we introduced a new form of search functionality&mdash;what we call Tag Search. The Tag Search feature is kind of tucked away on a tab on the main search page. We mark the new feature's tab with a "beta" badge&mdash;similar to a badge you'd find on the iPhone&mdash;to hopefully peak users' interest. Then, when a user clicks on the tab for the first time, they are walked through using the new feature.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-005.png" alt="Just-in-time education"/>
-                            As opposed to doing a full features tour, where the entire system's features are explained at once, we display only the instructions needed to complete micro-tasks when the user is most likely to need them. Likewise, breaking the introduction of new features up in this way allows us to only display the instructions relevant to users who have access to them. (Not all Reveal users get access to all new features.)
-                        </p>
-                        <br/>
-                        <h2>
-                            Theming
-                        </h2>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-006.png" alt="Theming overview"/>
-                            One of the other nice features of Reveal<sup>MR</sup> is that we'll brand the site for clients. And when I say brand it for them, we do more than just throw the client's logo on the site. (Note, all the screenshots on this page feature the Reveal<sup>MR</sup> logo in the header, but on a production site the client's logo typically fills this space. This often involves some pre-processing, taking a raster version of the client's logo, vectorizing it and styling it to fit the platform's design.)
-                        </p>
-                        <p>
-                            For the most part, the theming process is database driven. For each client we set four attributes of a configuration service: a primary color, a secondary color, a tertiary color and the location of the client's logo image. From there, we inject these variables into a Java Server Page that contains a <code>style</code> tag. The theming JSP is then loaded into the web application after the base CSS, allowing the rules containing client-specific styles to override base styles.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-007.png" alt="Theming detail"/>
-                            Beyond loading a client's logo, a client's theme will also customize the gradients throughout the site, including backgrounds and buttons, as well as hyperlink colors, text colors, selection colors, table row coloring, form controls, like dropdown menus and focus states on inputs, icons, progress bars and borders.
-                        </p>
-                        <div class="clearfix"></div>
-                        <p>
-                            To learn more about how this web app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            To learn more about how this video was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
                         </p>
                     </div>
 

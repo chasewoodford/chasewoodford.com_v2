@@ -45,21 +45,21 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="https://www.revealmr.com" title="See it live" target="_blank">
-                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-revealmr.gif" alt="revealmr.com">
+                            <a href="http://www.verilogue.com/golf/2012golfclassic/index.html" title="See it live" target="_blank">
+                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-2012GolfClassic.gif" alt="Verilogue 2012 Golf Classic Website">
                             </a>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="https://www.revealmr.com" title="See it live" target="_blank">Reveal<sup>MR</sup></a>
+                                <a class="no-underline" href="http://www.verilogue.com/golf/2012golfclassic/index.html" title="See it live" target="_blank">2012 Golf Classic</a>
                             </h1>
 
                             <ul class="stats-tabs">
                                 <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
-                                <li><a class="no-underline" href="http://www.revealmr.com">Title:<b>revealmr.com</b></a></li>
-                                <li><span>Date:<b>April 2013</b></span></li>
-                                <li><span>Type:<b>Java Application</b></span></li>
+                                <li><a class="no-underline" href="http://www.verilogue.com/golf/2012golfclassic/index.html">Title:<b>2012 Golf Classic</b></a></li>
+                                <li><span>Date:<b>October 2012</b></span></li>
+                                <li><span>Type:<b>Website</b></span></li>
                             </ul>
                         </div>
 
@@ -67,102 +67,64 @@
 
                     <div class="post-content">
                         <p class="lead">
-                            From Verilogue's website, <a href="http://verilogue.com/technology/revealmr" target="_blank">"Reveal<sup>MR</sup> is a cloud-based solution that maximizes your organization’s efficiency by revolutionizing the way you store, share, and mine volumes of research data."</a> Reveal<sup>MR</sup> dates back to 2008 and has undergone constant refinement since then. (<a href="/images/highlight-revealmr-001.png">Here's an example of what one of the earliest versions of the platform looked like</a>.) In its current state, it leverages state-of-the-art technologies, coupled with modern web design, providing an unparalleled turnkey platform for data analysis. (<a href="/resources/video/reveal-onScreenExplainer.mp4">Watch a short introductory video and see Reveal<sup>MR</sup> in action.</a>) It's a critical tool for dozens of pharmaceutical companies, advertising agencies and other healthcare professionals, featuring not only incredibly powerful search capabilities, but also multimedia clip creation, word cloud creation, multimedia transcription and time-alignment, document tagging, multi-language support, data socialization&mdash;the list of features goes on and on. Building a web application as powerful as Reveal<sup>MR</sup> is no easy feat, and neither is designing all of its complex features and functionality in an intuitive and intelligent way.
+                            Verilogue's Golf Classic is an annual fundraising event that benefits the Make-A-Wish Foundation. In 2012, the event helped raise over $8,000 for the cause. The event's website is the starting point for event registration and information delivery to all participants and volunteers.
+                        </p>
+                        <p>
+                            Not only did this project provide an opportunity to showcase the lighter, more playful side of a great company, it also provided the opportunity to improve upon the user experience of the inaugural site. With a year's worth of user feedback and data tracking under the belt, I was particularly excited to tackle this challenge. Having created the site for the event's first year, too, I was aware of the issues both internal and external users experienced with that site, and was determined to improve the experience in 2012, knowing it would lead to a higher conversion rate and less project management.
                         </p>
                         <br/>
                         <h2>
-                            Bootstrap, Sass, jQuery
+                            PayPal Integration
                         </h2>
                         <p>
-                            Reveal's front-end is built on the <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap</a> framework. All CSS is written in <a href="http://sass-lang.com/" target="_blank">Sass</a>. The platform also relies heavily on the <a href="http://jquery.com/" target="_blank">jQuery</a> JavaScript library. Behind these three main components, we also use:
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-2012GolfClassic-003.png" alt="PayPal Intergration Highlight"/>
+                            Our number one goal for the 2012 event was to simplify the donation/registration process. In 2011, we tracked registrations on a spreadsheet and accepted payment by cash or check only. Though we did a great job managing the process, it was overly time consuming, hardly scalable and not the ideal experience for our users.
                         </p>
-                        <ul class="square">
-                            <li><a href="http://compass-style.org/" target="_blank">Compass</a> for more efficient Sass writing;</li>
-                            <li><a href="https://github.com/stanlemon/jGrowl" target="_blank">jGrowl</a> for notifications;</li>
-                            <li><a href="http://www.datatables.net/" target="_blank">DataTables</a> for advanced table displays and interaction;</li>
-                            <li><a href="http://heelhook.github.io/chardin.js/" target="_blank">Chardin</a> for "just-in-time" education;</li>
-                            <li><a href="http://harvesthq.github.io/chosen/" target="_blank">Chosen</a> for advanced form control;</li>
-                            <li><a href="http://d3js.org/" target="_blank">D3</a> for enhanced data visualizations;</li>
-                            <li><a href="http://flexpaper.devaldi.com/" target="_blank">FlexPaper</a> for rich and interactive document displays; snd</li>
-                            <li><a href="http://www.jwplayer.com/" target="_blank">JW Player</a> for consistent cross-device media displays.</li>
-                        </ul>
                         <p>
-                            One of the biggest challenges of working on this project is acquiring a solid understanding of all the technology used to build the platform. But this continues to be one of the biggest rewards of the project, too&mdash;having the privilege of working with the newest technologies in a production environment, the experience of integrating them with such a large web application and the reward of seeing enhanced performance and user experiences.
+                            So in 2012 we opted to integrate PayPal. The brand is relatively well known, secure and hassle-free. They have an easy-to-use and well documented API, the transactional fees they charge are low and their terms/policies are pretty straight forward.
+                        </p>
+                        <p>
+                            We added several PayPal buttons to the site to allow users to make donations, register and pay to participate and sign up to be a sponsor of the event. We also made available a generic, non-PayPal registration form for those users who preferred to pay via cash or check; made a PayPal looking button for the form to keep the look consistent.
+                        </p>
+                        <p>
+                            Another significant improvement made to the registration process on the back end was our integration of Marketo, an automated marketing solution. Instead of tracking participants' activity on a spreadsheet, we added users to a mailing list using Marketo's API. No more manual tracking of registrations and payments. In 2012 we knew who signed up for what and could easily tailor custom messages to a more targeted group of participants.
+                        </p>
+                        <p>
+                            As is the case with any good design, these improvements went mostly unnoticed by the event's participants. But that ultimately was the goal.
                         </p>
                         <br/>
                         <h2>
-                            Responsive Design
+                            Parallax Scrolling
                         </h2>
                         <p>
-                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-002.png" alt="Responsive design highlight"/>
-                            It is important that the site functions fully not only on desktops, but also on smaller mobile devices, like tablets. The challenge you run into when building such a capable web application, as opposed to a single-page website, is in the integration of all the different components and plugins. When building a web application, responsive design requires attention to more than just fluid layouts, media queries and smart asset loading&mdash;there's more performance considerations, more DOM loading and manipulation considerations, more user experience considerations, more accessibility considerations. Reveal features a design where everything&mdash;from the icons and text loaded on the user's dashboard to the context menus displayed when the user interacts with a document&mdash;is designed with the goal of achieving the best user experience possible, regardless of the device being used.
+                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-2012GolfClassic-001.png" alt="Parallax Scrolling Highlight"/>
+                            Another goal of the site was to show visitors who may not have participated in the first year's event what to expect using images taken from the prior year. To accomplish this, the site made use of a parallax scrolling effect, or the movement of layered images at different speeds. We had hundreds of pictures of the first year's participants golfing, winning prizes and having a great time. We wanted to display as many of these as possible without taking up too much real estate. The parallax scrolling effect not only allowed us to showcase all the fun of the previous year's event, but it also just looked cool and was a great way to break up content on the site.
                         </p>
                         <br/>
                         <h2>
-                            Progressive Enhancement
+                            CSS Text-Shadows, Transitions and More
                         </h2>
                         <p>
-                            In addition to responsive design, Reveal was designed using the principle of progressive enhancement, or with a baseline of usable functionality and increased richness of the user experience as support allows. The platform's baseline is Internet Explorer 8 running on a wireless broadband Internet connection.
-                        </p>
-                        <p>
-                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-003.png" alt="Progressive enhancement highlight"/>
-                            The platform functions properly on older browsers with slower connection speeds, but the difference between this experience and the most enhanced experience is night and day. Some users miss out on all the modern CSS enhancements&mdash;things like subtle shading, rounded corners and animations that are the small touches that really add to the modern, fast, powerful feeling of the platform. Core functionality, like advanced searching, is available to them, but they miss out on things like being able to generate word clouds from their data because the plugin used to generate word clouds uses technology not support by their browser. Likewise, other features and displays are limited by fault-tolerant design.
-                        </p>
-                        <p>
-                            Unfortunately, a number of our users&mdash;residing mostly in the world of big pharma&mdash;are not using modern browsers. Nor are they able to upgrade very easily due to company policies. The challenge in building a platform that features state-of-the-art technology purchased by users limited to running the platform on significantly outdated technology is obvious. The good news is that Reveal has been designed with this issue in mind and uses progressive enhancement to provide each user with the best experience possible.
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-2012GolfClassic-002.png" alt="CSS3 Highlight"/>
+                            In addition to the parallax scrolling effect, the site was sprinkled with other cutting-edge CSS effects. The sponsor images had an <code class="language-css">opacity</code> effect applied to them, where on hover they would "come to life" in full color. The site's section titles used several layers of <code class="language-css">text-shadow</code> to make the words look like they were jumping off the page. Some of the images were treated with a <code class="language-css">transform: rotate()</code> effect to give them a loosely-scattered-on-the-page look. And all of the links and critical text information was treated with a smooth <code class="language-css">transition</code> effect, where background and font colors would change and text would move or become highlighted on hover. These additions, though not critical to the overall design, did add to the enhanced experience for users who visited the site using modern browsers.
                         </p>
                         <br/>
                         <h2>
-                            Icons
+                            Adaptive Web Design
                         </h2>
                         <p>
-                            Reveal features complimentary use of icons throughout the platform. They appear next to navigational links, document titles, on buttons and action items, and provide users with simple visual cues that make analyzing data easier.
+                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-2012GolfClassic-004.png" alt="Adaptive Web Design Highlight"/>
+                            From analysis of the first year's site activity, we knew there would not be much traffic from devices other than desktops. Of course, a year had passed, and users' behavior patterns had changed as quickly as the devices they used. Even if tablets and mobile devices did not account for a significant amount of traffic, there were key interactions made on these devices we had to prepare for, which is why we decided to make the site adaptive.
                         </p>
                         <p>
-                            Though Bootstrap comes with Glyphicons, we opted to use <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> as our icon font of choice because the icon set better fit our needs.
+                            The most critical interaction occurred the day of the event&mdash;participants needed to make it there. Many used their mobile devices to check on last minute details like location and time information. Others wanted to make last minute donations. Others still wanted to share the event with their social networks.
                         </p>
                         <p>
-                            Wherever document titles are found on the platform&mdash;on the user's dashboard, search results, on the document details page itself&mdash;we compliment the text and metadata with file type icons to help users quickly recognize what type of multimedia they're working with. For each file type supported by Reveal, there is an icon. There are dozens of these icons. So instead of loading each image individual (talk about a lot of HTTP requests!), we created two image sprites&mdash;one for small icons (32px), one for large icons (64px)&mdash;and use CSS to define the <code>background-image</code>, or file type icon, that should appear.
-                        </p>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-004.png" alt="Icons"/>
-                            Similar to file type icons, we also display flag icons throughout the site, which indicate the language/country documents are associated with. Like our file type icons, there are dozens of different flag icons. But unlike the file type icons, where we created image sprites to decrease the number of image requests made on each page, we opted to use SVG images for the flag icons because having the image re-sizing flexibility was more important than limiting HTTP requests. Beyond that, even in the short time between when we added file type icons and flag icons, which was maybe a year, image spriting fell out of favor as the standard practice due to the rise of retina displays and the various sized devices that required more flexible images&mdash;a requirement met most efficiently with SVG images.
+                            So in our adaptive design the site was stripped down to critical text, links and forms. Tapping location links on a smartphone gave users quick access to directions via map apps. Tapping e-mail addresses provided quick access to event admins for immediate help. And integrated share buttons allowed users to update their social network statuses on the go. The mobile-optimized version of the site was built using <code class="language-css">@media</code> queries that adjusted the fluid desktop layout to look good on small-screen devices while increasing the site's speed and performance, as well.
                         </p>
                         <br/>
-                        <h2>
-                            Just-in-time Education
-                        </h2>
                         <p>
-                            We use <a href="http://www.marketo.com/" target="_blank">Marketo</a> as our primary vehicle for keeping users informed on platform updates. However, we realize not everyone reads these e-mails. Likewise, some features cannot adequately be explained via e-mail. So we've implemented just-in-time education.
-                        </p>
-                        <p>
-                            We decided to use just-in-time education, as opposed to feature tours, because research shows that <a href="http://www.lukew.com/ff/entry.asp?1786" target="_blank">"most people (sometimes over 90%) skip over intro tours as quickly as possible and those that don’t rarely remember what they were supposed to learn."</a> Using just-in-time education provides us the opportunity to demonstrate how to use new features of the platform just before a user is most likely to need them.
-                        </p>
-                        <p>
-                            A good example of this is when we introduced a new form of search functionality&mdash;what we call Tag Search. The Tag Search feature is kind of tucked away on a tab on the main search page. We mark the new feature's tab with a "beta" badge&mdash;similar to a badge you'd find on the iPhone&mdash;to hopefully peak users' interest. Then, when a user clicks on the tab for the first time, they are walked through using the new feature.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-005.png" alt="Just-in-time education"/>
-                            As opposed to doing a full features tour, where the entire system's features are explained at once, we display only the instructions needed to complete micro-tasks when the user is most likely to need them. Likewise, breaking the introduction of new features up in this way allows us to only display the instructions relevant to users who have access to them. (Not all Reveal users get access to all new features.)
-                        </p>
-                        <br/>
-                        <h2>
-                            Theming
-                        </h2>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-006.png" alt="Theming overview"/>
-                            One of the other nice features of Reveal<sup>MR</sup> is that we'll brand the site for clients. And when I say brand it for them, we do more than just throw the client's logo on the site. (Note, all the screenshots on this page feature the Reveal<sup>MR</sup> logo in the header, but on a production site the client's logo typically fills this space. This often involves some pre-processing, taking a raster version of the client's logo, vectorizing it and styling it to fit the platform's design.)
-                        </p>
-                        <p>
-                            For the most part, the theming process is database driven. For each client we set four attributes of a configuration service: a primary color, a secondary color, a tertiary color and the location of the client's logo image. From there, we inject these variables into a Java Server Page that contains a <code>style</code> tag. The theming JSP is then loaded into the web application after the base CSS, allowing the rules containing client-specific styles to override base styles.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-007.png" alt="Theming detail"/>
-                            Beyond loading a client's logo, a client's theme will also customize the gradients throughout the site, including backgrounds and buttons, as well as hyperlink colors, text colors, selection colors, table row coloring, form controls, like dropdown menus and focus states on inputs, icons, progress bars and borders.
-                        </p>
-                        <div class="clearfix"></div>
-                        <p>
-                            To learn more about how this web app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            To learn more about how this site was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
                         </p>
                     </div>
 

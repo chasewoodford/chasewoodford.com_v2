@@ -45,21 +45,21 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="https://www.revealmr.com" title="See it live" target="_blank">
-                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-revealmr.gif" alt="revealmr.com">
+                            <a href="http://www.darawarren.com" title="See it live" target="_blank">
+                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-daraWarren.gif" alt="darawarren.com">
                             </a>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="https://www.revealmr.com" title="See it live" target="_blank">Reveal<sup>MR</sup></a>
+                                <a class="no-underline" href="http://www.darawarren.com" title="See it live" target="_blank">darawarren.com</sup></a>
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
-                                <li><a class="no-underline" href="http://www.revealmr.com">Title:<b>revealmr.com</b></a></li>
+                                <li><a class="no-underline" href="http://www.darawarren.com">Client:<b>Dara Warren</b></a></li>
+                                <li><span>Title:<b>darawarren.com</b></span></li>
                                 <li><span>Date:<b>April 2013</b></span></li>
-                                <li><span>Type:<b>Java Application</b></span></li>
+                                <li><span>Type:<b>Website</b></span></li>
                             </ul>
                         </div>
 
@@ -67,102 +67,52 @@
 
                     <div class="post-content">
                         <p class="lead">
-                            From Verilogue's website, <a href="http://verilogue.com/technology/revealmr" target="_blank">"Reveal<sup>MR</sup> is a cloud-based solution that maximizes your organization’s efficiency by revolutionizing the way you store, share, and mine volumes of research data."</a> Reveal<sup>MR</sup> dates back to 2008 and has undergone constant refinement since then. (<a href="/images/highlight-revealmr-001.png">Here's an example of what one of the earliest versions of the platform looked like</a>.) In its current state, it leverages state-of-the-art technologies, coupled with modern web design, providing an unparalleled turnkey platform for data analysis. (<a href="/resources/video/reveal-onScreenExplainer.mp4">Watch a short introductory video and see Reveal<sup>MR</sup> in action.</a>) It's a critical tool for dozens of pharmaceutical companies, advertising agencies and other healthcare professionals, featuring not only incredibly powerful search capabilities, but also multimedia clip creation, word cloud creation, multimedia transcription and time-alignment, document tagging, multi-language support, data socialization&mdash;the list of features goes on and on. Building a web application as powerful as Reveal<sup>MR</sup> is no easy feat, and neither is designing all of its complex features and functionality in an intuitive and intelligent way.
+                            A friend of mine approached me for help building her website. She is a brilliant, creative person I got to know initially through work. She recently went part-time so that she could devote more time to her work as an artist. Specifically, writing. She writes children's and young-adult's literature.
+                        </p>
+                        <p>
+                            She had begun shopping her writing around with agents and publishers and was receiving a lot of positive feedback. But she noticed one thing that most of the authors she admired had that she didn't&mdash;a web presence.
+                        </p>
+                        <p>
+                            There were times agents would ask how they could find her on the web or publishers could see more of her work and, unfortunately, she could offer them nothing more than her e-mail address. So she called on me to help her create a site where she could introduce herself and, most importantly, showcase her work. In her words, having a website made her "feel like less of a phony".
+                        </p>
+                        <p>
+                            Working on this project was extremely rewarding&mdash;learning about the ebb and flow of the publishing industry vicariously through a good friend; learning how to make the biggest impact with minimal resources; seeing first hand how website design affects client empowerment and confidence.
+                        </p>
+                        <p>
+                            There is still a lot we want to do with this site and a lot we can do better, too. But our initial goal was just to get her out there as quickly as possible and, as developments offline required, build on the site as needed.
                         </p>
                         <br/>
                         <h2>
-                            Bootstrap, Sass, jQuery
+                            GoDaddy Website Builder
                         </h2>
                         <p>
-                            Reveal's front-end is built on the <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap</a> framework. All CSS is written in <a href="http://sass-lang.com/" target="_blank">Sass</a>. The platform also relies heavily on the <a href="http://jquery.com/" target="_blank">jQuery</a> JavaScript library. Behind these three main components, we also use:
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-daraWarren-001.png" alt="GoDaddy website builder"/>
+                            The client had purchased a domain through GoDaddy. Specifically, GoDaddy's Website Builder Personal, a five-page website deal. With the package you get no access to root files or template code, no FTP access, no database storage and no hosting beyond the images you upload through the WYSIWYG (What You See Is What You Get, or 'wiz-ee-wig') editor. And literally, what you see is what you get, or put another way, you get what you pay for. GoDaddy's website builder was quite a challenge to work with.
                         </p>
-                        <ul class="square">
-                            <li><a href="http://compass-style.org/" target="_blank">Compass</a> for more efficient Sass writing;</li>
-                            <li><a href="https://github.com/stanlemon/jGrowl" target="_blank">jGrowl</a> for notifications;</li>
-                            <li><a href="http://www.datatables.net/" target="_blank">DataTables</a> for advanced table displays and interaction;</li>
-                            <li><a href="http://heelhook.github.io/chardin.js/" target="_blank">Chardin</a> for "just-in-time" education;</li>
-                            <li><a href="http://harvesthq.github.io/chosen/" target="_blank">Chosen</a> for advanced form control;</li>
-                            <li><a href="http://d3js.org/" target="_blank">D3</a> for enhanced data visualizations;</li>
-                            <li><a href="http://flexpaper.devaldi.com/" target="_blank">FlexPaper</a> for rich and interactive document displays; snd</li>
-                            <li><a href="http://www.jwplayer.com/" target="_blank">JW Player</a> for consistent cross-device media displays.</li>
-                        </ul>
                         <p>
-                            One of the biggest challenges of working on this project is acquiring a solid understanding of all the technology used to build the platform. But this continues to be one of the biggest rewards of the project, too&mdash;having the privilege of working with the newest technologies in a production environment, the experience of integrating them with such a large web application and the reward of seeing enhanced performance and user experiences.
+                            As a designer, it is difficult to work with for several reasons. You're required to pick a template before adding content to your site. Each template has unique features. But the problem is, the base template&mdash;the fonts, colors and styles&mdash;is not directly editable. Some styles are editable using the WYSIWYG editor's built-in toolbars, but options for customization are limited. Likewise, the drag-and-drop modules for forms, images, blocks of text, etc. also allow for very little customization. For example, the contact form is the contact form; no adding or removing labels or inputs without some serious CSS/JavaScript hacking. Pretty much every change to the template we wanted to make required a ton of extra code to make happen. We ultimately ended up re-writing the template from top to bottom, and the limited functionality of the website builder basically doubled the amount of time it took to design the site.
+                        </p>
+                        <p>
+                            As a developer, the website builder is difficult to work with for several other reasons. Because we wanted to customize the site, we had to build our own CSS file to overwrite all the template styles. However, the styles from our custom stylesheet won't apply to the site until it is published. Meaning, we can't adjust our stylesheet and see changes instantly, or even when in preview mode. Each time we made a change to the stylesheet we had to publish and re-load the site outside of GoDaddy's website builder to see the changes in action. Having to do this a hundred times a day really takes the wind out of the sails. Not to mention "hot-coding" like this is a really poor practice. Likewise, having the site look one way inside the website builder and completely different outside means developing blindly, in a guess-and-check fashion, which also really slows things down. The website builder, like most WYSIWYG editors, relies heavily on absolute positioning. Also bad news. This means even the slightest change to content potentially throws off the entire design. This also means you have to place elements in weird places in the WYSIWYG editor to account for styles from your custom stylesheet that will later align the elements correctly once applied outside the website builder. One of the other issues I found with GoDaddy's website builder was the automated mobile view, that could either be enabled or disabled, but not customized and was only slightly editable. Meaning you have the choice of displaying your page in either a poorly conceived, mistmatching design loosely optimized for mobile devices or as it would display in a desktop browser with no optimization for mobile at all. We opted for the prior.
                         </p>
                         <br/>
                         <h2>
-                            Responsive Design
+                            Web Fonts & Theming
                         </h2>
                         <p>
-                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-002.png" alt="Responsive design highlight"/>
-                            It is important that the site functions fully not only on desktops, but also on smaller mobile devices, like tablets. The challenge you run into when building such a capable web application, as opposed to a single-page website, is in the integration of all the different components and plugins. When building a web application, responsive design requires attention to more than just fluid layouts, media queries and smart asset loading&mdash;there's more performance considerations, more DOM loading and manipulation considerations, more user experience considerations, more accessibility considerations. Reveal features a design where everything&mdash;from the icons and text loaded on the user's dashboard to the context menus displayed when the user interacts with a document&mdash;is designed with the goal of achieving the best user experience possible, regardless of the device being used.
+                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-daraWarren-002.png" alt="Custom web fonts"/>
+                            The site features custom web fonts from <a target="_blank" href="http://www.google.com/fonts">Google Fonts</a>: Merriweather and Noticia Text for headers, Open Sans for paragraph text and Strait for small text. The load on the page is relatively small (847 B, ~110ms) and adds a kick of style to some otherwise plain, text-heavy pages. Additionally, because the GoDaddy package we're working with doesn't allow file hosting, using Google-hosted fonts means we don't need to worry about finding a home for our font files or accidentally breaking links to them in the future. The other nice thing about Google fonts is that as usage of them grows, there's a higher chance visitors to our page already have the fonts cached, further reducing the cost of loading them on our site. I'm a huge fan of using custom fonts to spice up pages when paired appropriately and used tastefully. It especially made sense to use them in this case, where the writing is really what we want to call attention to.
+                        </p>
+                        <p>
+                            The look the client wanted for her site, in a word, was "enchanted". Her writing, even though it's targeted to the younger reader, is a bit on the dark side, which is really what makes it interesting and what she wanted to convey with her site. So we kept to a neutral, Earth-toned color scheme&mdash;text is brown, backgrounds are shades of brown and white, links are shades of green and orange; the colors you might find walking through an enchanted forest.
+                        </p>
+                        <p>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-daraWarren-003.png" alt="Close up of theming elements"/>
+                            There are a couple design elements consistent across all pages that also build on this enchanted theme. One is her headshot. We took one that was more on the whimsical, candid side and muted the colors to match the site's color scheme. This image manipulation serves several purposes: it lets the image fit in on the site from a design perspective; the somewhat mysterious candid outdoors pose, with the wind-blown hair and big smile, acts as a reflection of her work; and it doesn't distract the site's visitors from what we want them to focus on&mdash;the writing on the page. Another design element found on all of the pages is the image of the vines rising up from the page footer. Again, the vines match the site's color scheme. They have a mystical, fantasy-like look to them. And there's a slight drop shadow applied to them to make them look like they are ever so slightly crawling off the page. The last design element is the background, which is actually made of a repeated semi-transparent image of exotic leaves. The background image is barely noticeable, but a small detail like this goes a long way in pulling the whole look and feel of the site together.
                         </p>
                         <br/>
-                        <h2>
-                            Progressive Enhancement
-                        </h2>
                         <p>
-                            In addition to responsive design, Reveal was designed using the principle of progressive enhancement, or with a baseline of usable functionality and increased richness of the user experience as support allows. The platform's baseline is Internet Explorer 8 running on a wireless broadband Internet connection.
-                        </p>
-                        <p>
-                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-003.png" alt="Progressive enhancement highlight"/>
-                            The platform functions properly on older browsers with slower connection speeds, but the difference between this experience and the most enhanced experience is night and day. Some users miss out on all the modern CSS enhancements&mdash;things like subtle shading, rounded corners and animations that are the small touches that really add to the modern, fast, powerful feeling of the platform. Core functionality, like advanced searching, is available to them, but they miss out on things like being able to generate word clouds from their data because the plugin used to generate word clouds uses technology not support by their browser. Likewise, other features and displays are limited by fault-tolerant design.
-                        </p>
-                        <p>
-                            Unfortunately, a number of our users&mdash;residing mostly in the world of big pharma&mdash;are not using modern browsers. Nor are they able to upgrade very easily due to company policies. The challenge in building a platform that features state-of-the-art technology purchased by users limited to running the platform on significantly outdated technology is obvious. The good news is that Reveal has been designed with this issue in mind and uses progressive enhancement to provide each user with the best experience possible.
-                        </p>
-                        <br/>
-                        <h2>
-                            Icons
-                        </h2>
-                        <p>
-                            Reveal features complimentary use of icons throughout the platform. They appear next to navigational links, document titles, on buttons and action items, and provide users with simple visual cues that make analyzing data easier.
-                        </p>
-                        <p>
-                            Though Bootstrap comes with Glyphicons, we opted to use <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> as our icon font of choice because the icon set better fit our needs.
-                        </p>
-                        <p>
-                            Wherever document titles are found on the platform&mdash;on the user's dashboard, search results, on the document details page itself&mdash;we compliment the text and metadata with file type icons to help users quickly recognize what type of multimedia they're working with. For each file type supported by Reveal, there is an icon. There are dozens of these icons. So instead of loading each image individual (talk about a lot of HTTP requests!), we created two image sprites&mdash;one for small icons (32px), one for large icons (64px)&mdash;and use CSS to define the <code>background-image</code>, or file type icon, that should appear.
-                        </p>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-004.png" alt="Icons"/>
-                            Similar to file type icons, we also display flag icons throughout the site, which indicate the language/country documents are associated with. Like our file type icons, there are dozens of different flag icons. But unlike the file type icons, where we created image sprites to decrease the number of image requests made on each page, we opted to use SVG images for the flag icons because having the image re-sizing flexibility was more important than limiting HTTP requests. Beyond that, even in the short time between when we added file type icons and flag icons, which was maybe a year, image spriting fell out of favor as the standard practice due to the rise of retina displays and the various sized devices that required more flexible images&mdash;a requirement met most efficiently with SVG images.
-                        </p>
-                        <br/>
-                        <h2>
-                            Just-in-time Education
-                        </h2>
-                        <p>
-                            We use <a href="http://www.marketo.com/" target="_blank">Marketo</a> as our primary vehicle for keeping users informed on platform updates. However, we realize not everyone reads these e-mails. Likewise, some features cannot adequately be explained via e-mail. So we've implemented just-in-time education.
-                        </p>
-                        <p>
-                            We decided to use just-in-time education, as opposed to feature tours, because research shows that <a href="http://www.lukew.com/ff/entry.asp?1786" target="_blank">"most people (sometimes over 90%) skip over intro tours as quickly as possible and those that don’t rarely remember what they were supposed to learn."</a> Using just-in-time education provides us the opportunity to demonstrate how to use new features of the platform just before a user is most likely to need them.
-                        </p>
-                        <p>
-                            A good example of this is when we introduced a new form of search functionality&mdash;what we call Tag Search. The Tag Search feature is kind of tucked away on a tab on the main search page. We mark the new feature's tab with a "beta" badge&mdash;similar to a badge you'd find on the iPhone&mdash;to hopefully peak users' interest. Then, when a user clicks on the tab for the first time, they are walked through using the new feature.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-005.png" alt="Just-in-time education"/>
-                            As opposed to doing a full features tour, where the entire system's features are explained at once, we display only the instructions needed to complete micro-tasks when the user is most likely to need them. Likewise, breaking the introduction of new features up in this way allows us to only display the instructions relevant to users who have access to them. (Not all Reveal users get access to all new features.)
-                        </p>
-                        <br/>
-                        <h2>
-                            Theming
-                        </h2>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-006.png" alt="Theming overview"/>
-                            One of the other nice features of Reveal<sup>MR</sup> is that we'll brand the site for clients. And when I say brand it for them, we do more than just throw the client's logo on the site. (Note, all the screenshots on this page feature the Reveal<sup>MR</sup> logo in the header, but on a production site the client's logo typically fills this space. This often involves some pre-processing, taking a raster version of the client's logo, vectorizing it and styling it to fit the platform's design.)
-                        </p>
-                        <p>
-                            For the most part, the theming process is database driven. For each client we set four attributes of a configuration service: a primary color, a secondary color, a tertiary color and the location of the client's logo image. From there, we inject these variables into a Java Server Page that contains a <code>style</code> tag. The theming JSP is then loaded into the web application after the base CSS, allowing the rules containing client-specific styles to override base styles.
-                        </p>
-                        <p>
-                            <img class="pull-left add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-007.png" alt="Theming detail"/>
-                            Beyond loading a client's logo, a client's theme will also customize the gradients throughout the site, including backgrounds and buttons, as well as hyperlink colors, text colors, selection colors, table row coloring, form controls, like dropdown menus and focus states on inputs, icons, progress bars and borders.
-                        </p>
-                        <div class="clearfix"></div>
-                        <p>
-                            To learn more about how this web app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            To learn more about how this site was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
                         </p>
                     </div>
 
