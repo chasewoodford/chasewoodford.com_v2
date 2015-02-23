@@ -97,19 +97,18 @@
     top: 0;
     right: 0;
   }
+
   #nav-wrap > a {
     width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #CC5200;
+    background-color: #0088CC;
     position: relative;
     border: none;
     float: right;
-
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
-
     position: relative;
     top: 0px;
     right: 30px;
@@ -124,6 +123,7 @@
     right: 25%;
     content: '';
   }
+
   #nav-wrap > a:after { top: 60%; }
 
 /* toggle buttons */
@@ -139,7 +139,6 @@
     clear: both;
     width: auto;
     float: right;
-
     position: relative;
     top: 12px;
     right: 0;
@@ -325,8 +324,34 @@
   }
 
 /* header social links */
-  header .social { font-size: 20px;}
-  header .social li { margin: 0 6px; }
+  header .social-links { font-size: 20px;}
+  header .social-links li { margin: 0 6px; }
+
+/* journal styles
+-------------------------------------------------------------------- */
+  .permalink {
+    display: none;
+  }
+
+  #journal {
+    & .entry-header .entry-title {
+      float: left !important;
+    }
+
+    & .entry .post-meta {
+      display: inline-block;
+    }
+  }
+
+/* portfolio styles
+-------------------------------------------------------------------- */
+  img.highlight {
+    margin: 20px auto;
+  }
+
+  iframe.main {
+    max-width: 100%;
+  }
 
 /* footer
 ------------------------------------------------------------------------ */

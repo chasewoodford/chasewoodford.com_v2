@@ -87,9 +87,7 @@
                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-link"></i></a>
                 </div>
                 <div class="ten columns entry-title pull-right">
-                    <h3>
-                        <a class="no-underline" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-                    </h3>
+                    <a class="h3 no-underline" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
                 </div>
                 <div class="two columns post-meta end">
                     <p>
