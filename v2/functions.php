@@ -42,6 +42,10 @@ function scripts()  {
 	// add init
 	wp_register_script( 'init', get_template_directory_uri() . '/js/init.js', array( 'jquery' ) );
     wp_enqueue_script( 'init' );
+
+    // add prism
+    wp_register_script( 'prism', get_template_directory_uri() . '/js/prism.js' );
+    wp_enqueue_script( 'prism' );
 	
 	// add ga
 	wp_register_script( 'ga', get_template_directory_uri() . '/js/ga.js' );
