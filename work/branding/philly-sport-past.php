@@ -150,7 +150,7 @@
 
             <ul class="copyright">
                 <li>&copy; 2015 Chase Woodford</li>
-                <li><a class="no-underline" href="#">Colophon</a></li>
+                <li><a class="no-underline" href="/colophon.php">Colophon</a></li>
                 <li><a class="no-underline" href="#">RSS</a></li>
             </ul>
         </div>

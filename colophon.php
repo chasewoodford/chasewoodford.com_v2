@@ -5,8 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chase Woodford &#124; Portfolio</title>
-    <meta name="description" content="">
+    <title>Chase Woodford &#124; Colophon</title>
     <meta name="author" content="Chase Woodford">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/v2/images/favicon.ico">
@@ -22,80 +21,32 @@
         <li><a href="http://www.chasewoodford.com">Home</a></li>
         <li><a href="http://www.chasewoodford.com/index.php#about">About</a></li>
         <li><a href="http://www.chasewoodford.com/blog">Blog</a></li>
-        <li class="current"><a href="http://www.chasewoodford.com/index.php#portfolio">Work</a></li>
+        <li><a href="http://www.chasewoodford.com/index.php#portfolio">Work</a></li>
         <li><a href="http://www.chasewoodford.com/playground">Playground</a></li>
         <li><a href="http://www.chasewoodford.com/index.php#contact">Contact</a></li>
     </ul>
 </nav>
 
-<!-- Journal Section
-================================================== -->
 <main role="main" class="posts">
-
-    <!-- Content
-    ================================================== -->
     <div class="content-outer">
-
         <div id="page-content" class="row">
-
             <div id="primary" class="twelve columns">
-
                 <article role="article" class="post">
-
-                    <div class="row">
-
-                        <div class="six columns add-bottom">
-                            <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-patientJourney.png" alt="Verilogue Patient Journey iPad App">
-                        </div>
-
-                        <div class="six columns">
-                            <h1>
-                                Verilogue Patient Journey iPad App
-                            </h1>
-
-                            <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
-                                <li><a class="no-underline" href="http://www.revealmr.com">Title:<b>Patient Journey iPad App</b></a></li>
-                                <li><span>Date:<b>March 2012</b></span></li>
-                                <li><span>Type:<b>iPad App</b></span></li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div class="post-content">
+                    <div class="twelve columns add-bottom">
+                        <h1>Colophon</h1>
                         <p class="lead">
-
-                        </p>
-                        <br/>
-                        <p>
-                            To learn more about how this site was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            This site is powered by <a href="http://wordpress.org/" target="_blank" title="WordPress">WordPress</a>, hand crafted using <a href="http://www.jetbrains.com/idea/" target="_blank" title="IntelliJ">IntelliJ</a>, and hosted by <a href="https://www.1and1.com/" target="_blank" title="1&1">1&1</a>. It features an adaptation of the <a href="http://viewportindustries.com/products/starkers/" target="_blank" title="Starkers">Starkers</a> Wordpress theme, as well as the <a href="http://wordpress.org/extend/plugins/amazon-product-in-a-post-plugin/" target="_blank" title="Amazon Product In a Post">Amazon Product In a Post</a> plugin for displaying products and the <a href="http://wordpress.org/extend/plugins/wordpress-seo/" target="_blank" title="WordPress SEO">WordPress SEO</a> plugin. Code highlighting is brought to you by <a href="http://prismjs.com/" target="_blank" title="Prism.js">Prism</a>. Content delivery is optimized by the awesome folks at <a href="https://www.cloudflare.com/" target="_blank" title="CloudFlare">CloudFlare</a>. Builds of the site are versioned and stored on <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a> as well as <a href="http://dploy.io/" target="_blank" title="dploy">dploy</a>, which also powers continuous deployment.
                         </p>
                     </div>
-
-                    <ul class="post-nav clearfix">
-
-                        <li class="prev"><a class="no-underline" href="#" rel="prev"><strong>Previous Entry</strong> Duis Sed Odio Sit Amet Nibh Vulputate</a></li>
-                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>
-
-                    </ul>
-
-                </article> <!-- post end -->
-
+                </article>
             </div>
-
         </div>
+    </div>
+</main>
 
-    </div><!-- Content End-->
-
-</main><!-- Journal Section End-->
-
-<!-- footer
-================================================== -->
 <footer role="contentinfo">
     <div class="row">
         <div class="twelve columns">
-
             <ul class="social-links">
                 <li><a href="https://www.facebook.com/chasewoodford" aria-label="Visit Chase Woodford's Facebook page" title="Visit Chase Woodford's Facebook page"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://github.com/chasewoodford" aria-label="Visit Chase Woodford's GitHub page" title="Visit Chase Woodford's GitHub page"><i class="fa fa-github"></i></a></li>
@@ -107,10 +58,9 @@
                 <li><a href="http://open.spotify.com/user/124506286" aria-label="Visit Chase Woodford's Spotify page" title="Visit Chase Woodford's Spotify page"><i class="fa fa-spotify"></i></a></li>
                 <li><a href="https://twitter.com/chase1263070" aria-label="Visit Chase Woodford's Twitter page" title="Visit Chase Woodford's Twitter page"><i class="fa fa-twitter"></i></a></li>
             </ul>
-
             <ul class="copyright">
                 <li>&copy; 2015 Chase Woodford</li>
-                <li><a class="no-underline" href="/colophon">Colophon</a></li>
+                <li><a class="no-underline" href="#">Colophon</a></li>
                 <li><a class="no-underline" href="#">RSS</a></li>
             </ul>
         </div>
@@ -118,7 +68,7 @@
             <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-up-open"></i></a>
         </div>
     </div>
-</footer><!-- Footer End-->
+</footer>
 
 <!-- Java Script
 ================================================== -->
