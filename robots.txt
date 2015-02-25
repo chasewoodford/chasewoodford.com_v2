@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /logs/
+Disallow: /resources/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/uploads/
+Disallow: /wp-content/themes/v2/inc/
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /xmlrpc.php
+Disallow: .htaccess
+
+sitemap: http://www.chasewoodford.com/sitemap.xml

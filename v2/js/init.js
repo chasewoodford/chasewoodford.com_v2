@@ -118,7 +118,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "/wp-content/themes/v2/inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 
