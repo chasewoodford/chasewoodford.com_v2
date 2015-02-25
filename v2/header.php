@@ -6,10 +6,9 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
-        <?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?>
+        <?php wp_title(''); ?>
     </title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Chase Woodford">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . "/images/favicon.ico"; ?>" />
