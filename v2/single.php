@@ -22,22 +22,24 @@
 
                         <p class="post-meta">
 
-                            <time class="date" datetime="<?php the_time('c'); ?>">
-                                <?php the_time('M j, Y'); ?>
-                            </time>
-                            /
-                            <?php $categories = get_the_category(); $separator = ' / '; $output = '';
-                            if($categories){
-                                echo '<span class="categories">';
-                                foreach($categories as $category) {
-                                    $output .= '<a class="no-underline"
-                                                    href="'.get_category_link( $category->term_id ).'"
-                                                    title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '
-                                                    ">'.$category->cat_name.'</a>'.$separator;
-                                }
-                                echo trim($output, $separator);
-                                echo '</span>';
-                            }?>
+                            <?php if (!in_category('3')) : ?>
+                                <time class="date" datetime="<?php the_time('c'); ?>">
+                                    <?php the_time('M j, Y'); ?>
+                                </time>
+                                /
+                                <?php $categories = get_the_category(); $separator = ' / '; $output = '';
+                                if($categories){
+                                    echo '<span class="categories">';
+                                    foreach($categories as $category) {
+                                        $output .= '<a class="no-underline"
+                                                        href="'.get_category_link( $category->term_id ).'"
+                                                        title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '
+                                                        ">'.$category->cat_name.'</a>'.$separator;
+                                    }
+                                    echo trim($output, $separator);
+                                    echo '</span>';
+                                }?>
+                            <?php endif; ?>
 
                         </p>
 
