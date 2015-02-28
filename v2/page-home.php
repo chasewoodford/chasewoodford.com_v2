@@ -76,7 +76,7 @@
     <div class="blog-entries">
 
     <?php if( have_posts() ) : while( have_posts() ) : the_post(); endwhile; endif;
-        $args = array('post_type'=>'post','posts_per_page'=>3,);
+        $args = array('post_type'=>'post','posts_per_page'=>3,'category__not_in'=>3,);
         $query = new WP_Query( $args );
         if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
 
@@ -88,6 +88,19 @@
                 </div>
                 <div class="ten columns entry-title pull-right">
                     <a class="h3 no-underline" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                    /
+                    <?php $categories = get_the_category(); $separator = ' / '; $output = '';
+                    if($categories){
+                        echo '<span class="categories">';
+                        foreach($categories as $category) {
+                            $output .= '<a class="no-underline"
+                                                        href="'.get_category_link( $category->term_id ).'"
+                                                        title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '
+                                                        ">'.$category->cat_name.'</a>'.$separator;
+                        }
+                        echo trim($output, $separator);
+                        echo '</span>';
+                    }?>
                 </div>
                 <div class="two columns post-meta end">
                     <p>

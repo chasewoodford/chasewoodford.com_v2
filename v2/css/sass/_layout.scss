@@ -225,72 +225,14 @@ ul#nav {
     color: #191919;
   }
 
-  .blog-entries {
-    margin-top: 0;
-  }
-
   .entry {
     margin-bottom: 12px;
     border-top: 1px dotted #d8d8d8;
     padding-top: 36px;
-  }
 
-  .blog-entries {
-    article.entry:first-child {
-      border-top: none;
-      padding-top: 18px;
-    }
-
-    .entry-header {
-      position: relative;
-      margin-bottom: 6px;
-    }
-  }
-
-  .entry-header {
-    .entry-title {
-      padding-right: 16.66667%;
-      z-index: 1;
-    }
-
-    h3 {
-      font: 31px / 42px raleway-bold, sans-serif;
-    }
-
-    .permalink {
-      position: absolute;
-      top: 18px;
-      right: 60px;
-      z-index: 1;
-
-      a {
-        color: #fff;
-        display: block;
-        text-align: center;
-        background-color: #0088CC;
-        width: 48px;
-        height: 48px;
-        margin: 0;
-        padding: 0;
-        border-radius: 100%;
-        @include prefixer(transition, all 0.3s ease-in-out, webkit moz o ms spec);
-
-        &:hover {
-          background-color: #313131;
-        }
-
-        i {
-          font-size: 24px;
-          line-height: 48px;
-        }
-      }
-    }
-  }
-
-  .entry {
     .post-meta {
       font: 15px / 21px notosans-regular, sans-serif;
-      margin-top: 12px;
+      margin-top: 7px;
       margin-bottom: 0;
       text-align: right;
 
@@ -321,6 +263,70 @@ ul#nav {
         i {
           margin-left: 5px;
           font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .blog-entries {
+    margin-top: 0;
+
+    article.entry:first-child {
+      border-top: none;
+      padding-top: 18px;
+    }
+
+    .entry-header {
+      position: relative;
+      margin-bottom: 6px;
+
+      .entry-title {
+        padding-right: 16.66667%;
+        z-index: 1;
+
+        .categories {
+          font: 15px / 24px notosans-regular, sans-serif;
+
+          a {
+            color: #AFB4BB;
+
+            &:hover, &:focus {
+              color: #0088CC;
+            }
+          }
+        }
+      }
+
+      h3 {
+        font: 31px / 42px raleway-bold, sans-serif;
+      }
+
+      .permalink {
+        position: absolute;
+        top: 18px;
+        right: 60px;
+        z-index: 1;
+
+        a {
+          color: #fff;
+          display: block;
+          text-align: center;
+          background-color: #0088CC;
+          width: 48px;
+          height: 48px;
+          margin: 0;
+          padding: 0;
+          border-radius: 100%;
+          @include prefixer(transition, all 0.3s ease-in-out, webkit moz o ms spec);
+
+          &:hover {
+            background-color: #313131;
+          }
+
+          i {
+            font-size: 24px;
+            line-height: 48px;
+          }
         }
       }
     }
@@ -671,6 +677,7 @@ footer {
   top: -24px;
   left: 50%;
   margin-left: -30px;
+
   a {
     text-decoration: none;
     border: 0 none;
