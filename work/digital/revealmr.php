@@ -169,7 +169,7 @@
                     <ul class="post-nav clearfix">
 
                         <li class="prev"><a class="no-underline" href="/work/digital/calmfocus" rel="prev"><strong>Previous Entry</strong> calmfocus.com</a></li>
-<!--                        <li class="next"><a class="no-underline" href="#" rel="next"><strong>Next Entry</strong> Morbi Elit Consequat Ipsum</a></li>-->
+                        <li class="next"><a class="no-underline" href="/work/multimedia/town-trekkers" rel="next"><strong>Next Entry</strong> Town Trekkers</a></li>
 
                     </ul>
 

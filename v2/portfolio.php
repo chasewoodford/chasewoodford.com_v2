@@ -9,7 +9,36 @@
             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-halves clearfix">
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/revealmr" title="">
+                        <a href="http://www.chasewoodford.com/work/multimedia/town-trekkers" title="View Town Trekkers work">
+                            <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-townTrekkers.png">
+
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>Town Trekkers</h5>
+
+                                    <table>
+                                        <tr>
+                                            <td>Client:</td>
+                                            <td>Loci House</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date:</td>
+                                            <td>February 2015</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tags:</td>
+                                            <td>After Effects, Premiere Pro, Sound Forge, Photoshop, Custom Artwork</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div><!-- item end -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+                        <a href="http://www.chasewoodford.com/work/digital/revealmr" title="View RevealMR work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-revealmr.gif">
 
                             <div class="overlay">
@@ -38,7 +67,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/calmfocus" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/calmfocus" title="View calmfocus.com work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-calmFocus.gif">
 
                             <div class="overlay">
@@ -56,7 +85,7 @@
                                         </tr>
                                         <tr>
                                             <td>Tags:</td>
-                                            <td></td>
+                                            <td>HTML, CSS, Responsive Web Design, WordPress, Google Analytics</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -67,7 +96,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/gary-ames" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/gary-ames" title="View garyames.net work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-garyAmes.gif">
 
                             <div class="overlay">
@@ -96,7 +125,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/dara-warren" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/dara-warren" title="View darawarren.com work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-daraWarren.gif">
 
                             <div class="overlay">
@@ -125,7 +154,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/2012-golf-classic" title="">
+                        <a href="http://www.chasewoodford.com/work/digital/2012-golf-classic" title="View 2012 Golf Classic work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-2012GolfClassic.gif">
 
                             <div class="overlay">
@@ -154,7 +183,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/branding/philly-sport-past" title="">
+                        <a href="http://www.chasewoodford.com/work/branding/philly-sport-past" title="View PhillySportPast work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-phillySportPast.png">
 
                             <div class="overlay">
@@ -183,7 +212,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/multimedia/carecoach-eliterati" title="">
+                        <a href="http://www.chasewoodford.com/work/multimedia/carecoach-eliterati" title="View eLiterati work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-eliterati.png">
 
                             <div class="overlay">
@@ -212,7 +241,7 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/multimedia/verilogue-2010-holiday-card" title="">
+                        <a href="http://www.chasewoodford.com/work/multimedia/verilogue-2010-holiday-card" title="View 2010 Holiday Card work">
                             <img alt="" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-2010HolidayCard.png">
 
                             <div class="overlay">
