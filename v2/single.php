@@ -46,6 +46,7 @@
                     </div>
 
                     <div class="post-content">
+                        <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left') );}; ?>
                         <?php the_content(); ?>
                     </div>
 

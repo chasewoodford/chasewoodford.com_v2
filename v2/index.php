@@ -55,6 +55,7 @@ get_header(); ?>
                     </div>
 
                     <div class="post-content">
+                        <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left add-bottom') );}; ?>
                         <?php the_excerpt(); ?>
                     </div>
 
