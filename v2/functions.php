@@ -5,6 +5,10 @@
 /*-----------------------------------------------------------------------------------*/
 add_theme_support( 'automatic-feed-links' );
 
+/*-----------------------------------------------------------------------------------*/
+/* Add Post Thumbnail support
+/*-----------------------------------------------------------------------------------*/
+add_theme_support( 'post-thumbnails' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Activate sidebar for Wordpress use
@@ -187,4 +191,3 @@ function next_posts_link_attributes() {
 function previous_posts_link_attributes() {
     return 'class="no-underline page-numbers prev"';
 }
-

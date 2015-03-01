@@ -111,6 +111,7 @@
                 </div>
             </div>
             <div class="ten columns offset-2 post-content">
+                <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left remove-top') );}; ?>
                 <?php the_excerpt(); ?>
             </div>
         </article><!-- end entry -->
