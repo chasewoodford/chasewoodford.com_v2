@@ -90,7 +90,7 @@
                             I was able to rip the guide's audio from the video using FFMpeg, and using Sony Sound Forge and Acid Pro mix the introductory narration audio, the final composition including lyrics and the instrumental of the theme into the 60-second piece that accompanies the video.
                         </p>
                         <p>
-                            The audio was then brought into Premiere Pro, along with all of the transition compositions, where the final video was assembled and rendered.
+                            The audio was then brought into Premiere Pro, along with all of the transition compositions created in After Effects, where the final video was assembled and rendered.
                         </p>
                         <br/>
                         <h2>
