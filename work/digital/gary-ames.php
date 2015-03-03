@@ -56,8 +56,8 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.garyames.net">Client:<b>Gary Ames</b></a></li>
-                                <li><a class="no-underline" href="http://www.garyames.net">Title:<b>garyames.net</b></a></li>
+                                <li><a class="no-underline" href="http://www.garyames.net" target="_blank">Client:<b>Gary Ames</b></a></li>
+                                <li><a class="no-underline" href="http://www.garyames.net" target="_blank">Title:<b>garyames.net</b></a></li>
                                 <li><span>Date:<b>April 2013</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>
                             </ul>

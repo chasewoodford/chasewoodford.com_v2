@@ -54,7 +54,7 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.carecoach.com">Client:<b>CareCoach</b></a></li>
+                                <li><a class="no-underline" href="http://www.carecoach.com" target="_blank">Client:<b>CareCoach</b></a></li>
                                 <li><span>Title:<b>eLiterati</b></span></li>
                                 <li><span>Date:<b>October 2011</b></span></li>
                                 <li><span>Type:<b>Promo Video</b></span></li>

@@ -56,7 +56,7 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.darawarren.com">Client:<b>Dara Warren</b></a></li>
+                                <li><a class="no-underline" href="http://www.darawarren.com" target="_blank">Client:<b>Dara Warren</b></a></li>
                                 <li><span>Title:<b>darawarren.com</b></span></li>
                                 <li><span>Date:<b>April 2013</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>

@@ -54,8 +54,8 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
-                                <li><a class="no-underline" href="http://www.revealmr.com">Title:<b>Patient Journey iPad App</b></a></li>
+                                <li><a class="no-underline" href="http://www.verilogue.com" target="_blank">Client:<b>Verilogue</b></a></li>
+                                <li><a class="no-underline" href="http://www.revealmr.com" target="_blank">Title:<b>Patient Journey iPad App</b></a></li>
                                 <li><span>Date:<b>March 2012</b></span></li>
                                 <li><span>Type:<b>iPad App</b></span></li>
                             </ul>

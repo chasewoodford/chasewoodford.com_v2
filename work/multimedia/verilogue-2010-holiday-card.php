@@ -54,7 +54,7 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.verilogue.com">Client:<b>Verilogue</b></a></li>
+                                <li><a class="no-underline" href="http://www.verilogue.com" target="_blank">Client:<b>Verilogue</b></a></li>
                                 <li><span>Title:<b>2010 Holiday Card</b></span></li>
                                 <li><span>Date:<b>November 2010</b></span></li>
                                 <li><span>Type:<b>Promo Video</b></span></li>
