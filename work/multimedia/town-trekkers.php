@@ -65,7 +65,7 @@
 
                     <div class="post-content">
                         <p class="lead">
-                            I was approached by a friend with an opportunity to create the theme for a TV show called Town Trekkers he would be pitching to local TV channels and possibly in the future to larger networks.
+                            I was approached by a friend with an opportunity to create the theme for a TV show called Town Trekkers he would be pitching to local TV channels and possibly larger networks in the future.
                         </p>
                         <p>
                             He had the show's name and logo already designed, had theme music composed and recorded and shot a pilot episode, but needed someone who could pull everything together for the show's theme&mdash;someone who could refine the audio composition as well as mix all the footage into a professional looking minute-long introduction for the show.
@@ -81,7 +81,7 @@
                             The Mix
                         </h2>
                         <p>
-                            We started by <a href="http://www.chasewoodford.com/resources/townTrekkers-storyBoard.pdf" title="View the storyboard">storyboarding the theme</a>. We wanted the video to follow along with the lyrics of the theme's music, so that guided most of our storyboarding. But much like finding the perfect stock photo can be a time-consuming process, so can finding the perfect scene from several hours of footage. Luckily, between the two of us we finish this task pretty quickly. He had a comprehensive knowledge of the footage, pitched in recommendations for scenes he liked, but also left the creative direction in my control. As far as clients go, he was great, and we were able to quickly iterate through versions of both the storyboard and drafts of the video.
+                            We started by <a href="http://www.chasewoodford.com/resources/documents/townTrekkers-storyBoard.pdf" title="View the storyboard">storyboarding the theme</a>. We wanted the video to follow along with the lyrics of the theme's music, so that guided most of our storyboarding. But much like finding the perfect stock photo can be a time-consuming process, so can finding the perfect scene from several hours of footage. Luckily, between the two of us we finish this task pretty quickly. He had a comprehensive knowledge of the footage, pitched in recommendations for scenes he liked, but also left the creative direction in my control. As far as clients go, he was great, and we were able to quickly iterate through versions of both the storyboard and drafts of the video.
                         </p>
                         <p>
                             The theme's music also required some editing. We had an instrumental version of the theme, along with the final composition including lyrics. But we also wanted to include a segment of audio from some footage recorded by the show's guide, which we thought would make a great introduction to the show's concept.
