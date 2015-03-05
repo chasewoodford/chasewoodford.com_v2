@@ -27,7 +27,9 @@
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 800, 'swing');
+	    }, 800, 'swing', function () {
+            window.location.hash = target;
+        });
 	});
 
 
