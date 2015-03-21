@@ -1,4 +1,5 @@
 *.iml
+*.map
+*.sql
 .idea/
 .sass-cache/
-*.map

@@ -10,5 +10,7 @@ Disallow: /feed/
 Disallow: /trackback/
 Disallow: /xmlrpc.php
 Disallow: .htaccess
+Disallow: /clients/
+Disallow: /_source/
 
 sitemap: http://www.chasewoodford.com/sitemap.xml
