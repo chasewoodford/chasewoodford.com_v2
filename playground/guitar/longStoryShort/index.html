@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Chase Woodford">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Guitar - Chase Woodford &#124; Web Designer & Developer</title>
+
+    <link rel="icon" href="/wp-content/themes/v2/images/favicon.ico">
+
+    <link rel="stylesheet" href="/wp-content/themes/v2/css/style_old.css">
+</head>
+<body>
+<h1 class="hide-text">Long Story Short</h1>
+<table id="directory" cellspacing="0" class="table display dataTable">
+    <thead>
+    <tr>
+        <th>Track</th>
+        <th>Title</th>
+        <th>Length</th>
+        <th>Size (KB)</th>
+        <th>Lyrics</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>7</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Believe%20What%20You%20Want.mp3">Believe What You Want</a></td>
+            <td>2:40</td>
+            <td>2,509</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Best%20Mistake.mp3">Best Mistake</a></td>
+            <td>3:29</td>
+            <td>4,920</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/La%20Mia%20Stella.mp3">La Mia Stella</a></td>
+            <td>4:55</td>
+            <td>6,929</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Now%20You%20Know.mp3">Now You Know</a></td>
+            <td>3:07</td>
+            <td>4,401</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Only%20In%20Dreams.mp3">Only In Dreams</a></td>
+            <td>3:25</td>
+            <td>6,438</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Petaluma.mp3">Petaluma</a></td>
+            <td>3:43</td>
+            <td>3,498</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Something%20Like%20You.mp3">Something Like You</a></td>
+            <td>2:34</td>
+            <td>3,632</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Stereotypes%20of%20a%20White%20Italian%20Female%20Misunderstood%20and%20It's%20Still%20All%20Good.mp3">Stereotypes of a White Italian Female Misunderstood and It's Still All Good</a></td>
+            <td>3:43</td>
+            <td>5,234</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Sure%20as%20a%20heart%20can%20break.mp3">Sure as a heart can break</a></td>
+            <td>3:59</td>
+            <td>7,501</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Tainted%20Love%20Song.mp3">Tainted Love Song</a></td>
+            <td>2:33</td>
+            <td>3,597</td>
+            <td>Lyrics</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><a href="/resources/audio/guitar/Long%20Story%20Short/Wednesday%20Night%20Song.mp3">Wednesday Night Song</a></td>
+            <td>3:31</td>
+            <td>4,969</td>
+            <td>Lyrics</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="/wp-content/themes/v2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+    $('#directory').dataTable( {
+        "bPaginate": false,
+        "bLengthChange": false,
+        "bFilter": true,
+        "bSort": true ,
+        "aaSorting": [[ 0, "asc" ]],
+        "oLanguage": {
+            "sSearch": "filter: ",
+            "sZeroRecords": "¯&#92;_(ツ)_/¯",
+            "sInfo": "showing _START_ to _END_ of _TOTAL_ records",
+            "sInfoEmpty": "showing 0 to 0 of 0 records",
+            "sInfoFiltered": "(filtered from _MAX_ total records)"
+        }
+    } );
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28396921-1']);
+    _gaq.push(['_setDomainName', 'chasewoodford.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</html>

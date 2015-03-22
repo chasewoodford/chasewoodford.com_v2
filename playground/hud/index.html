@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>HUD page nav project</title>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/autocomplete/assets/skins/sam/autocomplete.css">
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/v2/css/hud.css">
+</head>
+<body class="yui-skin-sam">
+    <div id="container" class="displayHUD">
+        <div id="label">
+            <label for="myInput">
+                What are you looking for?
+            </label>
+        </div>
+        <div id="myAutoComplete">
+
+            <input id="myInput" type="text">
+
+            <div id="myContainer"></div><img src="/wp-content/themes/v2/images/img-search.svg" height="22" style="position:relative;right:-8px;top:10px;" />
+            <input id="myHidden" type="hidden">
+        </div>
+    </div>
+    <div id="instructions">
+        <p>Toggle the Heads Up Display by hitting Ctrl+Shift+H</p>
+    </div>
+</body>
+<script src="http://www.chasewoodford.com//wp-content/themes/v2/js/shortcut.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://yui.yahooapis.com/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script src="http://yui.yahooapis.com/2.9.0/build/animation/animation-min.js"></script>
+<script src="http://yui.yahooapis.com/2.9.0/build/datasource/datasource-min.js"></script>
+<script src="http://yui.yahooapis.com/2.9.0/build/autocomplete/autocomplete-min.js"></script>
+<script src='http://yui.yahooapis.com/3.4.1/build/simpleyui/simpleyui.js'></script>
+<script>//<![CDATA[
+YUI().use('node', function(Y){
+  Y.on('load',function(e) {
+YAHOO.example.FnMultipleFields = function(){
+    var myContent = [
+        {id:'http://about.me/chasewoodford', content:"About", nname:null},
+        {id:'http://about.me/chasewoodford', content:"Who are you?", nname:null},
+        {id:'http://www.verilogue.com', content:"Resume", nname:null},
+        {id:'resume.pdf', content:"Resume", nname:"Download"},
+        {id:'http://www.verilogue.com', content:"Work", nname:null},
+        {id:'http://www.verilogue.com', content:"Work", nname:"My work"},
+        {id:'http://jsfiddle.net/user/chasewoodford/fiddles/', content:"Work", nname:"jsFiddle"},
+        {id:'http://comicsans-serif.com/', content:"Work", nname:"Side project"},
+        {id:'http://www.workinprogress.com', content:"Portfolio", nname:null},
+        {id:'/wp-content/themes/v2/images/kirk.jpg', content:"Show me the goods", nname:null},
+        {id:'http://www.linkedin.com/profile/view?id=96077551', content:"Connect", nname:null},
+        {id:'mailto:chase@chasewoodford.com', content:"Connect", nname:"Email"},
+        {id:'https://twitter.com/#!/chase1263070', content:"Connect", nname:"Twitter"},
+        {id:'https://www.facebook.com/chasewoodford', content:"Connect", nname:"Facebook"},
+        {id:'https://plus.google.com/114995191415605431083/posts', content:"Connect", nname:"Google+"},
+        {id:'http://www.carecoach.com', content:"Help", nname:null},
+        {id:'http://www.gps.gov/', content:"I think I'm lost", nname:null},
+        {id:'http://quotesondesign.com/philip-glass/', content:"Help", nname:"Inspiration"},
+        {id:'http://www.goodfuckingdesignadvice.com', content:"Help", nname:"Good fucking advice"},
+        {id:'http://www.last.fm/music/Chase+Woodford/Long+Story+Short', content:"Hobbies", nname:"Guitar"},
+		{id:'http://www.tv.com/people/b-j-novak/', content:"Doppelgänger", nname:null},
+        {id:'http://nightly.chasewoodford.com', content:"Updates", nname:"Nightly"},
+    ];
+    
+    // define a custom search function for the DataSource
+    var matchNames = function(sQuery) {
+        // case insensitive matching
+        var query = sQuery.toLowerCase(),
+            contact,
+            i=0,
+            l=myContent.length,
+            matches = [];
+        
+        // match against each name of each contact
+        for(; i<l; i++) {
+            contact = myContent[i];
+            if((contact.content.toLowerCase().indexOf(query) > -1) ||
+                (contact.nname && (contact.nname.toLowerCase().indexOf(query) > -1))) {
+                matches[matches.length] = contact;
+            }
+        }
+
+        return matches;
+    };
+
+    // use a FunctionDataSource
+    var oDS = new YAHOO.util.FunctionDataSource(matchNames);
+    oDS.responseSchema = {
+        fields: ["id", "content", "nname"]
+    }
+
+    // instantiate AutoComplete
+    var oAC = new YAHOO.widget.AutoComplete("myInput", "myContainer", oDS);
+    oAC.useShadow = true;
+    oAC.resultTypeList = false;
+    
+    
+    // custom formatter to highlight the matching letters
+    oAC.formatResult = function(oResultData, sQuery, sResultMatch) {
+        var query = sQuery.toLowerCase(),
+            content = oResultData.content,
+            nname = oResultData.nname || "", // Guard against null value
+            query = sQuery.toLowerCase(),
+            contentMatchIndex = content.toLowerCase().indexOf(query),
+            nnameMatchIndex = nname.toLowerCase().indexOf(query),
+            displaycontent, displaynname;
+            
+        if(contentMatchIndex > -1) {
+            displaycontent = highlightMatch(content, query, contentMatchIndex);
+        }
+        else {
+            displaycontent = content;
+        }
+
+        if(nnameMatchIndex > -1) {
+            displaynname = "> " + highlightMatch(nname, query, nnameMatchIndex);
+        }
+        else {
+            displaynname = nname ? "> " + nname : "";
+        }
+
+        return displaycontent + " " + displaynname;
+        
+    };
+    
+    // helper function for the formatter
+    var highlightMatch = function(full, snippet, matchindex) {
+        return full.substring(0, matchindex) + 
+                "<span class='match'>" + 
+                full.substr(matchindex, snippet.length) + 
+                "</span>" +
+                full.substring(matchindex + snippet.length);
+    };
+
+    // define an event handler to populate a hidden form field
+    // when an item gets selected and populate the input field
+    var myHiddenField = YAHOO.util.Dom.get("myHidden");
+    var myHandler = function(sType, aArgs) {
+        var myAC = aArgs[0]; // reference back to the AC instance
+        var elLI = aArgs[1]; // reference to the selected LI element
+        var oData = aArgs[2]; // object literal of selected item's result data
+        
+        // update hidden form field with the selected item's ID
+        myHiddenField.value = oData.id;
+        
+        myAC.getInputEl().value = oData.content + " " + (oData.nname ? "> " + oData.nname : "");
+    };
+    oAC.itemSelectEvent.subscribe(myHandler);
+    
+    return {
+        oDS: oDS,
+        oAC: oAC
+    };
+}();
+  })
+});//]]>  
+</script>
+<script>
+$(document).ready(function(){
+	jQuery('#myInput').keypress(function(e) {
+		enter = e.keyCode ? e.keyCode : e.which;
+		// when user strike Enter key
+		if(enter.toString() == 13) {
+			// do this
+            $("#myHidden").keyup(function () {
+                  var value = $(this).val();
+                  window.location.href = this.value.toLowerCase();
+                }).keyup();
+		}
+
+		tab = e.keyCode ? e.keyCode : e.which;
+		// when user strikes Tab key
+		if(tab.toString() == 9) {
+			// don't tab, insert
+			{return false;};
+		}
+	});
+
+	// watch for use to pull off the super magical toggle combo
+	shortcut.add("Ctrl+Shift+h",function toggle() {
+		
+		var ele = document.getElementById("container");
+		var audioElement = document.createElement('audio');
+		// hide the HUD if it is currently displayed
+		if(ele.className == "displayHUD") {
+			ele.className = "hideHUD";
+		}
+		// if HUD is currently hidden, bring it back
+		else {
+			ele.className = "displayHUD";
+			document.getElementById('myInput').value ='';
+		} 
+	});
+	
+	// clear form value with every page load
+	function warmItUpChris() {
+		
+		document.getElementById('myInput').value ='';
+	
+	}
+	
+	window.onload = warmItUpChris;
+	
+});
+</script>
+</html>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0"> 
+	<channel> 
+		<title>A Sample RSS 2.0 Feed</title>
+		<link>http://webdesign.about.com/rss2.0feed/</link> 
+		<description>An example of a simple RSS feed. This is the description of the feed itself, not an item.</description>
+		<language>en-us</language>
+		<copyright>Copyright 2007, Jennifer Kyrnin</copyright>
+		<managingEditor>webdesign@aboutguide.com (Jennifer Kyrnin)</managingEditor>
+
+		<item>
+			<title>This is the most recent entry in my sample feed</title>
+			<link>http://webdesign.about.com/rss2.0feed/entry.html</link>
+			<guid>http://webdesign.about.com/rss2.0feed/entry.html</guid>
+			<pubDate>Wed, 27 Nov 2013 15:17:32 GMT</pubDate>
+			<description>This is the text that will appear in the feedreaders. It describes the post itself, not the entire feed.</description>
+		</item>
+	</channel>
+</rss>
