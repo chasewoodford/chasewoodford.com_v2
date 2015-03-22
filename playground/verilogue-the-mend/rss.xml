@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0"> 
 	<channel> 
-		<title>A Sample RSS 2.0 Feed</title>
-		<link>http://webdesign.about.com/rss2.0feed/</link> 
-		<description>An example of a simple RSS feed. This is the description of the feed itself, not an item.</description>
+		<title>The Mend Podcast</title>
+		<link>http://www.chasewoodford.com/playground/verilogue-the-mend/</link>
+		<description>RSS feed for podcast application that syncs with Verilogue "Recommended Recordings"</description>
 		<language>en-us</language>
-		<copyright>Copyright 2007, Jennifer Kyrnin</copyright>
-		<managingEditor>webdesign@aboutguide.com (Jennifer Kyrnin)</managingEditor>
+		<copyright>Copyright 2015, Chase Woodford</copyright>
+		<managingEditor>Chase Woodford</managingEditor>
 
 		<item>
-			<title>This is the most recent entry in my sample feed</title>
-			<link>http://webdesign.about.com/rss2.0feed/entry.html</link>
-			<guid>http://webdesign.about.com/rss2.0feed/entry.html</guid>
-			<pubDate>Wed, 27 Nov 2013 15:17:32 GMT</pubDate>
-			<description>This is the text that will appear in the feedreaders. It describes the post itself, not the entire feed.</description>
+			<title>Gilead HCV Dialogue Update - Q1 2015</title>
+			<link>http://www.chasewoodford.com/resources/audio/Gilead HCV Dialogue Update - Q1 2015.mp4</link>
+			<guid>http://www.chasewoodford.com/resources/audio/Gilead HCV Dialogue Update - Q1 2015.mp4</guid>
+			<pubDate>Sat, 14 Mar 2015 10:05:00 EDT</pubDate>
+			<description>Gilead HCV first quarter dialogue update.</description>
 		</item>
 	</channel>
 </rss>
