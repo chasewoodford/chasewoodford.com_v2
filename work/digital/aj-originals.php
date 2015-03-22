@@ -58,7 +58,7 @@
                             <ul class="stats-tabs">
                                 <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Client:<b>AJ Originals</b></a></li>
                                 <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Title:<b>ajoriginals.com</b></a></li>
-                                <li><span>Date:<b>April 2013</b></span></li>
+                                <li><span>Date:<b>October 2014</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>
                             </ul>
                         </div>

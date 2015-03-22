@@ -23,7 +23,7 @@
                                         </tr>
                                         <tr>
                                             <td>Date:</td>
-                                            <td>February 2015</td>
+                                            <td>January 2015</td>
                                         </tr>
                                         <tr>
                                             <td>Tags:</td>
@@ -52,40 +52,11 @@
                                         </tr>
                                         <tr>
                                             <td>Date:</td>
-                                            <td>November 2014</td>
+                                            <td>October 2014</td>
                                         </tr>
                                         <tr>
                                             <td>Tags:</td>
                                             <td>HMTL, CSS, Responsive Web Design, jQuery, Parallax Scrolling, Cross-browser Compatibility</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div><!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-                        <a href="http://www.chasewoodford.com/work/digital/revealmr" title="View RevealMR work">
-                            <img alt="RevealMR" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-revealmr.gif">
-
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>RevealMR</h5>
-
-                                    <table>
-                                        <tr>
-                                            <td>Client:</td>
-                                            <td>Verilogue</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Date:</td>
-                                            <td>April 2013</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tags:</td>
-                                            <td>HMTL, CSS, Responsive Web Design, Progressive Enhancement, Cross-browser Compatibility, Icons, Java</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -115,6 +86,35 @@
                                         <tr>
                                             <td>Tags:</td>
                                             <td>HTML, CSS, Responsive Web Design, WordPress, Google Analytics</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div><!-- item end -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+                        <a href="http://www.chasewoodford.com/work/digital/revealmr" title="View RevealMR work">
+                            <img alt="RevealMR" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-revealmr.gif">
+
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>RevealMR</h5>
+
+                                    <table>
+                                        <tr>
+                                            <td>Client:</td>
+                                            <td>Verilogue</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date:</td>
+                                            <td>April 2013</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tags:</td>
+                                            <td>HMTL, CSS, Responsive Web Design, Progressive Enhancement, Cross-browser Compatibility, Icons, Java</td>
                                         </tr>
                                     </table>
                                 </div>

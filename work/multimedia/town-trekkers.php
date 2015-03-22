@@ -56,7 +56,7 @@
                             <ul class="stats-tabs">
                                 <li><a class="no-underline" href="http://www.locihouse.com/" target="_blank">Client:<b>Loci House</b></a></li>
                                 <li><a class="no-underline" href="http://towntrekkers.com/" target="_blank">Title:<b>Town Trekkers</b></a></li>
-                                <li><span>Date:<b>February 2015</b></span></li>
+                                <li><span>Date:<b>January 2015</b></span></li>
                                 <li><span>Type:<b>Promo Video</b></span></li>
                             </ul>
                         </div>
