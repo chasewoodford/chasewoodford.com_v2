@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Town Trekkers - Chase Woodford &#124; Web Designer & Developer</title>
+    <title>ajoriginals.com - Chase Woodford &#124; Web Designer & Developer</title>
     <meta name="description" content="">
     <meta name="author" content="Chase Woodford">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -45,19 +45,21 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <iframe class="main" width="400" height="265" src="https://www.youtube.com/embed/uX611nKcZVk?feature=player_embedded&fs=1&rel=0&showinfo=0&autohide=1&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+                            <a href="http://test.ajoriginals.com" title="See it live" target="_blank">
+                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-AJOriginals.gif" alt="ajoriginals.com">
+                            </a>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                Town Trekkers
+                                <a class="no-underline" href="http://test.ajoriginals.com" title="See it live" target="_blank">ajoriginals.com</a>
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.locihouse.com/" target="_blank">Client:<b>Loci House</b></a></li>
-                                <li><a class="no-underline" href="http://towntrekkers.com/" target="_blank">Title:<b>Town Trekkers</b></a></li>
-                                <li><span>Date:<b>February 2015</b></span></li>
-                                <li><span>Type:<b>Promo Video</b></span></li>
+                                <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Client:<b>AJ Originals</b></a></li>
+                                <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Title:<b>ajoriginals.com</b></a></li>
+                                <li><span>Date:<b>April 2013</b></span></li>
+                                <li><span>Type:<b>Website</b></span></li>
                             </ul>
                         </div>
 
@@ -65,57 +67,69 @@
 
                     <div class="post-content">
                         <p class="lead">
-                            I was approached by a friend with an opportunity to create the theme for a TV show called Town Trekkers he would be pitching to local TV channels and possibly larger networks in the future.
+                            AJ Originals is an established and dependable name for high quality furniture decor and signage in the Fort Lauderdale yacht community. Tony Surace, owner of AJ Originals, has been creating custom yacht furniture, name boards and storage solutions for over 30 years. Based out of Florida, AJ Originals' work can be found on yachts of all sizes&mdash;some, like Tiger Woods' old yacht Privacy, that are really prestigious&mdash;that travel all over the world.
                         </p>
                         <p>
-                            He had the show's name and logo already designed, had theme music composed and recorded and shot a pilot episode, but needed someone who could pull everything together for the show's theme&mdash;someone who could refine the audio composition as well as mix all the footage into a professional looking minute-long introduction for the show.
+                            The problem AJ Originals is experiencing is that although its custom, hand-crafted work is of incomparable quality (It really is! I've seen it first hand.) and it's a well established and dependable name in the yacht community, its current website doesn't help extend that value proposition.
                         </p>
                         <p>
-                            I was excited by the opportunity. The concept of Town Trekkers was interesting and unique. The theme song was catchy. The footage he had to work with was great, including high-definition and aerial video shot via drone. He's also been a great guy to work with in the past. So I was all in on the project.
+                            The current site looks like a relic from the birth of the Internet. It lacks a cohesive, modern design. It's mostly unusable on mobile devices, and not otherwise optimized. It also carries very little SEO value. In the age of Internet marketing, where a company's web presence plays a large role in building the brand's value and business, the current AJ Originals site fails.
                         </p>
                         <p>
-                            Our goal was to create a theme for the show that would set the tone and mood for the program, introduce the concept and key design elements and showcase businesses and locations of pilot episode.
-                        </p>
-                        <br/>
-                        <h2>
-                            The Mix
-                        </h2>
-                        <p>
-                            We started by <a href="http://www.chasewoodford.com/resources/documents/townTrekkers-storyBoard.pdf" title="View the storyboard">storyboarding the theme</a>. We wanted the video to follow along with the lyrics of the theme's music, so that guided most of our storyboarding. But much like finding the perfect stock photo can be a time-consuming process, so can finding the perfect scene from several hours of footage. Luckily, between the two of us we finish this task pretty quickly. He had a comprehensive knowledge of the footage, pitched in recommendations for scenes he liked, but also left the creative direction in my control. As far as clients go, he was great, and we were able to quickly iterate through versions of both the storyboard and drafts of the video.
+                            I was asked to overhaul the site&mdash;give it a modern look, make it more user-friendly, have it work for the company as opposed to against it.
                         </p>
                         <p>
-                            The theme's music also required some editing. We had an instrumental version of the theme, along with the final composition including lyrics. But we also wanted to include a segment of audio from some footage recorded by the show's guide, which we thought would make a great introduction to the show's concept.
+                            I took all the good copy and imagery from the current site and re-worked it into a single page site that is both modern-looking and highly accessible.
                         </p>
                         <p>
-                            I was able to rip the guide's audio from the video using FFMpeg, and using Sony Sound Forge and Acid Pro mix the introductory narration audio, the final composition including lyrics and the instrumental of the theme into the 60-second piece that accompanies the video.
-                        </p>
-                        <p>
-                            The audio was then brought into Premiere Pro, along with all of the transition compositions created in After Effects, where the final video was assembled and rendered.
+                            This was a fun weekend project done pro-bono&mdash;one I'm very proud of even if it hasn't made it to production yet [LINK TO OUTCOME SECTION].
                         </p>
                         <br/>
                         <h2>
-                            After Effects Transitions
+                            Parallax Scrolling
                         </h2>
                         <p>
-                            Most of the cuts in the video are straight, but we did want to give it some flare with unique transitions. We found some great artwork created by <a href="http://videohive.net/user/Bifurk" target="_blank">Bifurk</a> on Envato's <a href="http://videohive.net/" target="_blank">Videohive</a>, which we used to create the fly-through transitions. We felt the transitions really fit the show's themes of exploration and puzzle-solving. I also worked with Bifurk directly to have custom artwork created&mdash;artwork shaped like that of the county in which the pilot episode was shot. I think this added an extra touch of uniqueness to the show's opener. I envisioned it as an affordable way to customize each episode's intro should the creator and/or management team want to go that route with future episodes. The other great thing about Bifurk's work is that he also created a package of similarly designed compositions, like lower thirds, other overlays and transitions that pair nicely with what we were using in the theme's video in case we want to carry those design elements through the entire episode. Having a full package of easily customizable, yet familiar feeling compositions could really pull the entire pilot episode together.
+<!--                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-001.png" alt="Responsive design highlight"/>-->
+                            One of the coolest parts of this site is how the background image moves in relation to foreground content as the user scrolls the page. It's a very subtle parallax effect. I think it gives the site a "yacht floating on the ocean" feel, with content floating over a beautiful background scene that is also constantly in motion.
+                        </p>
+                        <p>
+                            The parallax scrolling was designed to only work in certain situations, situations where it would not detract from the overall user experience. In some situations, like on smaller screen devices or browsers that don't handle parallax scrolling well, the feature degrades to a static image in the header and the rest of the page features a grainy, sandy-looking background.
+                        </p>
+                        <br/>
+                        <h2>
+                            Responsive Design
+                        </h2>
+                        <p>
+<!--                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-002.png" alt="Menu highlight"/>-->
+                            The page features responsive design in all of its elements, from how content is laid out to the sizes of images served to the plugins used to enhance the user's experience. For managing breakpoints and the grid system, I used a lightweight jQuery-powered framework called Skel [INSERT LINK TO SKEL].
+                        </p>
+                        <br/>
+                        <h2>
+                            jQuery Plugins
+                        </h2>
+                        <p>
+<!--                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-003.png" alt="Chapter header highlight"/>-->
+                            One of the other subtle page details is found in the navigation menu&mdash;as the user scrolls from one section of the page to the next, the styling of the menu items change to help the user keep track of where they are on the page. This feature is powered by a plugin called One Page Nav [INSERT LINK TO ONE PAGE NAV]. It handles both the styling of the navigational elements as well as the smooth scrolling, and works equally well on small and large screen devices.
+                        </p>
+                        <p>
+                            I used another n33 jQuery plugin called Poptrox to display gallery images [LINK TO POPTROX]. As with his other plugins, Poptrox is super lightweight, easily customized and functions well in all browsers and on all screen sizes.
                         </p>
                         <br/>
                         <h2>
                             Outcome
                         </h2>
                         <p>
-                            In about a month we were able to go from initial brainstorm to final render, all the while keeping to a budget that wouldn't break the bank for a proof of concept. The client is in the process of shopping the idea around. Having been pleased with the outcome of this project, he also enlisted my help adding overlays and transitions to the pilot episode, as well as help tightening the pilot episode's final edit&mdash;another project I'm looking forward to working on.
+                            Tony and team at AJ Originals were very impressed with the re-design. We're currently working on collecting more product shots to better showcase all the wonderful work they do. Once those are in place, and a couple final optimizations are complete on the site, it'll go into production. From there we have plans to explore expanding AJ Originals' web presence via advertising with Google Adwords, social media networks and alternative domains.
                         </p>
-                        <br/>
                         <p>
-                            To learn more about how this video was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            To learn more about how this site was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
                         </p>
                     </div>
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="/work/digital/aj-originals" rel="prev"><strong>Previous Entry</strong> ajoriginals.com</a></li>
-<!--                        <li class="next"><a class="no-underline" href="/work/branding/philly-sport-past" rel="next"><strong>Next Entry</strong> PhillySportPast Logo</a></li>-->
+                        <li class="prev"><a class="no-underline" href="/work/digital/revealmr" rel="prev"><strong>Previous Entry</strong> RevealMR</a></li>
+                        <li class="next"><a class="no-underline" href="/work/multimedia/town-trekkers" rel="next"><strong>Next Entry</strong> Town Trekkers</a></li>
 
                     </ul>
 
