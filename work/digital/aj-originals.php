@@ -73,7 +73,7 @@
                             The problem AJ Originals is experiencing is that although its custom, hand-crafted work is of incomparable quality (It really is! I've seen it first hand.) and it's a well established and dependable name in the yacht community, its current website doesn't help extend that value proposition.
                         </p>
                         <p>
-                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-001.png" alt="Current site highlight"/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-001.png" alt="Current site highlight"/>
                             The current site looks like a relic from the birth of the Internet. It lacks a cohesive, modern design. It's mostly unusable on mobile devices, and not otherwise optimized. It also carries very little SEO value. In the age of Internet marketing, where a company's web presence plays a large role in building the brand's value and business, the current AJ Originals site fails.
                         </p>
                         <p>
@@ -95,7 +95,7 @@
                             Responsive Design
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-003.png" alt="Responsive design highlight"/>
+                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-003.png" alt="Responsive design highlight"/>
                             The page features responsive design in all of its elements, from how content is laid out to the sizes of images served to the plugins used to enhance the user's experience. For managing breakpoints and the grid system, I used a lightweight jQuery-powered framework called <a href="http://getskel.com/" target="_blank" title="View Skel site">Skel</a>.
                         </p>
                         <br/>
