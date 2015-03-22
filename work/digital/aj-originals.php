@@ -77,18 +77,7 @@
                             The current site looks like a relic from the birth of the Internet. It lacks a cohesive, modern design. It's mostly unusable on mobile devices, and not otherwise optimized. It also carries very little SEO value. In the age of Internet marketing, where a company's web presence plays a large role in building the brand's value and business, the current AJ Originals site fails.
                         </p>
                         <p>
-                            I was asked to overhaul the site&mdash;give it a modern look, make it more user-friendly, have it work for the company as opposed to against it. I took all the good copy and imagery from the current site and re-worked it into a single page site that is both modern-looking and highly accessible. This was a fun weekend project done pro-bono&mdash;one I'm very proud of even if it hasn't <a href="#outcome">made it to production yet</a>.
-                        </p>
-                        <br/>
-                        <h2>
-                            Parallax Scrolling
-                        </h2>
-                        <p>
-<!--                            <img class="pull-left" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-001.png" alt="Responsive design highlight"/>-->
-                            One of the coolest parts of this site is how the background image moves in relation to foreground content as the user scrolls the page. It's a very subtle parallax effect. I think it gives the site a "yacht floating on the ocean" feel, with content floating over a beautiful background scene that is also constantly in motion.
-                        </p>
-                        <p>
-                            The parallax scrolling was designed to only work in certain situations, situations where it would not detract from the overall user experience. In some situations, like on smaller screen devices or browsers that don't handle parallax scrolling well, the feature degrades to a static image in the header and the rest of the page features a grainy, sandy-looking background.
+                            I was asked to overhaul the site&mdash;give it a modern look, make it more user-friendly, have it work for the company as opposed to against it. I took all the good copy and imagery from the current site and re-worked it into a single page site that is both modern-looking and highly accessible. This was a fun weekend project done pro-bono&mdash;one I'm very proud of even if it hasn't <a class="smoothscroll" href="#outcome">made it to production yet</a>.
                         </p>
                         <br/>
                         <h2>
@@ -103,13 +92,24 @@
                         </p>
                         <br/>
                         <h2>
+                            Parallax Scrolling
+                        </h2>
+                        <p>
+                            One of the coolest parts of this site is how the background image moves in relation to foreground content as the user scrolls the page. It's a very subtle parallax effect. I think it gives the site a "yacht floating on the ocean" feel, with content floating over a beautiful background scene that is also constantly in motion.
+                            <img class="pull-left highlight" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-002.png" alt="Parallax scrolling highlight"/>
+                        </p>
+                        <p class="clearfix">
+                            The parallax scrolling was designed to only work in certain situations, situations where it would not detract from the overall user experience. In some situations, like on smaller screen devices or browsers that don't handle parallax scrolling well, the feature degrades to a static image in the header and the rest of the page features a grainy, sandy-looking background.
+                        </p>
+                        <br/>
+                        <h2>
                             jQuery Plugins
                         </h2>
                         <p>
-<!--                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-garyAmesNet-003.png" alt="Chapter header highlight"/>-->
                             One of the other subtle page details is found in the navigation menu&mdash;as the user scrolls from one section of the page to the next, the styling of the menu items change to help the user keep track of where they are on the page. This feature is powered by a plugin called <a href="https://github.com/davist11/jQuery-One-Page-Nav" target="_blank" title="View One Page Nav on GitHub">One Page Nav</a>. It handles both the styling of the navigational elements as well as the smooth scrolling, and works equally well on small and large screen devices.
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-AJOriginals-004.png" alt="Poptrox highlight"/>
                         </p>
-                        <p>
+                        <p class="clearfix">
                             I used another jQuery plugin called <a href="https://github.com/n33/jquery.poptrox" target="_blank" title="View Poptrox on GitHub">Poptrox</a> to display gallery images. As with the other jQuery plugins, Poptrox is super lightweight, easily customized and functions well in all browsers and on all screen sizes.
                         </p>
                         <br/>
