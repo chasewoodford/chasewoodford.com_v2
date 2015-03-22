@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<rss version="2.0"> 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel> 
 		<title>The Mend Podcast</title>
 		<link>http://www.chasewoodford.com/playground/verilogue-the-mend/</link>
+        <atom:link href="http://www.chasewoodford.com/playground/verilogue-the-mend/rss.xml" rel="self" type="application/rss+xml" />
 		<description>RSS feed for podcast application that syncs with Verilogue "Recommended Recordings"</description>
+        <category>Medical/Market Research</category>
 		<language>en-us</language>
 		<copyright>Copyright 2015, Chase Woodford</copyright>
-		<managingEditor>Chase Woodford</managingEditor>
+		<managingEditor>chase.woodford@verilogue.com</managingEditor>
 
 		<item>
 			<title>Gilead HCV Dialogue Update - Q1 2015</title>
-			<link>http://www.chasewoodford.com/resources/audio/Gilead HCV Dialogue Update - Q1 2015.mp4</link>
-			<guid>http://www.chasewoodford.com/resources/audio/Gilead HCV Dialogue Update - Q1 2015.mp4</guid>
+			<link>http://www.chasewoodford.com/resources/audio/GileadHCVDialogueUpdateQ12015.mp4</link>
+			<guid>http://www.chasewoodford.com/resources/audio/GileadHCVDialogueUpdateQ12015.mp4</guid>
 			<pubDate>Sat, 14 Mar 2015 10:05:00 EDT</pubDate>
 			<description>Gilead HCV first quarter dialogue update.</description>
+            <category>Gilead/HCV</category>
 		</item>
 	</channel>
 </rss>
