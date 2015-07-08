@@ -12,8 +12,6 @@
 
     <?php elseif ( ! comments_open() && ! is_page() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
 
-    <p>Comments are closed</p>
-
     <?php endif; ?>
 
     <?php comment_form(); ?>
