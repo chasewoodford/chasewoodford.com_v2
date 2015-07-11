@@ -1,91 +1,91 @@
 <?php
 /**
  * The template for displaying the home/index page.
- * This template will also be called in any case where the Wordpress engine 
+ * This template will also be called in any case where the Wordpress engine
  * doesn't know which template to use (e.g. 404 error)
  */
 
 get_header(); ?>
 
-<!-- Journal Section
-================================================== -->
-<main role="main" class="posts">
-
-    <!-- Content
+    <!-- Journal Section
     ================================================== -->
-    <div class="content-outer">
+    <main role="main" class="posts">
 
-        <div id="page-content" class="row">
+        <!-- Content
+        ================================================== -->
+        <div class="content-outer">
 
-            <div id="primary" class="eight columns">
+            <div id="page-content" class="row">
 
-		    	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <div id="primary" class="eight columns">
 
-                <article role="article" class="post row">
+                    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                    <div class="entry-header clearfix">
+                        <article role="article" class="post row">
 
-                        <h1>
-                            <a class="no-underline" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-                        </h1>
+                            <div class="entry-header clearfix">
 
-                        <p class="post-meta">
+                                <h1>
+                                    <a class="no-underline" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+                                </h1>
 
-                            <?php if (!in_category('3')) : ?>
-                                <time class="date" datetime="<?php the_time('c'); ?>">
-                                    <?php the_time('M j, Y'); ?>
-                                </time>
-                                /
-                            <?php endif; ?>
-                                <?php $categories = get_the_category(); $separator = ' / '; $output = '';
-                                if($categories){
-                                    echo '<span class="categories">';
-                                    foreach($categories as $category) {
-                                        $output .= '<a class="no-underline"
+                                <p class="post-meta">
+
+                                    <?php if (!in_category('3')) : ?>
+                                        <time class="date" datetime="<?php the_time('c'); ?>">
+                                            <?php the_time('M j, Y'); ?>
+                                        </time>
+                                        /
+                                    <?php endif; ?>
+                                    <?php $categories = get_the_category(); $separator = ' / '; $output = '';
+                                    if($categories){
+                                        echo '<span class="categories">';
+                                        foreach($categories as $category) {
+                                            $output .= '<a class="no-underline"
                                                         href="'.get_category_link( $category->term_id ).'"
                                                         title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '
                                                         ">'.$category->cat_name.'</a>'.$separator;
-                                    }
-                                    echo trim($output, $separator);
-                                    echo '</span>';
-                                }?>
+                                        }
+                                        echo trim($output, $separator);
+                                        echo '</span>';
+                                    }?>
 
-						</p>
+                                </p>
 
-                    </div>
+                            </div>
 
-                    <div class="post-content">
-                        <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left add-bottom') );}; ?>
-                        <?php the_excerpt(); ?>
-                    </div>
+                            <div class="post-content">
+                                <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left add-bottom') );}; ?>
+                                <?php the_excerpt(); ?>
+                            </div>
 
-                </article><!-- post end -->
+                        </article><!-- post end -->
 
-                <?php endwhile; ?>
+                    <?php endwhile; ?>
 
-                <!-- Pagination -->
-                <?php numeric_posts_nav(); ?>
+                    <!-- Pagination -->
+                    <?php numeric_posts_nav(); ?>
 
-            </div><!-- Primary End -->
+                </div><!-- Primary End -->
 
-            <div id="secondary" class="four columns end">
+                <div id="secondary" class="four columns end">
 
-                <?php include('sidebar.php'); ?>
+                    <?php include('sidebar.php'); ?>
 
-            </div><!-- Sidebar End -->
+                </div><!-- Sidebar End -->
 
-        </div>
+            </div>
 
-        <?php else : ?>
+            <?php else : ?>
 
-            <article class="post error">
-                <h1 class="404">Nothing has been posted like that yet</h1>
-            </article>
+                <article class="post error">
+                    <h1 class="404">Nothing has been posted like that yet</h1>
+                </article>
 
-        <?php endif; ?>
+            <?php endif; ?>
 
-    </div><!-- Content End-->
+        </div><!-- Content End-->
 
-</main><!-- Journal Section End-->
+    </main><!-- Journal Section End-->
 
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>

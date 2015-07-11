@@ -12,5 +12,6 @@ Disallow: /xmlrpc.php
 Disallow: .htaccess
 Disallow: /clients/
 Disallow: /_source/
+Disallow: /playground/journal/
 
 sitemap: http://www.chasewoodford.com/sitemap.xml
