@@ -35,7 +35,7 @@
                     <div class="twelve columns add-bottom">
                         <h1>Colophon</h1>
                         <p class="lead">
-                            This site is powered by <a href="http://wordpress.org/" target="_blank" title="WordPress">WordPress</a>, hand crafted using <a href="http://www.jetbrains.com/idea/" target="_blank" title="IntelliJ">IntelliJ</a>, and hosted by <a href="https://www.1and1.com/" target="_blank" title="1&1">1&1</a>. It features an adaptation of the <a href="http://viewportindustries.com/products/starkers/" target="_blank" title="Starkers">Starkers</a> Wordpress theme, as well as the <a href="http://wordpress.org/extend/plugins/amazon-product-in-a-post-plugin/" target="_blank" title="Amazon Product In a Post">Amazon Product In a Post</a> plugin for displaying products and the <a href="http://wordpress.org/extend/plugins/wordpress-seo/" target="_blank" title="WordPress SEO">WordPress SEO</a> plugin. Code highlighting is brought to you by <a href="http://prismjs.com/" target="_blank" title="Prism.js">Prism</a>. Content delivery is optimized by the awesome folks at <a href="https://www.cloudflare.com/" target="_blank" title="CloudFlare">CloudFlare</a>. Builds of the site are versioned and stored on <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a> as well as <a href="http://dploy.io/" target="_blank" title="dploy">dploy</a>, which also powers continuous deployment.
+                            This site is powered by <a href="http://wordpress.org/" target="_blank" title="WordPress">WordPress</a>, hand crafted using <a href="http://www.jetbrains.com/idea/" target="_blank" title="IntelliJ">IntelliJ</a>, and hosted by <a href="https://www.1and1.com/" target="_blank" title="1&1">1&1</a>. It features an adaptation of the <a href="http://viewportindustries.com/products/starkers/" target="_blank" title="Starkers">Starkers</a> Wordpress theme, as well as the <a href="http://wordpress.org/extend/plugins/wordpress-seo/" target="_blank" title="WordPress SEO">WordPress SEO</a> plugin. Code highlighting is brought to you by <a href="http://prismjs.com/" target="_blank" title="Prism.js">Prism</a>. Content delivery is optimized by the awesome folks at <a href="https://www.cloudflare.com/" target="_blank" title="CloudFlare">CloudFlare</a>. Builds of the site are versioned and stored on <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>.
                         </p>
                     </div>
                 </article>
@@ -59,9 +59,9 @@
                 <li><a href="https://twitter.com/chase1263070" aria-label="Visit Chase Woodford's Twitter page" title="Visit Chase Woodford's Twitter page"><i class="fa fa-twitter"></i></a></li>
             </ul>
             <ul class="copyright">
-                <li>&copy; 2015 Chase Woodford</li>
+                <li>&copy; <?php echo date("Y"); ?> Chase Woodford</li>
                 <li><a class="no-underline" href="#">Colophon</a></li>
-                <li><a class="no-underline" href="#">RSS</a></li>
+                <li><a class="no-underline" href="http://www.chasewoodford.com/?feed=rss">RSS</a></li>
             </ul>
         </div>
         <div id="go-top">
