@@ -59,7 +59,7 @@ get_header(); ?>
                                 <?php the_excerpt(); ?>
                             </div>
 
-                        </article><!-- post end -->
+                        </article><!-- Post End -->
 
                     <?php endwhile; ?>
 
@@ -84,8 +84,8 @@ get_header(); ?>
 
             <?php endif; ?>
 
-        </div><!-- Content End-->
+        </div><!-- Content End -->
 
-    </main><!-- Journal Section End-->
+    </main><!-- Journal End -->
 
-<?php get_footer(); // This fxn gets the footer.php file and renders it ?>
+<?php get_footer(); ?>

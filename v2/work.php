@@ -14,7 +14,7 @@ get_header(); ?>
             <h1 class="title"><?php the_title(); ?></h1>
         </div>
     </div>
-</section><!-- Journal Section End-->
+</section><!-- Journal End-->
 
 <?php endwhile; else : ?>
 

@@ -19,7 +19,7 @@
     <div class="row">
         <div class="eight columns">
 
-            <!-- form -->
+            <!-- Form -->
             <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                     <div>
@@ -61,11 +61,11 @@
                     Chase Woodford<br/>
                     1414 Lincoln Drive W<br/>
                     Ambler, PA 19002 US<br/>
-                    <a class="no-underline" href="#"><i class="fa fa-map-marker"></i>Google Map</a><br/>
-                    <a class="no-underline" href="#"><i class="fa fa-phone"></i>(717) 903-3168</a><br/>
-                    <a class="no-underline" href="#"><i class="fa fa-twitter"></i>@chase1263070</a>
+                    <a class="no-underline" href="https://goo.gl/maps/s0BJc"><i class="fa fa-map-marker"></i>Google Map</a><br/>
+                    <a class="no-underline" href="tel:+17179033168"><i class="fa fa-phone"></i>(717) 903-3168</a><br/>
+                    <a class="no-underline" href="https://twitter.com/intent/tweet?screen_name=chase1263070"><i class="fa fa-twitter"></i>@chase1263070</a>
                 </p>
             </div>
         </aside>
     </div>
-</section> <!-- Contact Section End-->
+</section><!-- Contact End -->

@@ -5,7 +5,7 @@
         <div class="twelve columns collapsed">
             <h1>Recent Work</h1>
 
-            <!-- portfolio-wrapper -->
+            <!-- Portfolio Wrapper -->
             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-halves clearfix">
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -34,7 +34,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -63,7 +63,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -92,7 +92,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -121,7 +121,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -150,7 +150,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -179,7 +179,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -208,7 +208,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -237,7 +237,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -266,7 +266,7 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
@@ -295,11 +295,11 @@
                             </div>
                         </a>
                     </div>
-                </div><!-- item end -->
+                </div><!-- Item End -->
 
-            </div><!-- portfolio-wrapper end -->
+            </div><!-- Portfolio Wrapper End -->
 
-        </div><!-- twelve columns end -->
+        </div>
 
-    </div><!-- row End -->
-</section><!-- Portfolio Section End-->
+    </div>
+</section><!-- Portfolio End-->

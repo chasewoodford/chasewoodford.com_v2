@@ -58,9 +58,9 @@
                         </p>
                     </div>
                 </div>
-            </div><!-- end .main-col -->
-        </div><!-- end row -->
-    </section><!-- end section -->
+            </div>
+        </div>
+    </section><!-- About End -->
 
 
     <!-- Journal Section
@@ -114,11 +114,11 @@
                         <?php if ( has_post_thumbnail() ) {the_post_thumbnail( array('class' => ' pull-left add-bottom remove-top') );}; ?>
                         <?php the_excerpt(); ?>
                     </div>
-                </article><!-- end entry -->
+                </article><!-- Entry End -->
 
             <?php endwhile; endif ?>
 
-        </div><!-- end entries -->
+        </div><!-- Entries End -->
 
         <div class="row text-center view-more">
             <p>
@@ -126,7 +126,7 @@
             </p>
         </div>
         <hr class="row"/>
-    </section><!-- Journal Section End-->
+    </section><!-- Journal End-->
 
 <?php include('portfolio.php'); ?>
 

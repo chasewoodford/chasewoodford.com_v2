@@ -1,3 +1,5 @@
+<!-- Social Section
+================================================== -->
 <ul class="social-links">
     <li><a href="https://www.facebook.com/chasewoodford" aria-label="Visit Chase Woodford's Facebook page" title="Visit Chase Woodford's Facebook page"><i class="fa fa-facebook"></i></a></li>
     <li><a href="https://github.com/chasewoodford" aria-label="Visit Chase Woodford's GitHub page" title="Visit Chase Woodford's GitHub page"><i class="fa fa-github"></i></a></li>
@@ -8,4 +10,4 @@
     <li><a href="skype:woodmanjr2?call" aria-label="Skype with Chase Woodford" title="Skype with Chase Woodford"><i class="fa fa-skype"></i></a></li>
     <li><a href="http://open.spotify.com/user/124506286" aria-label="Visit Chase Woodford's Spotify page" title="Visit Chase Woodford's Spotify page"><i class="fa fa-spotify"></i></a></li>
     <li><a href="https://twitter.com/chase1263070" aria-label="Visit Chase Woodford's Twitter page" title="Visit Chase Woodford's Twitter page"><i class="fa fa-twitter"></i></a></li>
-</ul>
+</ul><!-- Social End -->

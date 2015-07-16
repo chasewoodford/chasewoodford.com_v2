@@ -1,4 +1,4 @@
-<!-- footer
+<!-- Footer Section
 ================================================== -->
 <footer role="contentinfo">
     <div class="row">
@@ -16,7 +16,7 @@
             <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-up-open"></i></a>
         </div>
     </div>
-</footer><!-- Footer End-->
+</footer><!-- Footer End -->
 
 </body>
 </html>

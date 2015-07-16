@@ -1,3 +1,5 @@
+<!-- Sidebar Section
+================================================== -->
 <aside role="complementary" id="sidebar">
     <div class="widget widget_search">
         <form role="search" action="#">
@@ -33,4 +35,4 @@
             ?>
         </div>
     </div>
-</aside>
+</aside><!-- Sidebar End -->

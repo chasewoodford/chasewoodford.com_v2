@@ -72,7 +72,7 @@
                         <?php endif; ?>
                     </ul>
 
-                </article> <!-- post end -->
+                </article> <!-- Post End -->
 
                 <?php endwhile; ?>
 
@@ -98,6 +98,6 @@
 
     </div><!-- Content End-->
 
-</main><!-- Journal Section End-->
+</main><!-- Journal End-->
 
-<?php get_footer(); // This fxn gets the footer.php file and renders it ?>
+<?php get_footer(); ?>

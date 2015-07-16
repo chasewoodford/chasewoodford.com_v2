@@ -3,11 +3,13 @@ img {
   height: auto;
 
   &.pull-right {
-    margin: 12px 0px 0px 18px;
+    margin: 0px 0px 0px 18px;
+    padding-top: 10px;
   }
 
   &.pull-left {
-    margin: 12px 18px 0px 0px;
+    margin: 0px 18px 0px 0px;
+    padding-top: 10px;
   }
 
   &.main, &.blog-image, &.highlight {
