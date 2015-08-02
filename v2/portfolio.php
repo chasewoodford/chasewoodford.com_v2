@@ -67,6 +67,35 @@
 
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
+                        <a href="http://www.chasewoodford.com/work/digital/logueworks" title="View LogueWorks work">
+                            <img alt="LogueWorks" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-logueworks.png">
+
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>LogueWorks</h5>
+
+                                    <table>
+                                        <tr>
+                                            <td>Client:</td>
+                                            <td>Verilogue</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date:</td>
+                                            <td>August 2013</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tags:</td>
+                                            <td>HTML, CSS, Java, Data Visualization</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div><!-- Item End -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
                         <a href="http://www.chasewoodford.com/work/digital/calmfocus" title="View calmfocus.com work">
                             <img alt="calmfocus.com" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-calmFocus.gif">
 

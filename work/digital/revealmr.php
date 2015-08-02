@@ -168,8 +168,8 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="/work/digital/calmfocus" rel="prev"><strong>Previous Entry</strong> calmfocus.com</a></li>
-                        <li class="next"><a class="no-underline" href="/work/digital/aj-originals" rel="next"><strong>Next Entry</strong> ajoriginals.com</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/digital/gary-ames" rel="prev"><strong>Previous Entry</strong> garyames.net</a></li>
+                        <li class="next"><a class="no-underline" href="/work/digital/calmfocus" rel="next"><strong>Next Entry</strong> calmfocus.com</a></li>
 
                     </ul>
 

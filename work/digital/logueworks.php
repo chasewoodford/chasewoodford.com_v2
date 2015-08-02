@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LogueWorks - Chase Woodford &#124; Web Designer & Developer</title>
+    <meta name="description" content="">
+    <meta name="author" content="Chase Woodford">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/v2/images/favicon.ico">
+    <link rel="stylesheet" href="/wp-content/themes/v2/css/style.css">
+    <script src="/wp-content/themes/v2/js/modernizr.js"></script>
+</head>
+<body id="top" class="work">
+
+<nav id="nav-wrap" role="navigation">
+    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+    <ul id="nav" class="nav">
+        <li><a href="http://www.chasewoodford.com">Home</a></li>
+        <li><a href="http://www.chasewoodford.com/index.php#about">About</a></li>
+        <li><a href="http://www.chasewoodford.com/blog">Blog</a></li>
+        <li class="current"><a href="http://www.chasewoodford.com/index.php#portfolio">Work</a></li>
+        <li><a href="http://www.chasewoodford.com/playground">Playground</a></li>
+        <li><a href="http://www.chasewoodford.com/index.php#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Journal Section
+================================================== -->
+<main role="main" class="posts">
+
+    <!-- Content
+    ================================================== -->
+    <div class="content-outer">
+
+        <div id="page-content" class="row">
+
+            <div id="primary" class="twelve columns">
+
+                <article role="article" class="post">
+
+                    <div class="row">
+
+                        <div class="six columns add-bottom">
+                            <a href="https://www.logueworks.com" title="See it live" target="_blank">
+                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-logueworks.png" alt="logueworks.com">
+                            </a>
+                        </div>
+
+                        <div class="six columns">
+                            <h1>
+                                <a class="no-underline" href="https://www.logueworks.com" title="See it live" target="_blank">LogueWorks</a>
+                            </h1>
+
+                            <ul class="stats-tabs">
+                                <li><a class="no-underline" href="http://www.verilogue.com" target="_blank">Client:<b>Verilogue</b></a></li>
+                                <li><a class="no-underline" href="http://www.logueworks.com" target="_blank">Title:<b>LogueWorks</b></a></li>
+                                <li><span>Date:<b>August 2013</b></span></li>
+                                <li><span>Type:<b>Java Application</b></span></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="post-content">
+                        <p class="lead">
+                            LogueWorks is Verilogue's system of turning dialogue into data. In 2013, it began as a simple transcription application service provider. In only a few years, we've developed it into a full workflow management suite, capable of handling practically any transcription, translation or multimedia processing task imaginable.
+                        </p>
+                        <p>
+                            Borne out of the need for scalability, LogueWorks now services all of Verilogue's core transcription, translation and multimedia processing, as well as all orders submitted from RevealMR and CareCoach. Additionally, LogueWorks services the needs of several Publicis Healthcare Communications Group (PHCG) sister agencies, and continues to expand its client roster beyond immediate Publicis Groupe family members.
+                        </p>
+                        <p>
+                            Under the hood, LogueWorks features some of the most radical technology ever programmed into a workflow management system. On the surface, however, it seems very simple:
+                        </p>
+                        <ol>
+                            <li>Clients submit multimedia via a web interface or API call, along with parameters of the task(s) required of LogueWorks;</li>
+                            <li>LogueWorks creates an order and routes the jobs associated with the order to users;</li>
+                            <li>Once the jobs associated with an order are complete, LogueWorks packages up the order and ships back content to the client.</li>
+                        </ol>
+                        <p>
+                            In addition to an API service and several back-end services that handle automated processing, the LogueWorks suite is made up of four separate web applications: a public-facing site, a secure Admin portal, Vendor portal and Client portal. These applications share a number of technologies.
+                        </p>
+                        <p>
+                            The LogueWorks team is made up of several hundred vendors located worldwide. Some are individuals, working part-time in the evenings or on weekends for supplemental income; some are traditional transcription/translation companies, completing hundreds of minutes of work every day. All are highly skilled and highly committed to their craft.
+                        </p>
+                        <p>
+                            Needless to say, every LogueWorks design decision has significant impact and requires meticulous consideration.
+                        </p>
+                        <br/>
+                        <h2>
+                            Amazon Web Services
+                        </h2>
+                        <p>
+                            With LogueWorks, we went all in with Amazon Web Services. We have EC2 instances running in multiple regions, globally distributed content via CloudFront, RDS MySQL databases, etc. Not only has going all in with AWS saved us a ton of money on operational costs, it also provided multiple extra layers of security, as well as high availability. AWS comes out with hundreds of new services a year, too, which means the technology powering LogueWorks will continue to be state-of-the-art.
+                        </p>
+                        <br/>
+                        <h2>
+                             Google Charts & DataTables
+                        </h2>
+                        <p>
+                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-002.png" alt="Responsive design highlight"/>
+                            The data visualizations in LogueWorks are powered by Google Charts. Out of the box, they're beautifully designed. The interactivity of them adds a lot of value to the display. They're also highly customizable, easy to implement and have great cross-browser compatibility.
+                        </p>
+                        <p>
+                            For table displays, we use DataTables. Our experience using DataTables in other projects has always been really positive. Familiarity with the plugin made it an easy add to LogueWorks. It's also a lightweight plugin, easily customizable and highly flexible.
+                        </p>
+                        <br/>
+                        <h2>
+                            Plucked Audio Editor
+                        </h2>
+                        <p>
+                            Limiting the data that can be downloaded from LogueWorks is a top security priority of ours. Thus, allowing users to perform multimedia editing tasks without having to download data from LogueWorks is critical. The Plucked audio editor was one of few solutions we found that worked well in pressure tests. Cross-browser functionality is not as crisp as we'd like. But the nice thing about Plucked is that since it's basically a JavaScript implementation of Audacity's C++ code, it's relatively easy to tweak and improve upon.
+                        </p>
+                        <br/>
+                        <h2>
+                            Public Site
+                        </h2>
+                        <p>
+                            The public-facing site is an adaptation of the Zerif Responsive One Page Theme. Now, I'm not a huge fan of using templates, but we decided to use one for the public page for a couple reasons:
+                        </p>
+                        <ul class="square">
+                            <li>There are higher priority issues to address; time better spent on other initiatives</li>
+                            <li>We are not actively driving traffic to the page</li>
+                            <li>It's main purpose is to aid vendor recruitment communication efforts, most of which is done via e-mail</li>
+                            <li>It's not meant to sell LogueWorks as a service to clients</li>
+                            <li>We need a temporary landing page for the domain while content strategy/messaging is developed</li>
+                        </ul>
+                        <p>
+                            The page took less than a week to design, build and deploy. And we did work in a couple nice features&mdash;Owl Carousel for rotating background images, FitText for beautiful device-agnostic text rendering, and Wow.js for animating the content we wanted to draw visitors' attention to.
+                        </p>
+                        <br/>
+                        <h2>
+                            Admin Dashboard
+                        </h2>
+                        <p>
+                            The Admin portal is basically a huge data dump of all the LogueWorks client and vendor activity. The challenge with this part of application is making sure all critical data bubbles to the top while making even the deepest buried data easily retrievable.
+                        </p>
+                        <p>
+                            The Dashboard is divided into three sections: vendor activity on the left, client activity in the middle and action-required tasks on the right. Data visualizations are included to give an at-a-glance view into volume levels and trends. Notice all the links. You can click on just about anything and quickly dig deeper into specific data sets.
+                        </p>
+                        <br/>
+                        <h2>
+                            Search Pages
+                        </h2>
+                        <p>
+                            Search results and report displays are similarly designed. Links to dig deeper into the data. Everything is easily sortable. And tons of filters are provided to make finding specific data easy to do.
+                        </p>
+                        <br/>
+                        <h2>
+                            Vendor Details Pages
+                        </h2>
+                        <p>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-006.png" alt="Theming overview"/>
+                            Even the amount of data stored for every individual user in LogueWorks is intense, but necessary. Breadcrumbs are provided to help Admin users keep track of their navigation, and again links are scattered across the page to make jumping from point to point easy.
+                        </p>
+                        <br/>
+                        <h2>
+                            Tier Rank Design Element
+                        </h2>
+                        <p>
+                            One of my favorite design elements is the Tier Rank display. Each user in LogueWorks is ranked in terms of quality of work, turnaround-time and cost. LogueWorks uses these rankings to decide how to allocate jobs. The visual design of the ranking system consists of a color-coded circle with a number inside of it, created entirely using pure CSS.
+                        </p>
+                        <br/>
+                        <h2>
+                            Transcript Replacements
+                        </h2>
+                        <p>
+                            <img class="pull-left add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-007.png" alt="Theming detail"/>
+                            Another great feature of LogueWorks is the automated transcript replacements process. This process runs on every submitted transcript, automatically checking for and correcting common typos, misspellings and formatting issues. We maintain a test suite for replacement rules, which we call Gold Standards. All rules are powered by a regular expression engine built into LogueWorks.
+                        </p>
+                        <br/>
+                        <h2>
+                            Vendor Registration Process
+                        </h2>
+                        <p>
+                            When a new vendor registers in LogueWorks, they work their way through a six-step flow. We designed each step of the registration process to have one focus. Each step is designed to be completed as simply and quickly as possible, given the amount of explanation required due to the fact that LogueWorks is rather dissimilar to most other transcription/translation portals users have experience with. All design elements featured in the registration flow were built with pure CSS, from the progress bar at the top of the page to the checkbox toggles found on form elements.
+                        </p>
+                        <br/>
+                        <h2>
+                            Vendor Dashboard
+                        </h2>
+                        <p>
+                            In stark juxtaposition to the Admin Dashboard, the Vendor Dashboard displays very little data. This is done to enable users to complete tasks as quickly as possible, with little to no distraction. We provide a view into earnings to encourage continued productivity, a section for critical messages and a listing of jobs.
+                        </p>
+                        <br/>
+                        <h2>
+                            Transcript Maintenance Interface
+                        </h2>
+                        <p>
+                            The Transcript Maintenance Interface is powered by Handson Table (http://handsontable.com/), a data grid component with an Excel-like appearance. We've built in real-time error detection for common misspellings and unacceptable characters (highlighted in red). We also customized the context menu, binding functionality unique to LogueWorks user needs.
+                        </p>
+                        <p>
+                            LogueWorks users also have the option of creating transcript in text editors, like Microsoft Word, and uploading the document to the system, which then parses document content into the Transcript Maintenance Interface for continued editing.
+                        </p>
+                        <p>
+                            Note also on this page an example of the error messaging common throughout all LogueWorks portals (top of page), as well as the Notes feature (on the right) that provides our Quality Assurance (QA) team a means of communicating errors and issues back to transcriptionists and translators.
+                        </p>
+                        <br/>
+                        <h2>
+                            QA Reports
+                        </h2>
+                        <p>
+                            Looking at an example QA Report, data available to both Admins and Vendors for each job completed in LogueWorks, users can review notes left by the QA team as well as a side-by-side comparison of a user's work and the final, quality-assured transcript. The Transcript Diff Report borrows its design from diff report displays common to most programming software, with color-coded lines signifying changes (blue), additions (green) and deletions (red).
+                        </p>
+                        <br/>
+                        <h2>
+                            Contract Slider
+                        </h2>
+                        <p>
+                            Another fun design challenge was creating a slider Vendor users could use to adjust their rates in LogueWorks. The slider and the handle were both built using only CSS. With a little bit of JavaScript, we bound the slider's position to the 'Recommend a rate for me!' button and also the input field below the button, so no matter what the user's preferred method of adjusting their rate is&mdash;via dragging the slider's handle around, clicking the button for a recommended rate, or inputting an exact rate in the input field&mdash;all data on the page adjusts in a synchronous fashion.
+                        </p>
+                        <br/>
+                        <h2>
+                            Non-Responsive Design
+                        </h2>
+                        <p>
+                            One final design decision worth noting is that LogueWorks is intentionally designed to be non-responsive in certain respects. We don't want users working in LogueWorks on devices where 100% of their focus is not on the task at hand and/or on devices incapable of running the technology required to complete tasks efficiently and successfully. To this end, we've strategically designed page layouts (table displays, button positions, etc.) in ways that make working from mobile devices virtually impossible. This design decision counters current device-agnostic web design trends, but is critical to LogueWorks business goals and worth mentioning as it adds an extra layer of complexity to every design decision.
+                        </p>
+                        <br/>
+                        <h2>
+                            Roadmap
+                        </h2>
+                        <p>
+                            LogueWorks 1.0 was released in August 2013. In the 24 months between then and this writing, there's been 12 major releases, 23 minor releases and at least one project update released each month. For a team of three developers, that's a heck of a lot of designing, developing, testing and support.
+                        </p>
+                        <p>
+                            The LogueWorks roadmap is constantly in flux. It's influenced by not only client business needs, but also feedback provided by our Vendor users, which means there's no shortage in features to design and bugs to fix.
+                        </p>
+                        <p>
+                            Building LogueWorks has been one of the biggest challenges in my career, but also one of the most rewarding projects on which I've had the opportunity of working.
+                        </p>
+                        <p>
+                            I look forward to the continued design and development of LogueWorks, as well as all the new friends we'll make along the way.
+                        </p>
+                        <p>
+                            To learn more about how this web app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                        </p>
+                    </div>
+
+                    <ul class="post-nav clearfix">
+
+                        <li class="prev"><a class="no-underline" href="/work/digital/calmfocus" rel="prev"><strong>Previous Entry</strong> calmfocus.com</a></li>
+                        <li class="next"><a class="no-underline" href="/work/digital/aj-originals" rel="next"><strong>Next Entry</strong> ajoriginals.com</a></li>
+
+                    </ul>
+
+                </article> <!-- post end -->
+
+            </div>
+
+        </div>
+
+    </div><!-- Content End-->
+
+</main><!-- Journal Section End-->
+
+<!-- footer
+================================================== -->
+<footer role="contentinfo">
+    <div class="row">
+        <div class="twelve columns">
+
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/chasewoodford" aria-label="Visit Chase Woodford's Facebook page" title="Visit Chase Woodford's Facebook page"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/chasewoodford" aria-label="Visit Chase Woodford's GitHub page" title="Visit Chase Woodford's GitHub page"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://plus.google.com/+ChaseWoodford/posts" aria-label="Visit Chase Woodford's Google Plus page" title="Visit Chase Woodford's Google Plus page"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="http://instagram.com/chase1263070" aria-label="Visit Chase Woodford's Instagram page"  title="Visit Chase Woodford's Instagram page"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/chasewoodford" aria-label="Visit Chase Woodford's LinkedIn page" title="Visit Chase Woodford's LinkedIn page"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="http://www.pinterest.com/chasewoodford/" aria-label="Visit Chase Woodford's Pinterest page"  title="Visit Chase Woodford's Pinterest page"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="skype:woodmanjr2?call" aria-label="Skype with Chase Woodford" title="Skype with Chase Woodford"><i class="fa fa-skype"></i></a></li>
+                <li><a href="http://open.spotify.com/user/124506286" aria-label="Visit Chase Woodford's Spotify page" title="Visit Chase Woodford's Spotify page"><i class="fa fa-spotify"></i></a></li>
+                <li><a href="https://twitter.com/chase1263070" aria-label="Visit Chase Woodford's Twitter page" title="Visit Chase Woodford's Twitter page"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+                <li>&copy; 2015 Chase Woodford</li>
+                <li><a class="no-underline" href="/colophon">Colophon</a></li>
+                <li><a class="no-underline" href="#">RSS</a></li>
+            </ul>
+        </div>
+        <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-up-open"></i></a>
+        </div>
+    </div>
+</footer><!-- Footer End-->
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/wp-content/themes/v2/js/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="/wp-content/themes/v2/js/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="/wp-content/themes/v2/js/waypoints.js"></script>
+<script src="/wp-content/themes/v2/js/jquery.fittext.js"></script>
+<script src="/wp-content/themes/v2/js/init.js"></script>
+<script src="/wp-content/themes/v2/js/ga.js"></script>
+
+</body>
+</html>

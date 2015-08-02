@@ -126,7 +126,7 @@
 
                     <ul class="post-nav clearfix">
 
-                        <li class="prev"><a class="no-underline" href="/work/digital/revealmr" rel="prev"><strong>Previous Entry</strong> RevealMR</a></li>
+                        <li class="prev"><a class="no-underline" href="/work/digital/logueworks" rel="prev"><strong>Previous Entry</strong> LogueWorks</a></li>
                         <li class="next"><a class="no-underline" href="/work/multimedia/town-trekkers" rel="next"><strong>Next Entry</strong> Town Trekkers</a></li>
 
                     </ul>
