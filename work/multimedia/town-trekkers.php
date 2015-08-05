@@ -148,9 +148,9 @@
             </ul>
 
             <ul class="copyright">
-                <li>&copy; 2015 Chase Woodford</li>
+                <li>&copy; <?php echo date("Y"); ?> Chase Woodford</li>
                 <li><a class="no-underline" href="/colophon">Colophon</a></li>
-                <li><a class="no-underline" href="#">RSS</a></li>
+                <li><a class="no-underline" href="http://www.chasewoodford.com/?feed=rss">RSS</a></li>
             </ul>
         </div>
         <div id="go-top">

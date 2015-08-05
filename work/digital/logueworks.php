@@ -101,7 +101,7 @@
                              Google Charts & DataTables
                         </h2>
                         <p>
-                            <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-002.png" alt="Responsive design highlight"/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-001.png" alt="Google Charts highlight"/>
                             The data visualizations in LogueWorks are powered by Google Charts. Out of the box, they're beautifully designed. The interactivity of them adds a lot of value to the display. They're also highly customizable, easy to implement and have great cross-browser compatibility.
                         </p>
                         <p>
@@ -112,6 +112,7 @@
                             Plucked Audio Editor
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-002.png" alt="Plucked highlight"/>
                             Limiting the data that can be downloaded from LogueWorks is a top security priority of ours. Thus, allowing users to perform multimedia editing tasks without having to download data from LogueWorks is critical. The Plucked audio editor was one of few solutions we found that worked well in pressure tests. Cross-browser functionality is not as crisp as we'd like. But the nice thing about Plucked is that since it's basically a JavaScript implementation of Audacity's C++ code, it's relatively easy to tweak and improve upon.
                         </p>
                         <br/>
@@ -139,6 +140,7 @@
                             The Admin portal is basically a huge data dump of all the LogueWorks client and vendor activity. The challenge with this part of application is making sure all critical data bubbles to the top while making even the deepest buried data easily retrievable.
                         </p>
                         <p>
+                            <img class="add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-003.png" alt="Admin Dashboard highlight"/>
                             The Dashboard is divided into three sections: vendor activity on the left, client activity in the middle and action-required tasks on the right. Data visualizations are included to give an at-a-glance view into volume levels and trends. Notice all the links. You can click on just about anything and quickly dig deeper into specific data sets.
                         </p>
                         <br/>
@@ -146,36 +148,35 @@
                             Search Pages
                         </h2>
                         <p>
-                            Search results and report displays are similarly designed. Links to dig deeper into the data. Everything is easily sortable. And tons of filters are provided to make finding specific data easy to do.
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-004.png" alt="Search Page highlight"/>
+                            Search results and report displays are similarly designed. Links to dig deeper into the data. Everything is easily sortable via DataTables. And tons of filters are provided to make finding specific data easy to do. Note also the breadcrumbs at the top of the page, which come in extremely helpful when navigating deep into the data. These help users keep track of where they are and allow for easy navigation back through layers of data.
                         </p>
-                        <br/>
-                        <h2>
-                            Vendor Details Pages
-                        </h2>
-                        <p>
-                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-006.png" alt="Theming overview"/>
-                            Even the amount of data stored for every individual user in LogueWorks is intense, but necessary. Breadcrumbs are provided to help Admin users keep track of their navigation, and again links are scattered across the page to make jumping from point to point easy.
-                        </p>
+                        <div class="clearfix"></div>
                         <br/>
                         <h2>
                             Tier Rank Design Element
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-005.png" alt="Tier Rank display highlight"/>
                             One of my favorite design elements is the Tier Rank display. Each user in LogueWorks is ranked in terms of quality of work, turnaround-time and cost. LogueWorks uses these rankings to decide how to allocate jobs. The visual design of the ranking system consists of a color-coded circle with a number inside of it, created entirely using pure CSS.
                         </p>
+                        <div class="clearfix"></div>
                         <br/>
                         <h2>
                             Transcript Replacements
                         </h2>
                         <p>
-                            <img class="pull-left add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-revealmr-007.png" alt="Theming detail"/>
                             Another great feature of LogueWorks is the automated transcript replacements process. This process runs on every submitted transcript, automatically checking for and correcting common typos, misspellings and formatting issues. We maintain a test suite for replacement rules, which we call Gold Standards. All rules are powered by a regular expression engine built into LogueWorks.
+                        </p>
+                        <p>
+                            <img class="highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-006.png" alt="Transcript Replacement highlight"/>
                         </p>
                         <br/>
                         <h2>
                             Vendor Registration Process
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             When a new vendor registers in LogueWorks, they work their way through a six-step flow. We designed each step of the registration process to have one focus. Each step is designed to be completed as simply and quickly as possible, given the amount of explanation required due to the fact that LogueWorks is rather dissimilar to most other transcription/translation portals users have experience with. All design elements featured in the registration flow were built with pure CSS, from the progress bar at the top of the page to the checkbox toggles found on form elements.
                         </p>
                         <br/>
@@ -183,6 +184,7 @@
                             Vendor Dashboard
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             In stark juxtaposition to the Admin Dashboard, the Vendor Dashboard displays very little data. This is done to enable users to complete tasks as quickly as possible, with little to no distraction. We provide a view into earnings to encourage continued productivity, a section for critical messages and a listing of jobs.
                         </p>
                         <br/>
@@ -190,6 +192,7 @@
                             Transcript Maintenance Interface
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             The Transcript Maintenance Interface is powered by Handson Table (http://handsontable.com/), a data grid component with an Excel-like appearance. We've built in real-time error detection for common misspellings and unacceptable characters (highlighted in red). We also customized the context menu, binding functionality unique to LogueWorks user needs.
                         </p>
                         <p>
@@ -203,6 +206,7 @@
                             QA Reports
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             Looking at an example QA Report, data available to both Admins and Vendors for each job completed in LogueWorks, users can review notes left by the QA team as well as a side-by-side comparison of a user's work and the final, quality-assured transcript. The Transcript Diff Report borrows its design from diff report displays common to most programming software, with color-coded lines signifying changes (blue), additions (green) and deletions (red).
                         </p>
                         <br/>
@@ -210,6 +214,7 @@
                             Contract Slider
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             Another fun design challenge was creating a slider Vendor users could use to adjust their rates in LogueWorks. The slider and the handle were both built using only CSS. With a little bit of JavaScript, we bound the slider's position to the 'Recommend a rate for me!' button and also the input field below the button, so no matter what the user's preferred method of adjusting their rate is&mdash;via dragging the slider's handle around, clicking the button for a recommended rate, or inputting an exact rate in the input field&mdash;all data on the page adjusts in a synchronous fashion.
                         </p>
                         <br/>
@@ -217,6 +222,7 @@
                             Non-Responsive Design
                         </h2>
                         <p>
+                            <img class="pull-right highlight" src="" alt=""/>
                             One final design decision worth noting is that LogueWorks is intentionally designed to be non-responsive in certain respects. We don't want users working in LogueWorks on devices where 100% of their focus is not on the task at hand and/or on devices incapable of running the technology required to complete tasks efficiently and successfully. To this end, we've strategically designed page layouts (table displays, button positions, etc.) in ways that make working from mobile devices virtually impossible. This design decision counters current device-agnostic web design trends, but is critical to LogueWorks business goals and worth mentioning as it adds an extra layer of complexity to every design decision.
                         </p>
                         <br/>
@@ -276,9 +282,9 @@
             </ul>
 
             <ul class="copyright">
-                <li>&copy; 2015 Chase Woodford</li>
+                <li>&copy; <?php echo date("Y"); ?> Chase Woodford</li>
                 <li><a class="no-underline" href="/colophon">Colophon</a></li>
-                <li><a class="no-underline" href="#">RSS</a></li>
+                <li><a class="no-underline" href="http://www.chasewoodford.com/?feed=rss">RSS</a></li>
             </ul>
         </div>
         <div id="go-top">

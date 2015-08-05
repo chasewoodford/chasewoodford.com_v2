@@ -4,12 +4,11 @@ img {
 
   &.pull-right {
     margin: 0px 0px 0px 18px;
-    padding-top: 10px;
+
   }
 
   &.pull-left {
     margin: 0px 18px 0px 0px;
-    padding-top: 10px;
   }
 
   &.main, &.blog-image, &.highlight {
@@ -19,6 +18,7 @@ img {
 
   &.wp-post-image {
     box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
   }
 }
 
