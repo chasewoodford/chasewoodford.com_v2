@@ -226,7 +226,7 @@
                             Non-Responsive Design
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-012.png" alt="Mobile display highlight"/>
                             One final design decision worth noting is that LogueWorks is intentionally designed to be non-responsive in certain respects. We don't want users working in LogueWorks on devices where 100% of their focus is not on the task at hand and/or on devices incapable of running the technology required to complete tasks efficiently and successfully. To this end, we've strategically designed page layouts (table displays, button positions, etc.) in ways that make working from mobile devices virtually impossible. This design decision counters current device-agnostic web design trends, but is critical to LogueWorks business goals and worth mentioning as it adds an extra layer of complexity to every design decision.
                         </p>
                         <br/>
