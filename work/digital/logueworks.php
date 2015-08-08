@@ -176,7 +176,7 @@
                             Vendor Registration Process
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-007.png" alt="Vendor registration process highlight"/>
                             When a new vendor registers in LogueWorks, they work their way through a six-step flow. We designed each step of the registration process to have one focus. Each step is designed to be completed as simply and quickly as possible, given the amount of explanation required due to the fact that LogueWorks is rather dissimilar to most other transcription/translation portals users have experience with. All design elements featured in the registration flow were built with pure CSS, from the progress bar at the top of the page to the checkbox toggles found on form elements.
                         </p>
                         <br/>
@@ -184,18 +184,20 @@
                             Vendor Dashboard
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
                             In stark juxtaposition to the Admin Dashboard, the Vendor Dashboard displays very little data. This is done to enable users to complete tasks as quickly as possible, with little to no distraction. We provide a view into earnings to encourage continued productivity, a section for critical messages and a listing of jobs.
+                        </p>
+                        <p>
+                            <img class="highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-008.png" alt="Vendor Dashboard highlight"/>
                         </p>
                         <br/>
                         <h2>
                             Transcript Maintenance Interface
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
                             The Transcript Maintenance Interface is powered by Handson Table (http://handsontable.com/), a data grid component with an Excel-like appearance. We've built in real-time error detection for common misspellings and unacceptable characters (highlighted in red). We also customized the context menu, binding functionality unique to LogueWorks user needs.
                         </p>
                         <p>
+                            <img class="add-bottom highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-009.png" alt="Transcript Maintenance interface highlight"/>
                             LogueWorks users also have the option of creating transcript in text editors, like Microsoft Word, and uploading the document to the system, which then parses document content into the Transcript Maintenance Interface for continued editing.
                         </p>
                         <p>
@@ -206,7 +208,7 @@
                             QA Reports
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
+                            <img class="pull-right highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-010.png" alt="QA Report highlight"/>
                             Looking at an example QA Report, data available to both Admins and Vendors for each job completed in LogueWorks, users can review notes left by the QA team as well as a side-by-side comparison of a user's work and the final, quality-assured transcript. The Transcript Diff Report borrows its design from diff report displays common to most programming software, with color-coded lines signifying changes (blue), additions (green) and deletions (red).
                         </p>
                         <br/>
@@ -214,8 +216,10 @@
                             Contract Slider
                         </h2>
                         <p>
-                            <img class="pull-right highlight" src="" alt=""/>
                             Another fun design challenge was creating a slider Vendor users could use to adjust their rates in LogueWorks. The slider and the handle were both built using only CSS. With a little bit of JavaScript, we bound the slider's position to the 'Recommend a rate for me!' button and also the input field below the button, so no matter what the user's preferred method of adjusting their rate is&mdash;via dragging the slider's handle around, clicking the button for a recommended rate, or inputting an exact rate in the input field&mdash;all data on the page adjusts in a synchronous fashion.
+                        </p>
+                        <p>
+                            <img class="highlight" src="/wp-content/themes/v2/images/portfolio/highlight-logueworks-011.png" alt="Contract Slider highlight"/>
                         </p>
                         <br/>
                         <h2>
