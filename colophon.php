@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Colophon - Chase Woodford &#124; Web Designer & Developer</title>
+    <title>Colophon - Chase Woodford &#124; Designer & Developer</title>
     <meta name="author" content="Chase Woodford">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/v2/images/favicon.ico">

@@ -5,7 +5,7 @@
             <h1 class="responsive-headline">Hi!</h1>
 
             <h3>
-                I'm Chase Woodford, a <span>web designer</span> and <span>developer</span> living in the suburbs of
+                I'm Chase Woodford, a <span>designer</span> and <span>developer</span> living in the suburbs of
                 <span>Philadelphia</span>, PA, USA. I work at <span>Verilogue</span>, a medical marketing research
                 company, as part of a three man rock star development team.
             </h3>
