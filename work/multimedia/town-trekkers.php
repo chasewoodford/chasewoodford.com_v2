@@ -104,7 +104,7 @@
                             Outcome
                         </h2>
                         <p>
-                            In about a month we were able to go from initial brainstorm to final render, all the while keeping to a budget that wouldn't break the bank for a proof of concept. The client is in the process of shopping the idea around. Having been pleased with the outcome of this project, he also enlisted my help adding overlays and transitions to the pilot episode, as well as help tightening the pilot episode's final edit&mdash;another project I'm looking forward to working on.
+                            In about a month we were able to go from initial brainstorm to final render, all the while keeping to a budget that wouldn't break the bank for a proof of concept. Having been pleased with the outcome of this project, he also enlisted my help creating a long-form teaser for the show. The client is in the process of shopping the idea around to national TV networks.
                         </p>
                         <br/>
                         <p>
