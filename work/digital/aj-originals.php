@@ -45,19 +45,19 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="http://test.ajoriginals.com" title="See it live" target="_blank">
+                            <a href="http://www.ajoriginals.com" title="See it live" target="_blank">
                                 <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-AJOriginals.gif" alt="ajoriginals.com">
                             </a>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="http://test.ajoriginals.com" title="See it live" target="_blank">ajoriginals.com</a>
+                                <a class="no-underline" href="http://www.ajoriginals.com" title="See it live" target="_blank">ajoriginals.com</a>
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Client:<b>AJ Originals</b></a></li>
-                                <li><a class="no-underline" href="http://test.ajoriginals.com" target="_blank">Title:<b>ajoriginals.com</b></a></li>
+                                <li><a class="no-underline" href="http://www.ajoriginals.com" target="_blank">Client:<b>AJ Originals</b></a></li>
+                                <li><a class="no-underline" href="http://www.ajoriginals.com" target="_blank">Title:<b>ajoriginals.com</b></a></li>
                                 <li><span>Date:<b>October 2014</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>
                             </ul>
@@ -77,7 +77,7 @@
                             The current site looks like a relic from the birth of the Internet. It lacks a cohesive, modern design. It's mostly unusable on mobile devices, and not otherwise optimized. It also carries very little SEO value. In the age of Internet marketing, where a company's web presence plays a large role in building the brand's value and business, the current AJ Originals site fails.
                         </p>
                         <p>
-                            I was asked to overhaul the site&mdash;give it a modern look, make it more user-friendly, have it work for the company as opposed to against it. I took all the good copy and imagery from the current site and re-worked it into a single page site that is both modern-looking and highly accessible. This was a fun weekend project done pro-bono&mdash;one I'm very proud of even if it hasn't <a class="smoothscroll" href="#outcome">made it to production yet</a>.
+                            I was asked to overhaul the site&mdash;give it a modern look, make it more user-friendly, have it work for the company as opposed to against it. I took all the good copy and imagery from the current site and re-worked it into a single page site that is both modern-looking and highly accessible. This was a fun weekend project done pro-bono.
                         </p>
                         <br/>
                         <h2>
@@ -117,7 +117,7 @@
                             Outcome
                         </h2>
                         <p>
-                            Tony and team at AJ Originals were very impressed with the re-design. We're currently working on collecting more product shots to better showcase all the wonderful work they do. Once those are in place, and a couple final optimizations are complete on the site, it'll go into production. From there we have plans to explore expanding AJ Originals' web presence via advertising with Google Adwords, social media networks and alternative domains.
+                            Tony and team at AJ Originals were very impressed with the re-design. We're now in the process of collecting more product shots to better showcase all the wonderful work they do. We've also begun to expand AJ Originals' web presence via advertising with Google Adwords, social media networks and alternative domains.
                         </p>
                         <p>
                             To learn more about how this site was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
