@@ -115,7 +115,7 @@
                     <ul class="post-nav clearfix">
 
                         <li class="prev"><a class="no-underline" href="/work/digital/aj-originals" rel="prev"><strong>Previous Entry</strong> ajoriginals.com</a></li>
-<!--                        <li class="next"><a class="no-underline" href="/work/branding/philly-sport-past" rel="next"><strong>Next Entry</strong> PhillySportPast Logo</a></li>-->
+                        <li class="next"><a class="no-underline" href="/work/digital/smart-beat" rel="next"><strong>Next Entry</strong> Smart Beat</a></li>
 
                     </ul>
 

@@ -9,6 +9,35 @@
             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-halves clearfix">
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
+                        <a href="http://www.chasewoodford.com/work/digital/smart-beat" title="View Smart Beat work">
+                            <img alt="Smart Beat" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-smartBeat.png">
+
+                            <div class="overlay">
+                                <div class="portfolio-item-meta">
+                                    <h5>Smart Beat</h5>
+
+                                    <table>
+                                        <tr>
+                                            <td>Client:</td>
+                                            <td>Publicis Healthcare Communications Group</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Date:</td>
+                                            <td>January 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tags:</td>
+                                            <td>iOS, Swift, Photoshop, Custom Artwork</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div><!-- Item End -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
                         <a href="http://www.chasewoodford.com/work/multimedia/town-trekkers" title="View Town Trekkers work">
                             <img alt="Town Trekkers" src="<?php bloginfo('template_directory'); ?>/images/portfolio/screenshot-townTrekkers.png">
 
