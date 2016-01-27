@@ -134,7 +134,7 @@
                             Our goal was to keep the design as simple as possible; use as many native iOS elements as possible, and really focus design efforts on the home screen view.
                         </p>
                         <p>
-                            We were fortunate to have two designers on our team, in addition to a copywriter and UX guy. One designer focused on comping out the home screen while the other focused on designing the app’s logo, both following the direction led by the wireframes built by the UX guy, fitting in the copy provided by the copywriter.
+                            We were fortunate to have two designers on our team, in addition to a copywriter and a UX specialist. One designer focused on comping out the on-boarding flow and home screen while the other focused on designing the app’s logo, both following the direction led by the wireframes built by the UX guy, integrating the copy provided by the copywriter.
                         </p>
                         <p>
                             <img class="pull-right" src="/wp-content/themes/v2/images/portfolio/highlight-smartBeat-003.png" alt="Smart Beat app home screen view"/>
@@ -199,7 +199,7 @@
                             <li><a href="https://www.linkedin.com/in/ian-torp-90640934" title="Ian Torp">Ian Torp - Senior Graphic Designer, Maxcess</a></li>
                         </ul>
                         <p>
-                            To learn more about how this web app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
+                            To learn more about how this mobile app was designed and developed, <a href="http://www.chasewoodford.com/#contact">contact me</a>.
                         </p>
                     </div>
 
