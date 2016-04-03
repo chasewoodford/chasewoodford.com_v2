@@ -45,19 +45,17 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="http://www.garyames.net" title="See it live" target="_blank">
-                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-garyAmes.gif" alt="garyames.net">
-                            </a>
+                            <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-garyAmes.gif" alt="garyames.net">
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="http://www.garyames.net" title="See it live" target="_blank">garyames.net</a>
+                                garyames.net
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.garyames.net" target="_blank">Client:<b>Gary Ames</b></a></li>
-                                <li><a class="no-underline" href="http://www.garyames.net" target="_blank">Title:<b>garyames.net</b></a></li>
+                                <li><span>Client:<b>Gary Ames</b></span></li>
+                                <li><span>Title:<b>garyames.net</b></span></li>
                                 <li><span>Date:<b>April 2013</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>
                             </ul>

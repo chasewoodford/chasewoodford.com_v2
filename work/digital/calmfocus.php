@@ -56,7 +56,7 @@
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="http://www.garyames.net" target="_blank">Client:<b>Gary Ames</b></a></li>
+                                <li><span>Client:<b>Gary Ames</b></span></li>
                                 <li><a class="no-underline" href="http://www.calmfocus.com" target="_blank">Title:<b>calmfocus.com</b></a></li>
                                 <li><span>Date:<b>July 2013</b></span></li>
                                 <li><span>Type:<b>Website</b></span></li>
