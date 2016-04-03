@@ -45,12 +45,14 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-garyAmes.gif" alt="garyames.net">
+                            <a href="https://github.com/chasewoodford/garyames.net" title="Check out the code" target="_blank">
+                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-garyAmes.gif" alt="garyames.net">
+                            </a>
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                garyames.net
+                                <a class="no-underline" href="https://github.com/chasewoodford/garyames.net" title="Check out the code" target="_blank">garyames.net</a>
                             </h1>
 
                             <ul class="stats-tabs">
