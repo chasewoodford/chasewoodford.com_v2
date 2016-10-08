@@ -9,26 +9,29 @@
 $username = "dbo541682804";
 $password = "8s3IAftWzK5BWPL";
 $hostname = "db541682804.db.1and1.com";
+$database = "db541682804";
 
 //connect to database
-$dbhandle = mysql_connect($hostname, $username, $password)
+$dbhandle = mysqli_connect($hostname, $username, $password, $database)
 or die("Unable to connect to MySQL");
 echo "Connected to MySQL<br>";
 
 //select database
-$selected = mysql_select_db("db541682804",$dbhandle)
-or die("Could not select examples");
+$selected = mysqli_select_db($dbhandle, $database)
+or die("Could not select database");
+
+$order = "SELECT id, date, weight FROM weight_tracker ORDER BY Date ASC";
 
 //execute query
-$result = mysql_query("SELECT id, date, weight FROM weight_tracker ORDER BY Date ASC");
+$result = mysqli_query($dbhandle, $order);
 
 //fetch data
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
     $entry .= "['".$row{'date'}."',".$row{'weight'}."],";
 }
 
 //close the connection
-mysql_close($dbhandle);
+mysqli_close($dbhandle);
 ?>
 
 <div id="chart_div" style="width: 100%; height: 400px;"></div>

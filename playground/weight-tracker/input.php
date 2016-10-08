@@ -7,14 +7,16 @@ if($pin === 'esahc'){
     $username = "dbo541682804";
     $password = "8s3IAftWzK5BWPL";
     $hostname = "db541682804.db.1and1.com";
+    $database = "db541682804";
 
     //connect to database
-    $dbhandle = mysql_connect($hostname, $username, $password)
+    $dbhandle = mysqli_connect($hostname, $username, $password, $database)
     or die("Unable to connect to MySQL");
     echo "Connected to MySQL<br>";
 
     //select database
-    mysql_select_db("db541682804");
+    $selected = mysqli_select_db($dbhandle, $database)
+    or die("Could not select database");
 
     //retrieve form values
     $date = $_POST['date'];
@@ -25,7 +27,7 @@ if($pin === 'esahc'){
                 VALUES ('$date','$weight')";
 
     //declare order variable
-    $result = mysql_query($order);
+    $result = mysqli_query($dbhandle, $order);
     if($result){
         echo("Input data is great success! " . $date . " and " . $weight);
     } else {
