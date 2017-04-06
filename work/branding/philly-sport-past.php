@@ -45,18 +45,16 @@
                     <div class="row">
 
                         <div class="six columns add-bottom">
-                            <a href="https://www.phillysportpast.com" title="See it live" target="_blank">
-                                <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-phillySportPast.png" alt="PhillySportPast Logo">
-                            </a>
+                            <img class="main" src="/wp-content/themes/v2/images/portfolio/screenshot-phillySportPast.png" alt="PhillySportPast Logo">
                         </div>
 
                         <div class="six columns">
                             <h1>
-                                <a class="no-underline" href="https://www.phillysportpast.com" title="See it live" target="_blank">PhillySportPast Logo</a>
+                                PhillySportPast Logo
                             </h1>
 
                             <ul class="stats-tabs">
-                                <li><a class="no-underline" href="https://www.phillysportpast.com">Client:<b>PhillySportPast</b></a></li>
+                                <li><span>Client:<b>PhillySportPast</b></span></li>
                                 <li><span>Title:<b>PhillySportPast Logo</b></span></li>
                                 <li><span>Date:<b>July 2012</b></span></li>
                                 <li><span>Type:<b>Logo Design</b></span></li>
